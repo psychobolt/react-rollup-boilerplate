@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{753:function(module,__webpack_exports__,__webpack_require__){"use strict";__webpack_require__.r(__webpack_exports__),__webpack_require__.d(__webpack_exports__,"default",(function(){return Messenger_component}));var Messenger_component=function(){return console.log("Hello World!"),null}}}]);
-//# sourceMappingURL=3.eb51308644d79ccca52c.bundle.js.map
