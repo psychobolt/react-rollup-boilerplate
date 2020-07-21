@@ -1,2 +1,21 @@
 coverage:
   strict_yaml_branch: codecov-config
+  status:
+    project:
+      default:
+        target: auto
+      react-rollup-boilerplate:
+        target: auto
+        flags:
+          - react-rollup-boilerplate
+      default-export:
+        target: auto
+        flags:
+          - default-export
+  flags:
+    react-rollup-boilerplate:
+      paths:
+        - src/
+    default-export:
+      paths:
+        - packages/default-export/
