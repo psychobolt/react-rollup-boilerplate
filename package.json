@@ -92,7 +92,7 @@
     "react-cache": "^2.0.0-alpha.1",
     "react-dom": "^16.13.1",
     "rimraf": "^3.0.2",
-    "rollup": "2.21.0",
+    "rollup": "2.22.2",
     "rollup-plugin-terser": "^6.1.0",
     "source-map-loader": "^1.0.1",
     "storybook-readme": "^5.0.8",
