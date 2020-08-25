@@ -2696,14 +2696,14 @@
     util-deprecate "^1.0.2"
 
 "@storybook/cli@^6.0.16":
-  version "6.0.16"
-  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-6.0.16.tgz#500cd5c52dc1b0312504d255de975f259e6cfbf5"
-  integrity sha512-qgmpbL5MU4sOFgHNhYny0U1QzkFJcDsntZ7PLGZcp/6FyaO1T1S7P0Lo6JqkEHfFx6PuwrMogYPF43LcTKp53A==
+  version "6.0.17"
+  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-6.0.17.tgz#5db63f1a7acd5fbd2bb818a20033d3313780b40e"
+  integrity sha512-I7V4wyO7cbsZqlJbaO5BPGD9pXVqa3bnD8S8WPuCUPEtKWrNzYBd0H88ECy2QM4oN56L91C0/GvDdZ/zAe+WIA==
   dependencies:
     "@babel/core" "^7.9.6"
     "@babel/preset-env" "^7.9.6"
-    "@storybook/codemod" "6.0.16"
-    "@storybook/node-logger" "6.0.16"
+    "@storybook/codemod" "6.0.17"
+    "@storybook/node-logger" "6.0.17"
     "@storybook/semver" "^7.3.2"
     chalk "^4.0.0"
     commander "^5.0.0"
@@ -2755,20 +2755,20 @@
     core-js "^3.0.1"
     global "^4.3.2"
 
-"@storybook/codemod@6.0.16":
-  version "6.0.16"
-  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-6.0.16.tgz#3f5c5286550a494e954d534b99a7e17d68e3bc75"
-  integrity sha512-qP3oHSuwOORjOwQlJ1zB7vWVQfpin7gM6ziPmWAReRqDjLRkBxxjl5Q9VOgX8GbExcV/GNavzwLwXcCclt6Tmw==
+"@storybook/codemod@6.0.17":
+  version "6.0.17"
+  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-6.0.17.tgz#42a252ba63042a14518db9445c3f3dd4f921a7b9"
+  integrity sha512-a8Jt0ybf0fugYtUvSooqF3Y90BkpsrgPx+S4wr1kLogDmwXxV4TbA5lahqHg+rp9CPmFipN+ALrybGseBrw92A==
   dependencies:
     "@mdx-js/mdx" "^1.5.1"
     "@storybook/csf" "0.0.1"
-    "@storybook/node-logger" "6.0.16"
+    "@storybook/node-logger" "6.0.17"
     core-js "^3.0.1"
     cross-spawn "^7.0.0"
     globby "^11.0.0"
     jscodeshift "^0.7.0"
     lodash "^4.17.15"
-    prettier "^2.0.5"
+    prettier "~2.0.5"
     recast "^0.19.0"
     regenerator-runtime "^0.13.3"
 
@@ -2921,6 +2921,17 @@
   version "6.0.16"
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-6.0.16.tgz#805e0748355d13535c3295455f568ea94e57d1ad"
   integrity sha512-mD6so/puFV5oByBkDp9rv2mV/WyGy21QdrwXpXdtLDKNgqPuJjHZuF1RA/+MmDK4P1CjvP1no2H5WDKg+aW4QQ==
+  dependencies:
+    "@types/npmlog" "^4.1.2"
+    chalk "^4.0.0"
+    core-js "^3.0.1"
+    npmlog "^4.1.2"
+    pretty-hrtime "^1.0.3"
+
+"@storybook/node-logger@6.0.17":
+  version "6.0.17"
+  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-6.0.17.tgz#a5ae8103d0d9399527a27f2d3760aa9aa48ffc44"
+  integrity sha512-AnV5gn9bjo1YZmFSdCUDs3WJtinzXa3QD/SoObUMdl3BZ/Jly1AAwE9F5FuSox585QRrt29+f7go9qbSn5MeeQ==
   dependencies:
     "@types/npmlog" "^4.1.2"
     chalk "^4.0.0"
@@ -12477,7 +12488,7 @@ prettier@^1.19.1:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
 
-prettier@^2.0.5:
+prettier@^2.0.5, prettier@~2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.5.tgz#d6d56282455243f2f92cc1716692c08aa31522d4"
   integrity sha512-7PtVymN48hGcO4fGjybyBSIWDsLU4H4XlvOHfq91pz9kkGlonzwTfYkaIEwiRg/dAJF9YlbsduBAgtYLi+8cFg==
