@@ -7785,9 +7785,9 @@ flow-parser@0.*:
   integrity sha512-si2lCamPs0N1QcTiQY8p9RxvVsVGbx4rpkX6dcfUQ2OOvEg6Cya7LItlPqcx54Gtakdx1St6TseQlV8nafYW5g==
 
 flow-typed@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/flow-typed/-/flow-typed-3.2.1.tgz#8f2c3e36bbc2bd9fe77ac378509f4d99d26d1080"
-  integrity sha512-vWQLZmndgdEHdy1TKTeI1DkLLa4078p6vhcKz/IZ6fcpaWLElTSG7rZi3BxlcSWfEQPxsymuSBNwAT7dCpXm6g==
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/flow-typed/-/flow-typed-3.3.0.tgz#87e47deb3f7d9551b060fad4833de69c247f8137"
+  integrity sha512-dBzxQU2tCJJq9KCaL6YNa+/+hsdwr90vf6DuV8LoQwzjb2y2JrWTY0ELAtroYJYKhqDKf0xX/DtLXafKI8mtig==
   dependencies:
     "@octokit/rest" "^16.43.1"
     colors "^1.4.0"
@@ -7799,7 +7799,7 @@ flow-typed@^3.2.1:
     mkdirp "^1.0.3"
     prettier "^1.19.1"
     rimraf "^3.0.2"
-    semver "^7.3.2"
+    semver "7.3.2"
     table "^5.4.6"
     through "^2.3.8"
     unzipper "^0.10.8"
@@ -14017,6 +14017,11 @@ semver@7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.0.0.tgz#5f3ca35761e47e05b206c6daff2cf814f0316b8e"
   integrity sha512-+GB6zVA9LWh6zovYQLALHwv5rb2PHGlJi3lfiqIHxR0uuwCgefcOJc59v9fv1w8GbStwxuuqqAjI9NMAOOgq1A==
+
+semver@7.3.2:
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.2.tgz#604962b052b81ed0786aae84389ffba70ffd3938"
+  integrity sha512-OrOb32TeeambH6UrhtShmF7CRDqhL6/5XpPNp2DuRH6+9QLw/orhp72j87v8Qa1ScDkvrrBNpZcDejAirJmfXQ==
 
 semver@^6.0.0, semver@^6.2.0, semver@^6.3.0:
   version "6.3.0"
