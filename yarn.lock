@@ -13611,10 +13611,10 @@ rollup-plugin-terser@^7.0.2:
     serialize-javascript "^4.0.0"
     terser "^5.0.0"
 
-rollup@2.46.0:
-  version "2.46.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.46.0.tgz#8cacf89d2ee31a34755f1af40a665168f592b829"
-  integrity sha512-qPGoUBNl+Z8uNu0z7pD3WPTABWRbcOwIrO/5ccDJzmrtzn0LVf6Lj91+L5CcWhXl6iWf23FQ6m8Jkl2CmN1O7Q==
+rollup@2.51.2:
+  version "2.51.2"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.51.2.tgz#6de71e28c833089a0bd745a09671a3e2b92af6b7"
+  integrity sha512-ReV2eGEadA7hmXSzjxdDKs10neqH2QURf2RxJ6ayAlq93ugy6qIvXMmbc5cWMGCDh1h5T4thuWO1e2VNbMq8FA==
   optionalDependencies:
     fsevents "~2.3.1"
 
