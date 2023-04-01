@@ -85,7 +85,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/manager-webpack5", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:6.5.16"],\
             ["@storybook/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:6.5.16"],\
             ["@storybook/testing-library", "npm:0.0.13"],\
-            ["@testing-library/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:13.3.0"],\
+            ["@testing-library/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:13.4.0"],\
             ["@yarnpkg/core", "npm:3.2.3"],\
             ["@yarnpkg/sdks", "npm:2.6.2"],\
             ["app-root-path", "npm:3.1.0"],\
@@ -7525,7 +7525,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/manager-webpack5", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:6.5.16"],\
             ["@storybook/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:6.5.16"],\
             ["@storybook/testing-library", "npm:0.0.13"],\
-            ["@testing-library/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:13.3.0"],\
+            ["@testing-library/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:13.4.0"],\
             ["@yarnpkg/core", "npm:3.2.3"],\
             ["@yarnpkg/sdks", "npm:2.6.2"],\
             ["app-root-path", "npm:3.1.0"],\
@@ -10127,10 +10127,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["npm:13.3.0", {\
-          "packageLocation": "./.yarn/cache/@testing-library-react-npm-13.3.0-1a86ca29b7-98fd8616a7.zip/node_modules/@testing-library/react/",\
+        ["npm:13.4.0", {\
+          "packageLocation": "./.yarn/cache/@testing-library-react-npm-13.4.0-eaa652c0f5-51ec548c1f.zip/node_modules/@testing-library/react/",\
           "packageDependencies": [\
-            ["@testing-library/react", "npm:13.3.0"]\
+            ["@testing-library/react", "npm:13.4.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
@@ -10170,10 +10170,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:13.3.0", {\
-          "packageLocation": "./.yarn/__virtual__/@testing-library-react-virtual-9af469e37e/0/cache/@testing-library-react-npm-13.3.0-1a86ca29b7-98fd8616a7.zip/node_modules/@testing-library/react/",\
+        ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:13.4.0", {\
+          "packageLocation": "./.yarn/__virtual__/@testing-library-react-virtual-c7ce582eb6/0/cache/@testing-library-react-npm-13.4.0-eaa652c0f5-51ec548c1f.zip/node_modules/@testing-library/react/",\
           "packageDependencies": [\
-            ["@testing-library/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:13.3.0"],\
+            ["@testing-library/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:13.4.0"],\
             ["@babel/runtime", "npm:7.17.9"],\
             ["@testing-library/dom", "npm:8.13.0"],\
             ["@types/react", null],\
