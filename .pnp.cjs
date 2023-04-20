@@ -7290,7 +7290,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/react", "virtual:72f746e8a4d7ddd274bb6a7daa371eab9701962fcf582cb7a84753ced107c15baa4d78ecf0780cef9351b46f184e0741e405111db72ae8507168e1dd6ab0aaca#npm:14.0.0"],\
             ["@types/react", null],\
             ["@types/react-dom", null],\
-            ["app-root-path", "npm:3.0.0"],\
+            ["app-root-path", "npm:3.1.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:18.2.0"]\
           ],\
@@ -7307,7 +7307,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@psychobolt/default-export", "workspace:packages/default-export"],\
             ["@testing-library/react", "virtual:9c24f57864aaff7fdc9e828d672aea60170abf5314b0c14f8c3914dcfa04cbc836f0aef9ae0e7f2e6f648150e8556b8052cb48d2c2fad32234dbae4d8b351a5d#npm:14.0.0"],\
-            ["app-root-path", "npm:3.0.0"],\
+            ["app-root-path", "npm:3.1.0"],\
             ["react", "npm:18.0.0"]\
           ],\
           "linkType": "SOFT"\
@@ -12106,13 +12106,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["app-root-path", [\
-        ["npm:3.0.0", {\
-          "packageLocation": "./.yarn/cache/app-root-path-npm-3.0.0-029bfcbe5f-ff91a24db2.zip/node_modules/app-root-path/",\
-          "packageDependencies": [\
-            ["app-root-path", "npm:3.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:3.1.0", {\
           "packageLocation": "./.yarn/cache/app-root-path-npm-3.1.0-9822bb2a96-e3db3957ae.zip/node_modules/app-root-path/",\
           "packageDependencies": [\
