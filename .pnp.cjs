@@ -7308,7 +7308,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@psychobolt/default-export", "workspace:packages/default-export"],\
             ["@testing-library/react", "virtual:9c24f57864aaff7fdc9e828d672aea60170abf5314b0c14f8c3914dcfa04cbc836f0aef9ae0e7f2e6f648150e8556b8052cb48d2c2fad32234dbae4d8b351a5d#npm:14.0.0"],\
             ["app-root-path", "npm:3.1.0"],\
-            ["react", "npm:18.0.0"]\
+            ["react", "npm:18.2.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -8204,7 +8204,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/webpack-env", "npm:1.16.4"],\
             ["core-js", "npm:3.22.2"],\
             ["global", "npm:4.4.0"],\
-            ["react", "npm:18.0.0"],\
+            ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:cca0868d7e77b70d74f3ebe333ece55ed850ab8f661117c65a4d15b8e7eb40ee9452b0db2a6509f470c6abd20c2052328d0de16e4b5a8df6e9370cc8e72d0499#npm:18.0.0"],\
             ["regenerator-runtime", "npm:0.13.9"]\
           ],\
@@ -8277,7 +8277,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["global", "npm:4.4.0"],\
             ["lodash", "npm:4.17.21"],\
             ["memoizerific", "npm:1.11.3"],\
-            ["react", "npm:18.0.0"],\
+            ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:cca0868d7e77b70d74f3ebe333ece55ed850ab8f661117c65a4d15b8e7eb40ee9452b0db2a6509f470c6abd20c2052328d0de16e4b5a8df6e9370cc8e72d0499#npm:18.0.0"],\
             ["regenerator-runtime", "npm:0.13.9"],\
             ["store2", "npm:2.13.2"],\
@@ -9067,7 +9067,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["core-js", "npm:3.22.2"],\
             ["doctrine", "npm:3.0.0"],\
             ["lodash", "npm:4.17.21"],\
-            ["react", "npm:18.0.0"],\
+            ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:cca0868d7e77b70d74f3ebe333ece55ed850ab8f661117c65a4d15b8e7eb40ee9452b0db2a6509f470c6abd20c2052328d0de16e4b5a8df6e9370cc8e72d0499#npm:18.0.0"],\
             ["regenerator-runtime", "npm:0.13.9"]\
           ],\
@@ -9103,7 +9103,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/core-events", "npm:6.5.16"],\
             ["core-js", "npm:3.22.2"],\
             ["global", "npm:4.4.0"],\
-            ["react", "npm:18.0.0"],\
+            ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:cca0868d7e77b70d74f3ebe333ece55ed850ab8f661117c65a4d15b8e7eb40ee9452b0db2a6509f470c6abd20c2052328d0de16e4b5a8df6e9370cc8e72d0499#npm:18.0.0"]\
           ],\
           "linkType": "HARD"\
@@ -9117,7 +9117,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/core-events", "npm:7.0.6"],\
             ["@storybook/global", "npm:5.0.0"],\
             ["@storybook/preview-api", "npm:7.0.6"],\
-            ["react", "npm:18.0.0"],\
+            ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:cca0868d7e77b70d74f3ebe333ece55ed850ab8f661117c65a4d15b8e7eb40ee9452b0db2a6509f470c6abd20c2052328d0de16e4b5a8df6e9370cc8e72d0499#npm:18.0.0"]\
           ],\
           "linkType": "HARD"\
@@ -9536,7 +9536,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["core-js", "npm:3.22.2"],\
             ["memoizerific", "npm:1.11.3"],\
             ["qs", "npm:6.10.3"],\
-            ["react", "npm:18.0.0"],\
+            ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:cca0868d7e77b70d74f3ebe333ece55ed850ab8f661117c65a4d15b8e7eb40ee9452b0db2a6509f470c6abd20c2052328d0de16e4b5a8df6e9370cc8e72d0499#npm:18.0.0"],\
             ["regenerator-runtime", "npm:0.13.9"]\
           ],\
@@ -9651,7 +9651,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["global", "npm:4.4.0"],\
             ["lodash", "npm:4.17.21"],\
             ["memoizerific", "npm:1.11.3"],\
-            ["react", "npm:18.0.0"],\
+            ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:cca0868d7e77b70d74f3ebe333ece55ed850ab8f661117c65a4d15b8e7eb40ee9452b0db2a6509f470c6abd20c2052328d0de16e4b5a8df6e9370cc8e72d0499#npm:18.0.0"],\
             ["regenerator-runtime", "npm:0.13.9"],\
             ["slash", "npm:3.0.0"],\
@@ -9742,7 +9742,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", null],\
             ["core-js", "npm:3.22.2"],\
             ["memoizerific", "npm:1.11.3"],\
-            ["react", "npm:18.0.0"],\
+            ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:cca0868d7e77b70d74f3ebe333ece55ed850ab8f661117c65a4d15b8e7eb40ee9452b0db2a6509f470c6abd20c2052328d0de16e4b5a8df6e9370cc8e72d0499#npm:18.0.0"],\
             ["regenerator-runtime", "npm:0.13.9"]\
           ],\
@@ -9909,7 +9909,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/dom", "npm:9.2.0"],\
             ["@types/react", null],\
             ["@types/react-dom", "npm:18.0.2"],\
-            ["react", "npm:18.0.0"],\
+            ["react", "npm:18.2.0"],\
             ["react-dom", null]\
           ],\
           "packagePeers": [\
@@ -24657,14 +24657,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["react", [\
-        ["npm:18.0.0", {\
-          "packageLocation": "./.yarn/cache/react-npm-18.0.0-fdbcb4c477-293020b965.zip/node_modules/react/",\
-          "packageDependencies": [\
-            ["react", "npm:18.0.0"],\
-            ["loose-envify", "npm:1.4.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:18.2.0", {\
           "packageLocation": "./.yarn/cache/react-npm-18.2.0-1eae08fee2-88e38092da.zip/node_modules/react/",\
           "packageDependencies": [\
@@ -24775,7 +24767,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:cca0868d7e77b70d74f3ebe333ece55ed850ab8f661117c65a4d15b8e7eb40ee9452b0db2a6509f470c6abd20c2052328d0de16e4b5a8df6e9370cc8e72d0499#npm:18.0.0"],\
             ["@types/react", null],\
             ["loose-envify", "npm:1.4.0"],\
-            ["react", "npm:18.0.0"],\
+            ["react", "npm:18.2.0"],\
             ["scheduler", "npm:0.21.0"]\
           ],\
           "packagePeers": [\

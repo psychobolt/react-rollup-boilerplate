@@ -18604,16 +18604,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:*":
-  version: 18.0.0
-  resolution: "react@npm:18.0.0"
-  dependencies:
-    loose-envify: ^1.1.0
-  checksum: 293020b96536b3c7113ee57ca5c990a3f25649d1751b1c7a3aabd16dff0691fe9f1eed1206616d0906d05933536052037340a0c8d0941ff870b0eb469a2f975b
-  languageName: node
-  linkType: hard
-
-"react@npm:18.2.0":
+"react@npm:*, react@npm:18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
