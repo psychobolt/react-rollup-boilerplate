@@ -64,7 +64,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/template", "npm:7.20.7"],\
             ["@mdx-js/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.6.22"],\
             ["@psychobolt/default-export", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#workspace:packages/default-export"],\
-            ["@rollup/plugin-alias", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:3.1.9"],\
+            ["@rollup/plugin-alias", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.0.0"],\
             ["@rollup/plugin-babel", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.3.1"],\
             ["@rollup/plugin-commonjs", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:22.0.2"],\
             ["@rollup/plugin-node-resolve", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:13.3.0"],\
@@ -7339,7 +7339,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/template", "npm:7.20.7"],\
             ["@mdx-js/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.6.22"],\
             ["@psychobolt/default-export", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#workspace:packages/default-export"],\
-            ["@rollup/plugin-alias", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:3.1.9"],\
+            ["@rollup/plugin-alias", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.0.0"],\
             ["@rollup/plugin-babel", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.3.1"],\
             ["@rollup/plugin-commonjs", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:22.0.2"],\
             ["@rollup/plugin-node-resolve", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:13.3.0"],\
@@ -7424,20 +7424,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@rollup/plugin-alias", [\
-        ["npm:3.1.9", {\
-          "packageLocation": "./.yarn/cache/@rollup-plugin-alias-npm-3.1.9-f58d88ad2a-cefae9dfb7.zip/node_modules/@rollup/plugin-alias/",\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/@rollup-plugin-alias-npm-5.0.0-f0d054a401-2810bdbcaa.zip/node_modules/@rollup/plugin-alias/",\
           "packageDependencies": [\
-            ["@rollup/plugin-alias", "npm:3.1.9"]\
+            ["@rollup/plugin-alias", "npm:5.0.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:3.1.9", {\
-          "packageLocation": "./.yarn/__virtual__/@rollup-plugin-alias-virtual-ff37f07834/0/cache/@rollup-plugin-alias-npm-3.1.9-f58d88ad2a-cefae9dfb7.zip/node_modules/@rollup/plugin-alias/",\
+        ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/@rollup-plugin-alias-virtual-896a9171cb/0/cache/@rollup-plugin-alias-npm-5.0.0-f0d054a401-2810bdbcaa.zip/node_modules/@rollup/plugin-alias/",\
           "packageDependencies": [\
-            ["@rollup/plugin-alias", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:3.1.9"],\
+            ["@rollup/plugin-alias", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.0.0"],\
             ["@types/rollup", null],\
             ["rollup", "npm:2.79.1"],\
-            ["slash", "npm:3.0.0"]\
+            ["slash", "npm:4.0.0"]\
           ],\
           "packagePeers": [\
             "@types/rollup",\
@@ -26095,6 +26095,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/slash-npm-3.0.0-b87de2279a-94a93fff61.zip/node_modules/slash/",\
           "packageDependencies": [\
             ["slash", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/slash-npm-4.0.0-ce4bbc4a80-da8e4af737.zip/node_modules/slash/",\
+          "packageDependencies": [\
+            ["slash", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
