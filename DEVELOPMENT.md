@@ -2,7 +2,7 @@
 
 ## Setup
 
-Install the latest [Node](https://nodejs.org/)@^17.4.0 and [Yarn](https://yarnpkg.com) and simply run ```yarn node ./bootstrap.js``` in the root project directory.
+Install the latest LTS [Node](https://nodejs.org/) and [Yarn](https://yarnpkg.com) and simply run ```yarn node ./bootstrap.js``` in the root project directory.
 
 ## Local development
 
@@ -60,6 +60,11 @@ yarn lint # runs linter to detect any style issues (css & js)
 yarn lint:css # lint only css
 yarn lint:js # lint only js
 yarn lint:js --fix # attempts to fix js lint issues
+```
+
+To get linting hints in VSCode, install ESLint extension (dbaeumer.vscode-eslint) from extensions marketplace. Copy `.pnp.loader.mjs` to a safe location. e.g. Linux `cp ./.pnp.loader.mjs /absolute/path/to/.pnp.loader.mjs`. Then open __user settings__ in VScode and include the absolute path for loader in the extension's execution arguments:
+```json
+    "eslint.execArgv": ["--loader", "/absolute/path/to/.pnp.loader.mjs"]
 ```
 
 ### Local Package Aliases
