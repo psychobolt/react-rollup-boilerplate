@@ -3504,7 +3504,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^2.0.2":
+"@eslint/eslintrc@npm:2.0.2, @eslint/eslintrc@npm:^2.0.2":
   version: 2.0.2
   resolution: "@eslint/eslintrc@npm:2.0.2"
   dependencies:
@@ -4364,6 +4364,7 @@ __metadata:
     "@babel/preset-flow": 7.21.4
     "@babel/preset-react": 7.18.6
     "@babel/template": 7.20.7
+    "@eslint/eslintrc": 2.0.2
     "@mdx-js/react": 1.6.22
     "@psychobolt/default-export": "workspace:^"
     "@rollup/plugin-alias": 5.0.0
@@ -4414,6 +4415,7 @@ __metadata:
     flow-bin: 0.192.0
     flow-typed: 3.8.0
     glob: 7.2.3
+    globals: 13.20.0
     http-server: 14.1.1
     is-class: 0.0.9
     jest: 27.5.1
@@ -13189,19 +13191,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^11.1.0":
-  version: 11.12.0
-  resolution: "globals@npm:11.12.0"
-  checksum: 67051a45eca3db904aee189dfc7cd53c20c7d881679c93f6146ddd4c9f4ab2268e68a919df740d39c71f4445d2b38ee360fc234428baea1dbdfe68bbcb46979e
-  languageName: node
-  linkType: hard
-
-"globals@npm:^13.19.0":
+"globals@npm:13.20.0, globals@npm:^13.19.0":
   version: 13.20.0
   resolution: "globals@npm:13.20.0"
   dependencies:
     type-fest: ^0.20.2
   checksum: ad1ecf914bd051325faad281d02ea2c0b1df5d01bd94d368dcc5513340eac41d14b3c61af325768e3c7f8d44576e72780ec0b6f2d366121f8eec6e03c3a3b97a
+  languageName: node
+  linkType: hard
+
+"globals@npm:^11.1.0":
+  version: 11.12.0
+  resolution: "globals@npm:11.12.0"
+  checksum: 67051a45eca3db904aee189dfc7cd53c20c7d881679c93f6146ddd4c9f4ab2268e68a919df740d39c71f4445d2b38ee360fc234428baea1dbdfe68bbcb46979e
   languageName: node
   linkType: hard
 

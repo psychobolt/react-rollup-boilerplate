@@ -2,5 +2,8 @@
   "name": "eslint",
   "version": "8.39.0-sdk",
   "main": "./lib/api.js",
+  "exports": {
+    "./use-at-your-own-risk": "./lib/unsupported-api.js"
+  },
   "type": "commonjs"
 }
