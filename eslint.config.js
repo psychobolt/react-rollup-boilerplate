@@ -1,21 +1,18 @@
 import { FlatCompat } from '@eslint/eslintrc';
-import babelParser from '@babel/eslint-parser';
 import flowPlugin from 'eslint-plugin-flowtype';
 import globals from 'globals';
 
 const compat = new FlatCompat();
 
 export default [
-  ...compat.plugins('flowtype', 'jest'),
-  ...compat.extends('airbnb'),
   ...compat.config({
     ...flowPlugin.configs.recommended,
     parser: '@babel/eslint-parser',
   }),
-  ...compat.extends('plugin:storybook/recommended'),
+  ...compat.extends('airbnb', 'plugin:storybook/recommended'),
+  ...compat.plugins('flowtype', 'jest'),
   {
     languageOptions: {
-      parser: babelParser,
       parserOptions: {
         ecmaVersion: 'latest',
         sourceType: 'module',
@@ -31,8 +28,6 @@ export default [
         ...globals.browser,
       },
     },
-  },
-  {
     rules: {
       'import/no-extraneous-dependencies': 0,
       'import/no-webpack-loader-syntax': 0,
