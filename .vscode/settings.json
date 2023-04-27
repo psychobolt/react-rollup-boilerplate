@@ -17,6 +17,6 @@
   "flow.pathToFlow": "${workspaceFolder}/.yarn/sdks/.bin/flow",
   "eslint.enable": true,
   "eslint.experimental.useFlatConfig": true,
-  "eslint.runtime": "node",
+  "eslint.runtime": "eslint-runtime.js",
   "eslint.packageManager": "yarn"
 }
