@@ -66,7 +66,7 @@ To get linting hints in VSCode, install ESLint extension (dbaeumer.vscode-eslint
 
 ### Troubleshooting ESLint extension
 
-- Ensure you are running VSCode with the node version with yarn installed.
+- Ensure you are running VSCode with the node version you have yarn installed on.
 - Copy .pnp.loader.mjs to a safe location. e.g. Linux cp ./.pnp.loader.mjs /absolute/path/to/.pnp.loader.mjs. Then update __user settings__:
 ```sh
     "eslint.runtime": "node"
