@@ -169,9 +169,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.21.5":
-  version: 7.21.5
-  resolution: "@babel/core@npm:7.21.5"
+"@babel/core@npm:7.21.8":
+  version: 7.21.8
+  resolution: "@babel/core@npm:7.21.8"
   dependencies:
     "@ampproject/remapping": ^2.2.0
     "@babel/code-frame": ^7.21.4
@@ -179,7 +179,7 @@ __metadata:
     "@babel/helper-compilation-targets": ^7.21.5
     "@babel/helper-module-transforms": ^7.21.5
     "@babel/helpers": ^7.21.5
-    "@babel/parser": ^7.21.5
+    "@babel/parser": ^7.21.8
     "@babel/template": ^7.20.7
     "@babel/traverse": ^7.21.5
     "@babel/types": ^7.21.5
@@ -188,7 +188,7 @@ __metadata:
     gensync: ^1.0.0-beta.2
     json5: ^2.2.2
     semver: ^6.3.0
-  checksum: 77ca0e6493860fb6f91cf441313c0bb464d21f8c6842cf3f1dbb083a910370e37a4c0ada35cf11ef0ebe7d0ee2d6bde2f4ee9b4caa3328e807988aa282787677
+  checksum: f28118447355af2a90bd340e2e60699f94c8020517eba9b71bf8ebff62fa9e00d63f076e033f9dfb97548053ad62ada45fafb0d96584b1a90e8aef5a3b8241b1
   languageName: node
   linkType: hard
 
@@ -215,9 +215,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/eslint-parser@npm:7.21.3":
-  version: 7.21.3
-  resolution: "@babel/eslint-parser@npm:7.21.3"
+"@babel/eslint-parser@npm:7.21.8":
+  version: 7.21.8
+  resolution: "@babel/eslint-parser@npm:7.21.8"
   dependencies:
     "@nicolo-ribaudo/eslint-scope-5-internals": 5.1.1-v1
     eslint-visitor-keys: ^2.1.0
@@ -225,7 +225,7 @@ __metadata:
   peerDependencies:
     "@babel/core": ">=7.11.0"
     eslint: ^7.5.0 || ^8.0.0
-  checksum: cc44a26a518c62ca93cdbee4ec4fa195c5a69b4f85d696c9df572b1ada99446ebdf3caef58a124f401a798279a765f858c88292bc7a8fc0485c34e178b1a9e82
+  checksum: 6d870f53808682b9d7e3c2a69a832b2095963103bb2d686daee3fcf1df49a0b3dfe58e95c773cab8cf59f2657ec432dfd5e47b9f1835c264eb84d2ec5ab2ad35
   languageName: node
   linkType: hard
 
@@ -1159,6 +1159,15 @@ __metadata:
   bin:
     parser: ./bin/babel-parser.js
   checksum: c7ec0dae795f2a43885fdd5c1c53c7f11b3428628ae82ebe1e1537cb3d13e25e7993549e026662a3e05dcc743b595f82b25f0a49ef9155459a9a424eedb7e2b0
+  languageName: node
+  linkType: hard
+
+"@babel/parser@npm:^7.21.8, @babel/parser@npm:^7.21.9":
+  version: 7.21.9
+  resolution: "@babel/parser@npm:7.21.9"
+  bin:
+    parser: ./bin/babel-parser.js
+  checksum: 985ccc311eb286a320331fd21ff54d94935df76e081abdb304cd4591ea2051a6c799c6b0d8e26d09a9dd041797d9a91ebadeb0c50699d0101bd39fc565082d5c
   languageName: node
   linkType: hard
 
@@ -3291,14 +3300,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/template@npm:7.20.7, @babel/template@npm:^7.20.7":
-  version: 7.20.7
-  resolution: "@babel/template@npm:7.20.7"
+"@babel/template@npm:7.21.9":
+  version: 7.21.9
+  resolution: "@babel/template@npm:7.21.9"
   dependencies:
-    "@babel/code-frame": ^7.18.6
-    "@babel/parser": ^7.20.7
-    "@babel/types": ^7.20.7
-  checksum: 2eb1a0ab8d415078776bceb3473d07ab746e6bb4c2f6ca46ee70efb284d75c4a32bb0cd6f4f4946dec9711f9c0780e8e5d64b743208deac6f8e9858afadc349e
+    "@babel/code-frame": ^7.21.4
+    "@babel/parser": ^7.21.9
+    "@babel/types": ^7.21.5
+  checksum: 6ec2c60d4d53b2a9230ab82c399ba6525df87e9a4e01e4b111e071cbad283b1362e7c99a1bc50027073f44f2de36a495a89c27112c4e7efe7ef9c8d9c84de2ec
   languageName: node
   linkType: hard
 
@@ -3332,6 +3341,17 @@ __metadata:
     "@babel/parser": ^7.18.6
     "@babel/types": ^7.18.6
   checksum: cb02ed804b7b1938dbecef4e01562013b80681843dd391933315b3dd9880820def3b5b1bff6320d6e4c6a1d63d1d5799630d658ec6b0369c5505e7e4029c38fb
+  languageName: node
+  linkType: hard
+
+"@babel/template@npm:^7.20.7":
+  version: 7.20.7
+  resolution: "@babel/template@npm:7.20.7"
+  dependencies:
+    "@babel/code-frame": ^7.18.6
+    "@babel/parser": ^7.20.7
+    "@babel/types": ^7.20.7
+  checksum: 2eb1a0ab8d415078776bceb3473d07ab746e6bb4c2f6ca46ee70efb284d75c4a32bb0cd6f4f4946dec9711f9c0780e8e5d64b743208deac6f8e9858afadc349e
   languageName: node
   linkType: hard
 
@@ -4503,8 +4523,8 @@ __metadata:
   resolution: "@psychobolt/react-rollup-boilerplate@workspace:."
   dependencies:
     "@babel/cli": 7.21.5
-    "@babel/core": 7.21.5
-    "@babel/eslint-parser": 7.21.3
+    "@babel/core": 7.21.8
+    "@babel/eslint-parser": 7.21.8
     "@babel/helper-compilation-targets": 7.21.5
     "@babel/node": 7.20.7
     "@babel/plugin-proposal-class-properties": 7.18.6
@@ -4525,7 +4545,7 @@ __metadata:
     "@babel/preset-env": 7.21.5
     "@babel/preset-flow": 7.21.4
     "@babel/preset-react": 7.18.6
-    "@babel/template": 7.20.7
+    "@babel/template": 7.21.9
     "@eslint/eslintrc": 2.0.2
     "@mdx-js/react": 1.6.22
     "@psychobolt/default-export": "workspace:^"
