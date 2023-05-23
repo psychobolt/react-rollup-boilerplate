@@ -138,7 +138,7 @@
     "react-dom": "18.2.0",
     "react-is": "18.2.0",
     "require-from-string": "2.0.2",
-    "rimraf": "5.0.0",
+    "rimraf": "5.0.1",
     "rollup": "3.21.3",
     "rollup-plugin-flow-entry": "0.3.6",
     "rollup-plugin-mjs-entry": "0.1.1",
