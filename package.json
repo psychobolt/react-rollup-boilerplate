@@ -87,7 +87,7 @@
     "@storybook/jest": "0.1.0",
     "@storybook/manager-webpack5": "6.5.16",
     "@storybook/react": "6.5.16",
-    "@storybook/testing-library": "0.1.0",
+    "@storybook/testing-library": "0.2.0",
     "@testing-library/react": "14.0.0",
     "@yarnpkg/core": "3.5.0",
     "@yarnpkg/sdks": "2.7.0",
