@@ -4801,7 +4801,7 @@ __metadata:
     rollup-plugin-terser: 7.0.2
     slash: 3.0.0
     source-map-loader: 4.0.1
-    styled-components: 6.0.1
+    styled-components: 6.0.2
     stylelint: 14.16.1
     stylelint-config-standard-scss: 5.0.0
     stylelint-config-styled-components: 0.1.1
@@ -21343,9 +21343,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:6.0.1":
-  version: 6.0.1
-  resolution: "styled-components@npm:6.0.1"
+"styled-components@npm:6.0.2":
+  version: 6.0.2
+  resolution: "styled-components@npm:6.0.2"
   dependencies:
     "@babel/cli": ^7.21.0
     "@babel/core": ^7.21.0
@@ -21373,7 +21373,7 @@ __metadata:
   peerDependenciesMeta:
     babel-plugin-styled-components:
       optional: true
-  checksum: bd8a6163b07ee5f33de582370c33e0fb731e92771491b7ec28cc7c86159ce5b370a7a9e73e09e9381f0ead57c98f3939a7b14f0b1d3d91992c75940489399496
+  checksum: 3fedf429fb0c1e2973b5e86acd27b26e8f5a3fb2576ea1ecd00d554f3f2544c6257d0f738fc705210df76ab680ab1430f55e6c1f7cb3995fd7635f04a6f96e5e
   languageName: node
   linkType: hard
 
