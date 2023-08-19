@@ -62,7 +62,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-flow", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.22.5"],\
             ["@babel/preset-react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.22.5"],\
             ["@babel/template", "npm:7.22.5"],\
-            ["@eslint/eslintrc", "npm:2.1.1"],\
+            ["@eslint/eslintrc", "npm:2.1.2"],\
             ["@mdx-js/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.6.22"],\
             ["@psychobolt/default-export", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#workspace:packages/default-export"],\
             ["@rollup/plugin-alias", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.0.0"],\
@@ -8927,10 +8927,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.1.1", {\
-          "packageLocation": "./.yarn/cache/@eslint-eslintrc-npm-2.1.1-ced87d94ab-bf909ea183.zip/node_modules/@eslint/eslintrc/",\
+        ["npm:2.1.2", {\
+          "packageLocation": "./.yarn/cache/@eslint-eslintrc-npm-2.1.2-feb0771c9f-bc742a1e3b.zip/node_modules/@eslint/eslintrc/",\
           "packageDependencies": [\
-            ["@eslint/eslintrc", "npm:2.1.1"],\
+            ["@eslint/eslintrc", "npm:2.1.2"],\
             ["ajv", "npm:6.12.6"],\
             ["debug", "virtual:9eaf5a4899064c3f055c57e0f559dc88875f793a1a2609dc036bf423e91ad9e5e8ee6be23b8816bec3ad42d85476c35b425c827a9747fd484a68aa7745d5ff7a#npm:4.3.4"],\
             ["espree", "npm:9.6.0"],\
@@ -9936,7 +9936,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-flow", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.22.5"],\
             ["@babel/preset-react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.22.5"],\
             ["@babel/template", "npm:7.22.5"],\
-            ["@eslint/eslintrc", "npm:2.1.1"],\
+            ["@eslint/eslintrc", "npm:2.1.2"],\
             ["@mdx-js/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.6.22"],\
             ["@psychobolt/default-export", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#workspace:packages/default-export"],\
             ["@rollup/plugin-alias", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.0.0"],\
