@@ -120,7 +120,7 @@
     "flow-bin": "0.192.0",
     "flow-typed": "3.9.0",
     "glob": "7.2.3",
-    "globals": "13.20.0",
+    "globals": "13.21.0",
     "http-server": "14.1.1",
     "is-class": "0.0.9",
     "jest": "27.5.1",
