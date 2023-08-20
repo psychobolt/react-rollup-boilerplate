@@ -109,7 +109,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.33.2"],\
             ["eslint-plugin-react-hooks", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:4.6.0"],\
             ["eslint-plugin-storybook", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.6.13"],\
-            ["execa", "npm:7.1.1"],\
+            ["execa", "npm:7.2.0"],\
             ["flow-bin", "npm:0.192.0"],\
             ["flow-typed", "npm:3.8.0"],\
             ["glob", "npm:7.2.3"],\
@@ -9991,7 +9991,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.33.2"],\
             ["eslint-plugin-react-hooks", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:4.6.0"],\
             ["eslint-plugin-storybook", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.6.13"],\
-            ["execa", "npm:7.1.1"],\
+            ["execa", "npm:7.2.0"],\
             ["flow-bin", "npm:0.192.0"],\
             ["flow-typed", "npm:3.8.0"],\
             ["glob", "npm:7.2.3"],\
@@ -20002,10 +20002,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:7.1.1", {\
-          "packageLocation": "./.yarn/cache/execa-npm-7.1.1-a258daf7fc-21fa46fc69.zip/node_modules/execa/",\
+        ["npm:7.2.0", {\
+          "packageLocation": "./.yarn/cache/execa-npm-7.2.0-7797cafb24-14fd17ba0c.zip/node_modules/execa/",\
           "packageDependencies": [\
-            ["execa", "npm:7.1.1"],\
+            ["execa", "npm:7.2.0"],\
             ["cross-spawn", "npm:7.0.3"],\
             ["get-stream", "npm:6.0.1"],\
             ["human-signals", "npm:4.3.1"],\
