@@ -94,7 +94,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-named-exports-order", "npm:0.0.2"],\
             ["babel-plugin-styled-components", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:2.1.4"],\
             ["cash-true", "npm:0.0.2"],\
-            ["concurrently", "npm:8.2.0"],\
+            ["concurrently", "npm:8.2.1"],\
             ["cross-env", "npm:7.0.3"],\
             ["eslint", "npm:8.39.0"],\
             ["eslint-config-airbnb", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:19.0.4"],\
@@ -10394,7 +10394,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-named-exports-order", "npm:0.0.2"],\
             ["babel-plugin-styled-components", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:2.1.4"],\
             ["cash-true", "npm:0.0.2"],\
-            ["concurrently", "npm:8.2.0"],\
+            ["concurrently", "npm:8.2.1"],\
             ["cross-env", "npm:7.0.3"],\
             ["eslint", "npm:8.39.0"],\
             ["eslint-config-airbnb", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:19.0.4"],\
@@ -17784,10 +17784,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["concurrently", [\
-        ["npm:8.2.0", {\
-          "packageLocation": "./.yarn/cache/concurrently-npm-8.2.0-be774a222e-eafe6a4d9b.zip/node_modules/concurrently/",\
+        ["npm:8.2.1", {\
+          "packageLocation": "./.yarn/cache/concurrently-npm-8.2.1-2922c29e4d-216cb16d5b.zip/node_modules/concurrently/",\
           "packageDependencies": [\
-            ["concurrently", "npm:8.2.0"],\
+            ["concurrently", "npm:8.2.1"],\
             ["chalk", "npm:4.1.2"],\
             ["date-fns", "npm:2.30.0"],\
             ["lodash", "npm:4.17.21"],\
