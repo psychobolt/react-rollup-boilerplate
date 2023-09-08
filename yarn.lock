@@ -5894,7 +5894,7 @@ __metadata:
     stylelint-config-standard-scss: 5.0.0
     stylelint-config-styled-components: 0.1.1
     stylelint-processor-styled-components: "https://github.com/psychobolt/stylelint-processor-styled-components"
-    symlink-dir: 5.1.1
+    symlink-dir: 5.2.0
     webpack: 5.88.2
     yargs: 17.7.2
   peerDependencies:
@@ -23604,15 +23604,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"symlink-dir@npm:5.1.1":
-  version: 5.1.1
-  resolution: "symlink-dir@npm:5.1.1"
+"symlink-dir@npm:5.2.0":
+  version: 5.2.0
+  resolution: "symlink-dir@npm:5.2.0"
   dependencies:
     better-path-resolve: ^1.0.0
     rename-overwrite: ^4.0.3
   bin:
     symlink-dir: dist/cli.js
-  checksum: 9cff2d5dfaeac8d12d7154e194c3c4cac85d6779a5f9050b4bb4a8b4254de40a508e0b7d371657c2db3ada4bbec7e9e71085b660ca075da52ea9be92ed75e375
+  checksum: b79419e16af558fa4477c40defa6b3adb6e4f5a27e5a3de15e99ca1e89ee7b410e2f874d36999a8192e91bd1558f4461ff28ec1b702131c41be95754c5b15aa5
   languageName: node
   linkType: hard
 
