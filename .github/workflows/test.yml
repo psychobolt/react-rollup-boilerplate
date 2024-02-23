@@ -17,6 +17,7 @@ jobs:
           node-version: lts/hydrogen
           cache: yarn
           cache-dependency-path: ./yarn.lock
+      - run: yarn install
       - id: ls_public_workspaces
         run: echo "::set-output name=workspaces::$(yarn node ./workspaces.js --ls-public)"
         shell: bash
@@ -56,7 +57,10 @@ jobs:
         with:
           node-version: lts/hydrogen
           cache: yarn
-          cache-dependency-path: ./yarn.lock
+          cache-dependency-path: "**/yarn.lock"
+      - run: |
+          yarn install
+          yarn node ./bootstrap.js
       - run: yarn test --coverage --projects ${{ matrix.path }}
         shell: bash
       - uses: actions/upload-artifact@v3
