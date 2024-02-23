@@ -13,6 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
+        with:
+          node-version: lts/*
+          cache: yarn
+          cache-dependency-path: ./yarn.lock
       - id: ls_public_workspaces
         run: echo "::set-output name=workspaces::$(yarn node ./workspaces.js --ls-public)"
         shell: bash
@@ -22,6 +26,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
+        with:
+          node-version: lts/*
+          cache: yarn
+          cache-dependency-path: "**/yarn.lock"
       - run: yarn node ./bootstrap.js
         shell: bash
       - uses: actions/download-artifact@v3
@@ -43,6 +51,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
+        with:
+          node-version: lts/*
+          cache: yarn
+          cache-dependency-path: ./yarn.lock
       - run: yarn test --coverage --projects ${{ matrix.path }}
         shell: bash
       - uses: actions/upload-artifact@v3
