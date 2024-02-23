@@ -1,7 +1,7 @@
 {
   "name": "@psychobolt/default-export",
-  "version": "0.0.1",
   "description": "Dummy package",
+  "private": "true",
   "type": "module",
   "module": "./dist/index.prod.js",
   "main": "./dist/index.prod.cjs",

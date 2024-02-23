@@ -2,7 +2,7 @@
 
 ## Setup
 
-Install the latest LTS [Node](https://nodejs.org/) and [Yarn](https://yarnpkg.com) and simply run ```yarn node ./bootstrap.js``` in the root project directory.
+Install the latest LTS/Hydrogen (v18) [Node](https://nodejs.org/) and [Yarn](https://yarnpkg.com) and simply run ```yarn node ./bootstrap.js``` in the root project directory.
 
 ## Local development
 
