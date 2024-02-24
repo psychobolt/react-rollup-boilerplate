@@ -4687,9 +4687,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:2.1.2":
-  version: 2.1.2
-  resolution: "@eslint/eslintrc@npm:2.1.2"
+"@eslint/eslintrc@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@eslint/eslintrc@npm:2.1.4"
   dependencies:
     ajv: ^6.12.4
     debug: ^4.3.2
@@ -4700,7 +4700,7 @@ __metadata:
     js-yaml: ^4.1.0
     minimatch: ^3.1.2
     strip-json-comments: ^3.1.1
-  checksum: bc742a1e3b361f06fedb4afb6bf32cbd27171292ef7924f61c62f2aed73048367bcc7ac68f98c06d4245cd3fabc43270f844e3c1699936d4734b3ac5398814a7
+  checksum: 10957c7592b20ca0089262d8c2a8accbad14b4f6507e35416c32ee6b4dbf9cad67dfb77096bbd405405e9ada2b107f3797fe94362e1c55e0b09d6e90dd149127
   languageName: node
   linkType: hard
 
@@ -5820,7 +5820,7 @@ __metadata:
     "@babel/preset-flow": 7.22.15
     "@babel/preset-react": 7.22.15
     "@babel/template": 7.22.15
-    "@eslint/eslintrc": 2.1.2
+    "@eslint/eslintrc": 2.1.4
     "@mdx-js/react": 1.6.22
     "@psychobolt/default-export": "workspace:^"
     "@rollup/plugin-alias": 5.0.0
