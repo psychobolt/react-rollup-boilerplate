@@ -5909,7 +5909,7 @@ __metadata:
     rollup-plugin-mjs-entry: 0.1.1
     rollup-plugin-terser: 7.0.2
     slash: 3.0.0
-    source-map-loader: 4.0.1
+    source-map-loader: 4.0.2
     styled-components: 6.0.8
     stylelint: 14.16.1
     stylelint-config-standard-scss: 5.0.0
@@ -8882,7 +8882,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"abab@npm:^2.0.3, abab@npm:^2.0.5, abab@npm:^2.0.6":
+"abab@npm:^2.0.3, abab@npm:^2.0.5":
   version: 2.0.6
   resolution: "abab@npm:2.0.6"
   checksum: 6ffc1af4ff315066c62600123990d87551ceb0aafa01e6539da77b0f5987ac7019466780bf480f1787576d4385e3690c81ccc37cfda12819bf510b8ab47e5a3e
@@ -23160,16 +23160,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map-loader@npm:4.0.1":
-  version: 4.0.1
-  resolution: "source-map-loader@npm:4.0.1"
+"source-map-loader@npm:4.0.2":
+  version: 4.0.2
+  resolution: "source-map-loader@npm:4.0.2"
   dependencies:
-    abab: ^2.0.6
     iconv-lite: ^0.6.3
     source-map-js: ^1.0.2
   peerDependencies:
     webpack: ^5.72.1
-  checksum: 4ddca8b03dc61f406effd4bffe70de4b87fef48bae6f737017b2dabcbc7d609133325be1e73838e9265331de28039111d729fcbb8bce88a6018a816bef510eb1
+  checksum: a7d890b2c553709c002f918d1685191884a24de050beab5809b9fac1cbc10fa0efab33ac5ebde43a6eb513b0f6be785e93dd385ea534bbe469c4410a10d8f604
   languageName: node
   linkType: hard
 
