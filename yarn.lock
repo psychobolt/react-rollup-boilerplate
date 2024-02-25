@@ -5915,7 +5915,7 @@ __metadata:
     stylelint-config-standard-scss: 5.0.0
     stylelint-config-styled-components: 0.1.1
     stylelint-processor-styled-components: "https://github.com/psychobolt/stylelint-processor-styled-components"
-    symlink-dir: 5.2.0
+    symlink-dir: 5.2.1
     webpack: 5.88.2
     yargs: 17.7.2
   peerDependencies:
@@ -22025,13 +22025,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rename-overwrite@npm:^4.0.3":
-  version: 4.0.3
-  resolution: "rename-overwrite@npm:4.0.3"
+"rename-overwrite@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "rename-overwrite@npm:5.0.0"
   dependencies:
     "@zkochan/rimraf": ^2.1.2
     fs-extra: 10.1.0
-  checksum: ac225a1b2e05ed3c2c15c235f3ed2bb93474d9fb037c401a6a68dc64f7e7439847110e907ed09096fe3db253212f4379e350c89c03d8bfbda22e97a0d5c12a22
+  checksum: eaac7b36302b6f184dcff91c625776e3a3b46b234550adcf70434695ef9c7dd28bd9c5b2945c4a7fbcd09649bd31efce26aae39166becdc05ca9213524d2c3b8
   languageName: node
   linkType: hard
 
@@ -24084,15 +24084,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"symlink-dir@npm:5.2.0":
-  version: 5.2.0
-  resolution: "symlink-dir@npm:5.2.0"
+"symlink-dir@npm:5.2.1":
+  version: 5.2.1
+  resolution: "symlink-dir@npm:5.2.1"
   dependencies:
     better-path-resolve: ^1.0.0
-    rename-overwrite: ^4.0.3
+    rename-overwrite: ^5.0.0
   bin:
     symlink-dir: dist/cli.js
-  checksum: b79419e16af558fa4477c40defa6b3adb6e4f5a27e5a3de15e99ca1e89ee7b410e2f874d36999a8192e91bd1558f4461ff28ec1b702131c41be95754c5b15aa5
+  checksum: 6d1d15014b68c8c04a3e63bebc0fe87c2ea42c2145ac0a5aee9a1694e5103702fa396233256223a9234b449992ac8066d0e6f31f2e3062941adf19fe73475b44
   languageName: node
   linkType: hard
 
