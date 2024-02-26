@@ -22055,7 +22055,8 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/flow-deps", {\
         "packageLocation": "./packages/flow-deps/",\
         "packageDependencies": [\
-          ["flow-deps", "workspace:packages/flow-deps"]\
+          ["flow-deps", "workspace:packages/flow-deps"],\
+          ["flow-typed", "npm:3.9.0"]\
         ],\
         "linkType": "SOFT"\
       }]\

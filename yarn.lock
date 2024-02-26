@@ -14963,6 +14963,8 @@ __metadata:
 "flow-deps@workspace:packages/flow-deps":
   version: 0.0.0-use.local
   resolution: "flow-deps@workspace:packages/flow-deps"
+  dependencies:
+    flow-typed: "npm:3.9.0"
   languageName: unknown
   linkType: soft
 
