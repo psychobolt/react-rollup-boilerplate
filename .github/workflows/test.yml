@@ -11,8 +11,8 @@ jobs:
     outputs:
       workspaces: ${{ steps.ls_public_workspaces.outputs.workspaces }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+      - uses: actions/setup-node@1a4442cacd436585916779262731d5b162bc6ec7 # v3
         with:
           node-version: lts/hydrogen
           cache: yarn
@@ -25,8 +25,8 @@ jobs:
     name: "Lint Sources"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+      - uses: actions/setup-node@1a4442cacd436585916779262731d5b162bc6ec7 # v3
         with:
           node-version: lts/hydrogen
           cache: yarn
@@ -35,7 +35,7 @@ jobs:
           yarn install
           yarn node ./bootstrap.js
         shell: bash
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3
         with:
           name: bundles_${{ github.sha }}
       - run: yarn flow-typed-install
@@ -52,8 +52,8 @@ jobs:
       matrix:
         path: ${{ fromJSON(needs.setenv.outputs.workspaces).*.path }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+      - uses: actions/setup-node@1a4442cacd436585916779262731d5b162bc6ec7 # v3
         with:
           node-version: lts/hydrogen
           cache: yarn
@@ -63,7 +63,7 @@ jobs:
           yarn node ./bootstrap.js
       - run: yarn test --coverage --projects ${{ matrix.path }}
         shell: bash
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@a8a3f3ad30e3422c9c7b888a15615d19a852ae32 # v3
         with:
           name: ${{ fromJSON(needs.setenv.outputs.workspaces)[strategy.job-index].name }}_coverage_${{ github.sha }}
           path: |
@@ -74,13 +74,13 @@ jobs:
     name: "Run Visual Tests"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
         with:
           fetch-depth: 0
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3
         with:
           name: bundles_${{ github.sha }}
-      - uses: chromaui/action@v1
+      - uses: chromaui/action@fd0e276c344bab4dc69a023fdf89ffb9b79b3b31 # v1
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           storybookBuildDir: storybook-static
@@ -93,10 +93,10 @@ jobs:
       matrix:
         flag: ${{ fromJSON(needs.setenv.outputs.workspaces).*.name }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v3
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+      - uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3
         with:
           name: ${{ matrix.flag }}_coverage_${{ github.sha }}
-      - uses: codecov/codecov-action@v4
+      - uses: codecov/codecov-action@54bcd8715eee62d40e33596ef5e8f0f48dbbccab # v4
         with:
           flags: ${{ matrix.flag }}
