@@ -1,0 +1,11 @@
+{
+  "name": "flow-deps",
+  "private": true,
+  "packageManager": "yarn@4.1.0",
+  "scripts": {
+    "flow-typed-update": "flow-typed update --libdefDir ../shared/flow-typed -s --skipFlowRestart -i dev -p ../"
+  },
+  "devDependencies": {
+    "flow-typed": "3.9.0"
+  }
+}

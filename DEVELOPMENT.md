@@ -36,7 +36,7 @@ This boilerplate supports [Monorepo](https://danluu.com/monorepo/) configuration
 ```sh
 yarn flow-typed-install # clean & install flow definitions from dependencies and peerDependencies
 yarn flow-typed-update # downloads and updates new flow definitions
-cd shared/flow-deps && yarn install <package-name> # install any node modules that flow cannot resolve with PnP strategy
+cd packages/flow-deps && yarn install <package-name> # install any node modules that flow cannot resolve with PnP strategy
 ```
 
 ### Creating Stubs

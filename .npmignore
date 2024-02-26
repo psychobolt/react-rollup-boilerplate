@@ -21,7 +21,6 @@ babel.config.js
 bootstrap.js
 cjs
 DEVELOPMENT.md
-flow-typed-update.js
 jest.config.js
 jsconfig.json
 RAWFlowStub.js.flow

@@ -1,7 +1,6 @@
 {
   "name": "@psychobolt/react-rollup-boilerplate",
   "description": "A boilerplate for building React libraries",
-  "private": "true",
   "type": "module",
   "module": "./dist/index.prod.js",
   "main": "./dist/index.prod.cjs",
@@ -23,26 +22,27 @@
     "access": "public"
   },
   "scripts": {
-    "flow-typed-update": "yarn node flow-typed-update.js",
-    "flow-typed-install": "yarn rimraf shared/flow-typed/npm && yarn flow-typed-update",
-    "flow-typed-create-stub": "yarn flow-typed create-stub --libdefDir shared/flow-typed/",
-    "build:dev": "yarn cross-env BABEL_ENV=development rollup -c rollup.config.dev.mjs",
-    "build:prod": "yarn cross-env rollup -c rollup.config.prod.mjs",
-    "clean": "yarn rimraf \"dist/index?(-*).*.?(c|m)js?(.flow)\" && yarn rimraf \"packages/*/dist/index?(-*).*.?(c|m)js?(.flow)\"",
+    "g:flow-typed-update": "cd $INIT_CWD && flow-typed update --libdefDir shared/flow-typed -s --skipFlowRestart -i dev -p $PROJECT_CWD",
+    "flow-typed-update": "yarn workspaces foreach -A --no-private run g:flow-typed-update",
+    "flow-typed-install": "rimraf shared/flow-typed/npm && yarn workspace flow-deps flow-typed-update && yarn flow-typed-update",
+    "flow-typed-create-stub": "flow-typed create-stub --libdefDir shared/flow-typed/",
+    "build:dev": "cross-env BABEL_ENV=development rollup -c rollup.config.dev.mjs",
+    "build:prod": "cross-env rollup -c rollup.config.prod.mjs",
+    "clean": "rimraf \"dist/index?(-*).*.?(c|m)js?(.flow)\" && rimraf \"packages/*/dist/index?(-*).*.?(c|m)js?(.flow)\"",
     "build": "yarn clean && yarn build:dev && yarn build:prod",
     "watch": "yarn build:dev --w",
-    "start": "yarn cross-env BABEL_ENV=development concurrently 'npm:watch' 'npm:storybook'",
+    "start": "cross-env BABEL_ENV=development concurrently 'npm:watch' 'npm:storybook'",
     "start-static": "yarn build && yarn build-storybook && yarn serve-storybook",
-    "test": "yarn cross-env BABEL_ENV=test yarn node --experimental-vm-modules $(yarn bin jest) --passWithNoTests",
+    "test": "cross-env BABEL_ENV=test node --experimental-vm-modules $(yarn bin jest) --passWithNoTests",
     "lint": "concurrently 'npm:lint:css' 'npm:lint:js'",
-    "lint:css": "yarn stylelint \"./(packages|stories|src)/**/*.js\"",
-    "lint:js": "yarn eslint \"**/*.?(c|m)js\"",
-    "storybook": "yarn start-storybook -p 6006",
+    "lint:css": "stylelint \"./(packages|stories|src)/**/*.js\"",
+    "lint:js": "eslint \"**/*.?(c|m)js\"",
+    "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "serve-storybook": "yarn http-server storybook-static",
-    "bootstrap": "yarn node bootstrap.js",
+    "serve-storybook": "http-server storybook-static",
+    "bootstrap": "node bootstrap.js",
     "prepack": "yarn build",
-    "dist": "yarn workspaces foreach --no-private npm publish --tolerate-republish --access public"
+    "dist": "yarn workspaces foreach -A --no-private npm publish --tolerate-republish --access public"
   },
   "devDependencies": {
     "@babel/cli": "7.23.9",
@@ -89,7 +89,7 @@
     "@storybook/react": "6.5.16",
     "@storybook/testing-library": "0.2.2",
     "@testing-library/react": "14.2.1",
-    "@yarnpkg/core": "3.5.0",
+    "@yarnpkg/core": "4.0.3",
     "@yarnpkg/sdks": "2.7.0",
     "app-root-path": "3.1.0",
     "babel-jest": "29.7.0",
@@ -164,5 +164,5 @@
       "packages/*"
     ]
   },
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@4.1.0"
 }

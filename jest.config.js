@@ -2,15 +2,13 @@ import path from 'path';
 import fs from 'fs';
 
 import config from './shared/jest.config.js';
-import { setup, getProjects, getPackageName } from './workspaces.js';
+import { getProjects, getPackageName } from './workspaces.js';
 import { dirname } from './shared/utils.js';
 
-await (setup());
-
-const projects = await (getProjects());
+const projects = await (getProjects(true));
 const configs = [];
 
-projects.forEach((project, cwd) => {
+projects.forEach(({ cwd }) => {
   const configPath = path.resolve(cwd, 'jest.config.js');
   if (fs.existsSync(configPath)) {
     configs.push(configPath);

@@ -5,9 +5,7 @@ appPath.import = async path => import(pathToFileURL(appPath.resolve(path)));
 
 const { default: config } = await (appPath.import('/shared/jest.config.js'));
 const { dirname } = await (appPath.import('/shared/utils.js'));
-const { getPackageName, setup } = await (appPath.import('/workspaces.js'));
-
-await (setup());
+const { getPackageName } = await (appPath.import('/workspaces.js'));
 
 export default {
   ...config,

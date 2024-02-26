@@ -9,11 +9,10 @@ import flowEntry from 'rollup-plugin-flow-entry';
 
 import { rootResolve } from './shared/utils.js';
 
-import { setup, getProjects, getPackageName, getIncludes } from './workspaces.js';
+import { getProjects, getPackageName, getIncludes } from './workspaces.js';
 
-await (setup());
 const ROOT_RESOLVE = rootResolve();
-const projects = await (getProjects());
+const projects = await (getProjects(true));
 const paths = [];
 
 let exportConditions = [];
@@ -24,7 +23,7 @@ if (['development', 'test'].some(env => env === process.env.BABEL_ENV)) {
 
 let packages = [];
 
-projects.forEach((project, cwd) => {
+projects.forEach(({ cwd }) => {
   paths.push(cwd);
   packages.push(getPackageName(cwd));
 });
