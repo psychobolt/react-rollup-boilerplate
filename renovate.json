@@ -1,9 +1,7 @@
 {
-  "extends": [
-    "config:base"
-  ],
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:best-practices"],
   "automerge": true,
-  "automergeType": "branch",
   "packageRules": [
     {
       "matchPackageNames": ["@mdx-js/react", "flow-bin", "eslint"],
