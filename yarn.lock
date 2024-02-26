@@ -6266,9 +6266,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@psychobolt/default-export@workspace:packages/default-export"
   dependencies:
-    "@testing-library/react": "npm:*"
-    app-root-path: "npm:*"
-    react: "npm:*"
+    "@testing-library/react": "npm:14.2.1"
+    app-root-path: "npm:3.1.0"
+    react: "npm:18.2.0"
   peerDependencies:
     react: ^17.0.2 || ^18.0.0
     react-dom: ^17.0.2 || ^18.0.0
@@ -7938,7 +7938,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react@npm:*, @testing-library/react@npm:14.2.1":
+"@testing-library/react@npm:14.2.1":
   version: 14.2.1
   resolution: "@testing-library/react@npm:14.2.1"
   dependencies:
@@ -9844,7 +9844,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"app-root-path@npm:*, app-root-path@npm:3.1.0":
+"app-root-path@npm:3.1.0":
   version: 3.1.0
   resolution: "app-root-path@npm:3.1.0"
   checksum: 10c0/4a0fd976de1bffcdb18a5e1f8050091f15d0780e0582bca99aaa9d52de71f0e08e5185355fcffc781180bfb898499e787a2f5ed79b9c448b942b31dc947acaa9
