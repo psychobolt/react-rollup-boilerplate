@@ -5251,8 +5251,8 @@ __metadata:
     app-root-path: "npm:3.1.0"
     react: "npm:18.2.0"
   peerDependencies:
-    react: ^17.0.2 || ^18.0.0
-    react-dom: ^17.0.2 || ^18.0.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
   languageName: unknown
   linkType: soft
 
@@ -5369,8 +5369,8 @@ __metadata:
     webpack: "npm:5.90.3"
     yargs: "npm:17.7.2"
   peerDependencies:
-    react: ^17.0.2 || ^18.0.0
-    react-dom: ^17.0.2 || ^18.0.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
     styled-components: ^5.2.5 || ^6.0.0
   languageName: unknown
   linkType: soft
