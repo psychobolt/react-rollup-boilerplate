@@ -10950,7 +10950,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/@psychobolt-default-export-virtual-72f746e8a4/1/packages/default-export/",\
           "packageDependencies": [\
             ["@psychobolt/default-export", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#workspace:packages/default-export"],\
-            ["@testing-library/react", "virtual:72f746e8a4d7ddd274bb6a7daa371eab9701962fcf582cb7a84753ced107c15baa4d78ecf0780cef9351b46f184e0741e405111db72ae8507168e1dd6ab0aaca#npm:14.0.0"],\
+            ["@testing-library/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:14.2.1"],\
             ["@types/react", null],\
             ["@types/react-dom", null],\
             ["app-root-path", "npm:3.1.0"],\
@@ -10969,7 +10969,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/default-export/",\
           "packageDependencies": [\
             ["@psychobolt/default-export", "workspace:packages/default-export"],\
-            ["@testing-library/react", "virtual:9c24f57864aaff7fdc9e828d672aea60170abf5314b0c14f8c3914dcfa04cbc836f0aef9ae0e7f2e6f648150e8556b8052cb48d2c2fad32234dbae4d8b351a5d#npm:14.0.0"],\
+            ["@testing-library/react", "virtual:9c24f57864aaff7fdc9e828d672aea60170abf5314b0c14f8c3914dcfa04cbc836f0aef9ae0e7f2e6f648150e8556b8052cb48d2c2fad32234dbae4d8b351a5d#npm:14.2.1"],\
             ["app-root-path", "npm:3.1.0"],\
             ["react", "npm:18.2.0"]\
           ],\
@@ -13481,13 +13481,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@testing-library/react", [\
-        ["npm:14.0.0", {\
-          "packageLocation": "../../../../cache/others/berry/cache/@testing-library-react-npm-14.0.0-84fecd033b-8.zip/node_modules/@testing-library/react/",\
-          "packageDependencies": [\
-            ["@testing-library/react", "npm:14.0.0"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
         ["npm:14.2.1", {\
           "packageLocation": "../../../../cache/others/berry/cache/@testing-library-react-npm-14.2.1-95eb1af3fb-8.zip/node_modules/@testing-library/react/",\
           "packageDependencies": [\
@@ -13495,28 +13488,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:72f746e8a4d7ddd274bb6a7daa371eab9701962fcf582cb7a84753ced107c15baa4d78ecf0780cef9351b46f184e0741e405111db72ae8507168e1dd6ab0aaca#npm:14.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/@testing-library-react-virtual-ed580098aa/5/cache/others/berry/cache/@testing-library-react-npm-14.0.0-84fecd033b-8.zip/node_modules/@testing-library/react/",\
+        ["virtual:9c24f57864aaff7fdc9e828d672aea60170abf5314b0c14f8c3914dcfa04cbc836f0aef9ae0e7f2e6f648150e8556b8052cb48d2c2fad32234dbae4d8b351a5d#npm:14.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/@testing-library-react-virtual-13decb2f86/5/cache/others/berry/cache/@testing-library-react-npm-14.2.1-95eb1af3fb-8.zip/node_modules/@testing-library/react/",\
           "packageDependencies": [\
-            ["@testing-library/react", "virtual:72f746e8a4d7ddd274bb6a7daa371eab9701962fcf582cb7a84753ced107c15baa4d78ecf0780cef9351b46f184e0741e405111db72ae8507168e1dd6ab0aaca#npm:14.0.0"],\
-            ["@babel/runtime", "npm:7.17.9"],\
-            ["@testing-library/dom", "npm:9.2.0"],\
-            ["@types/react", null],\
-            ["@types/react-dom", "npm:18.0.2"],\
-            ["react", "npm:18.2.0"],\
-            ["react-dom", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:18.2.0"]\
-          ],\
-          "packagePeers": [\
-            "@types/react",\
-            "react-dom",\
-            "react"\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["virtual:9c24f57864aaff7fdc9e828d672aea60170abf5314b0c14f8c3914dcfa04cbc836f0aef9ae0e7f2e6f648150e8556b8052cb48d2c2fad32234dbae4d8b351a5d#npm:14.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/@testing-library-react-virtual-2b2ceca510/5/cache/others/berry/cache/@testing-library-react-npm-14.0.0-84fecd033b-8.zip/node_modules/@testing-library/react/",\
-          "packageDependencies": [\
-            ["@testing-library/react", "virtual:9c24f57864aaff7fdc9e828d672aea60170abf5314b0c14f8c3914dcfa04cbc836f0aef9ae0e7f2e6f648150e8556b8052cb48d2c2fad32234dbae4d8b351a5d#npm:14.0.0"],\
+            ["@testing-library/react", "virtual:9c24f57864aaff7fdc9e828d672aea60170abf5314b0c14f8c3914dcfa04cbc836f0aef9ae0e7f2e6f648150e8556b8052cb48d2c2fad32234dbae4d8b351a5d#npm:14.2.1"],\
             ["@babel/runtime", "npm:7.17.9"],\
             ["@testing-library/dom", "npm:9.2.0"],\
             ["@types/react", null],\
