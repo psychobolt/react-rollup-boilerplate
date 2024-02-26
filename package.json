@@ -145,7 +145,7 @@
     "rollup-plugin-terser": "7.0.2",
     "slash": "3.0.0",
     "source-map-loader": "4.0.2",
-    "styled-components": "6.0.8",
+    "styled-components": "6.1.8",
     "stylelint": "14.16.1",
     "stylelint-config-standard-scss": "5.0.0",
     "stylelint-config-styled-components": "0.1.1",
