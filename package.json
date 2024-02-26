@@ -90,7 +90,7 @@
     "@storybook/testing-library": "0.2.2",
     "@testing-library/react": "14.2.1",
     "@yarnpkg/core": "4.0.3",
-    "@yarnpkg/sdks": "2.7.0",
+    "@yarnpkg/sdks": "2.7.3",
     "app-root-path": "3.1.0",
     "babel-jest": "29.7.0",
     "babel-loader": "9.1.3",
