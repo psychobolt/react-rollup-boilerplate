@@ -6351,7 +6351,7 @@ __metadata:
     eslint-plugin-react-hooks: "npm:4.6.0"
     eslint-plugin-storybook: "npm:0.6.13"
     execa: "npm:8.0.1"
-    flow-bin: "npm:0.192.0"
+    flow-bin: "npm:0.229.2"
     flow-typed: "npm:3.9.0"
     glob: "npm:7.2.3"
     globals: "npm:13.24.0"
@@ -14951,12 +14951,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flow-bin@npm:0.192.0":
-  version: 0.192.0
-  resolution: "flow-bin@npm:0.192.0"
+"flow-bin@npm:0.229.2":
+  version: 0.229.2
+  resolution: "flow-bin@npm:0.229.2"
   bin:
     flow: cli.js
-  checksum: 10c0/5aa265d777175eccae0038b23f1ff29d2f9c66ee86279462212fe55d692a90483cf8c5bdedd6a7a66f6c11af6bfd694104c5913689096fd980fa4e3e08e366b0
+  checksum: 10c0/10845a6056c4dfe8457c2d93be85d5fbe0a110be7fff8263415be86f67f998be9a95c1f8e98934d50fb0140b620f32a83a1fcb170fb0147029c63fee948e4a67
   languageName: node
   linkType: hard
 

@@ -117,7 +117,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-storybook": "0.6.13",
     "execa": "8.0.1",
-    "flow-bin": "0.192.0",
+    "flow-bin": "0.229.2",
     "flow-typed": "3.9.0",
     "glob": "7.2.3",
     "globals": "13.24.0",
