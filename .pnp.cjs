@@ -122,7 +122,7 @@ const RAW_RUNTIME_STATE =
           ["jest", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:27.5.1"],\
           ["jest-cli", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:29.7.0"],\
           ["jest-specific-snapshot", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:8.0.0"],\
-          ["jest-styled-components", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.1.1"],\
+          ["jest-styled-components", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.2.0"],\
           ["lodash", "npm:4.17.21"],\
           ["micromatch", "npm:4.0.5"],\
           ["postcss", "npm:8.4.35"],\
@@ -11065,7 +11065,7 @@ const RAW_RUNTIME_STATE =
           ["jest", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:27.5.1"],\
           ["jest-cli", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:29.7.0"],\
           ["jest-specific-snapshot", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:8.0.0"],\
-          ["jest-styled-components", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.1.1"],\
+          ["jest-styled-components", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.2.0"],\
           ["lodash", "npm:4.17.21"],\
           ["micromatch", "npm:4.0.5"],\
           ["postcss", "npm:8.4.35"],\
@@ -26008,17 +26008,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["jest-styled-components", [\
-      ["npm:7.1.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/jest-styled-components-npm-7.1.1-d52d5c89e7-10c0.zip/node_modules/jest-styled-components/",\
+      ["npm:7.2.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/jest-styled-components-npm-7.2.0-de88287aa8-10c0.zip/node_modules/jest-styled-components/",\
         "packageDependencies": [\
-          ["jest-styled-components", "npm:7.1.1"]\
+          ["jest-styled-components", "npm:7.2.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.1.1", {\
-        "packageLocation": "./.yarn/__virtual__/jest-styled-components-virtual-25a1e91db2/5/cache/others/berry/cache/jest-styled-components-npm-7.1.1-d52d5c89e7-10c0.zip/node_modules/jest-styled-components/",\
+      ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/jest-styled-components-virtual-b157475071/5/cache/others/berry/cache/jest-styled-components-npm-7.2.0-de88287aa8-10c0.zip/node_modules/jest-styled-components/",\
         "packageDependencies": [\
-          ["jest-styled-components", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.1.1"],\
+          ["jest-styled-components", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.2.0"],\
           ["@adobe/css-tools", "npm:4.0.1"],\
           ["@types/styled-components", null],\
           ["styled-components", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:6.0.8"]\

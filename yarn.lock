@@ -6360,7 +6360,7 @@ __metadata:
     jest: "npm:27.5.1"
     jest-cli: "npm:29.7.0"
     jest-specific-snapshot: "npm:8.0.0"
-    jest-styled-components: "npm:7.1.1"
+    jest-styled-components: "npm:7.2.0"
     lodash: "npm:4.17.21"
     micromatch: "npm:4.0.5"
     postcss: "npm:8.4.35"
@@ -18497,14 +18497,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-styled-components@npm:7.1.1":
-  version: 7.1.1
-  resolution: "jest-styled-components@npm:7.1.1"
+"jest-styled-components@npm:7.2.0":
+  version: 7.2.0
+  resolution: "jest-styled-components@npm:7.2.0"
   dependencies:
     "@adobe/css-tools": "npm:^4.0.1"
   peerDependencies:
     styled-components: ">= 5"
-  checksum: 10c0/24eef0a700e24439d59e7aaa0a5e8bc24a1633a6cde0b6184dacc2f3143e0144492a66f0acfdf0ddc78fce103cbfdf661e589ce1c274897e07d17ed933fcb5fd
+  checksum: 10c0/44eecf73cd1ee50686c9c16517222e2c012422dd7d90a07813f82f3ccce4059563e620d25aed60274e05d31fe6375b1f31a3486033aa39ea5e82fd94afcfa32f
   languageName: node
   linkType: hard
 
