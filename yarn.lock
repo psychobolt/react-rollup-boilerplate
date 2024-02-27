@@ -5310,7 +5310,7 @@ __metadata:
     "@rollup/plugin-node-resolve": "npm:15.2.3"
     "@rollup/plugin-replace": "npm:5.0.5"
     "@storybook/addon-actions": "npm:6.5.16"
-    "@storybook/addon-console": "npm:2.0.0"
+    "@storybook/addon-console": "npm:3.0.0"
     "@storybook/addon-docs": "npm:6.5.16"
     "@storybook/addon-essentials": "npm:6.5.16"
     "@storybook/addon-interactions": "npm:6.5.16"
@@ -5629,14 +5629,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-console@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@storybook/addon-console@npm:2.0.0"
+"@storybook/addon-console@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@storybook/addon-console@npm:3.0.0"
   dependencies:
     "@storybook/global": "npm:^5.0.0"
   peerDependencies:
     "@storybook/addon-actions": "*"
-  checksum: 10c0/6007ec2b669bafc2b1d22610573cd48d43778d2de8fc342eb10623bb927e64c6741be99e6002ad40c80ffb86dcfd4574a58b53324da83374791f343792933829
+    react: "*"
+  checksum: 10c0/47697d4221c5e8858adb5ca6823279066a5128455728fe289019fa78ba63cab3f4d821824728d6e3d30409f2a925509c935955f79b498674be29b0fa9a133ee1
   languageName: node
   linkType: hard
 
