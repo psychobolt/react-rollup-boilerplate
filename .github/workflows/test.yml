@@ -35,7 +35,7 @@ jobs:
           yarn install
           yarn node ./bootstrap.js
         shell: bash
-      - uses: actions/download-artifact@87c55149d96e628cc2ef7e6fc2aab372015aec85 # v4
+      - uses: actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427 # v4
         with:
           name: bundles_${{ github.sha }}
       - run: yarn flow-typed-install
@@ -77,7 +77,7 @@ jobs:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
         with:
           fetch-depth: 0
-      - uses: actions/download-artifact@87c55149d96e628cc2ef7e6fc2aab372015aec85 # v4
+      - uses: actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427 # v4
         with:
           name: bundles_${{ github.sha }}
       - uses: chromaui/action@fd0e276c344bab4dc69a023fdf89ffb9b79b3b31 # v11
@@ -94,7 +94,7 @@ jobs:
         flag: ${{ fromJSON(needs.setenv.outputs.workspaces).*.name }}
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
-      - uses: actions/download-artifact@87c55149d96e628cc2ef7e6fc2aab372015aec85 # v4
+      - uses: actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427 # v4
         with:
           name: ${{ matrix.flag }}_coverage_${{ github.sha }}
       - uses: codecov/codecov-action@54bcd8715eee62d40e33596ef5e8f0f48dbbccab # v4
