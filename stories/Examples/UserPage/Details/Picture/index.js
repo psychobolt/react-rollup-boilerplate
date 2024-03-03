@@ -1,2 +1,2 @@
 // @flow
-export * from './Picture.component.js';
+export * from './Picture.component.jsx';
