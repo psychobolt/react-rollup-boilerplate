@@ -2,7 +2,7 @@
 
 ## Setup
 
-Install the latest LTS/Hydrogen (v18) [Node](https://nodejs.org/) and [Yarn](https://yarnpkg.com) and simply run ```yarn node ./bootstrap.js``` in the root project directory.
+Install the latest LTS [Node](https://nodejs.org/) and [Yarn](https://yarnpkg.com) and simply run ```yarn node ./bootstrap.js``` in the root project directory.
 
 ## Local development
 
@@ -73,9 +73,15 @@ To get linting hints in VSCode, install ESLint extension (dbaeumer.vscode-eslint
     "eslint.execArgv": ["--loader", "/absolute/path/to/.pnp.loader.mjs"]
 ```
 
-### Local Package Aliases
+## Local Package Resolve
 
-Alias for local packages can be configured in [.eslintrc.json](https://github.com/psychobolt/react-rollup-boilerplate/blob/master/.eslintrc.json) using the [Alias Resolver](https://www.npmjs.com/package/eslint-import-resolver-node) plugin. In the future, package names for workspace projects will be automatically configured by the usage of [workspaces.js](https://github.com/psychobolt/react-rollup-boilerplate/blob/master/workspaces.js). Due to the nature of this, that work will be postponed until eslint have support for [ESM Configurations](https://github.com/eslint/eslint/issues/13481). 
+### ESlint
+
+Can be configured in [.eslintrc.json](https://github.com/psychobolt/react-rollup-boilerplate/blob/master/.eslintrc.json) using the [Alias Resolver](https://www.npmjs.com/package/eslint-import-resolver-node) plugin. 
+
+### Flow
+
+Can be configured in [.flowconfig.json](https://github.com/psychobolt/react-rollup-boilerplate/blob/master/.flowconfig) with the `module.name_mapper` option.
 
 ## Test
 

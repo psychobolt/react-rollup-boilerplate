@@ -1,1 +1,2 @@
-export { default } from './Messenger.component.js';
+// @flow
+export * from './Messenger.component.jsx';

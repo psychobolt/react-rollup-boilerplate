@@ -1,1 +1,2 @@
-export { default } from './App.component.js';
+// @flow
+export * from './App.component.jsx';

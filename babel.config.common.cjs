@@ -48,6 +48,5 @@ module.exports = {
     ],
     'babel-plugin-add-module-exports',
     'babel-plugin-styled-components',
-    'babel-plugin-named-exports-order',
   ],
 };

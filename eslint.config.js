@@ -1,6 +1,14 @@
+import path from 'path';
+import babel from '@babel/core';
 import { FlatCompat } from '@eslint/eslintrc';
 import flowPlugin from 'eslint-plugin-flowtype';
 import globals from 'globals';
+
+import { rootResolve } from './shared/utils.js';
+
+const { code: webpack } = await (babel.transformFileAsync(
+  path.resolve(rootResolve(), '.storybook/webpack.config.js'),
+));
 
 const compat = new FlatCompat();
 
@@ -49,15 +57,13 @@ export default [
     },
     settings: {
       'import/parsers': {
-        '@babel/eslint-parser': ['.js', '.cjs', '.mjs'],
+        '@babel/eslint-parser': ['.js', '.cjs', '.mjs', '.jsx'],
       },
       'import/resolver': {
         node: {
           moduleDirectory: ['./'],
         },
-        webpack: {
-          config: './.storybook/webpack.config.cjs',
-        },
+        webpack,
         alias: [
           ['@psychobolt/react-rollup-boilerplate', './src/index.js'],
           ['@psychobolt/default-export', './packages/default-export/src/index.js'],
@@ -70,7 +76,7 @@ export default [
       '.yarn/',
       'coverage/',
       'flow-deps-modules/',
-      'packages/react-cache/',
+      'packages/react-cache',
       '**/dist/',
       'shared/flow-typed/npm/',
       'storybook-static/',
