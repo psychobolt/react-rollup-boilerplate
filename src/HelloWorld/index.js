@@ -1,1 +1,2 @@
-export { default, Content } from './HelloWorld.component.js';
+// @flow
+export * from './HelloWorld.component.jsx';

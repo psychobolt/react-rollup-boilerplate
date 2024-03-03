@@ -1,0 +1,24 @@
+diff --git a/dist/index.js b/dist/index.js
+index a1ca362e78c4abf50b73c6c567fd09175be9153e..6ad88f42f9fc3e897acbb85e28f8df04dbdd31a4 100644
+--- a/dist/index.js
++++ b/dist/index.js
+@@ -14,7 +14,6 @@
+ 
+         const pathRemainder = path.substring(${directory.length+1});
+         return import(
+-          /* webpackChunkName: "[request]" */
+           /* webpackInclude: ${webpackIncludeRegexp(specifier)} */
+           '${directory}/' + pathRemainder
+         );
+diff --git a/dist/index.mjs b/dist/index.mjs
+index 5af8560bd8fd4d66d66ea0af4fdf14af19e99b14..836ed5dc335fce56fd9f604edecb650f02b616ba 100644
+--- a/dist/index.mjs
++++ b/dist/index.mjs
+@@ -19,7 +19,6 @@ var webpackConfigs=["webpack.config","webpackfile"],loadCustomWebpackConfig=conf
+ 
+         const pathRemainder = path.substring(${directory.length+1});
+         return import(
+-          /* webpackChunkName: "[request]" */
+           /* webpackInclude: ${webpackIncludeRegexp(specifier)} */
+           '${directory}/' + pathRemainder
+         );

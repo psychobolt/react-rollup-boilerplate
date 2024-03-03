@@ -33,7 +33,7 @@ export async function setup() {
     });
   }
 
-  const configuration = await Configuration.find(normalizePath(appRoot), null);
+  const configuration = await Configuration.find(normalizePath(appRoot), null, { strict: false });
   const { projectCwd } = configuration;
   const project = new Project(projectCwd, { configuration });
   await project.setupWorkspaces();

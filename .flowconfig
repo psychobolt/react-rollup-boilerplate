@@ -1,13 +1,13 @@
 [options]
-module.name_mapper='^\(.*\)\.\mdx?$' -> '<PROJECT_ROOT>/RAWFlowStub.js.flow'
+module.name_mapper='^\(.*\)\?raw$' -> '<PROJECT_ROOT>/RAWFlowStub.js.flow'
+module.name_mapper='^\(.*\)\.s?css$' -> '<PROJECT_ROOT>/RAWFlowStub.js.flow'
 module.name_mapper='^stories/\(.*\)$' -> '<PROJECT_ROOT>/stories/\1'
+module.name_mapper='^@psychobolt/react-rollup-boilerplate$' -> '<PROJECT_ROOT>/src'
+module.name_mapper='^@psychobolt/\(.*\)$' -> '<PROJECT_ROOT>/packages/\1'
 module.system.node.resolve_dirname=packages
-module.system.node.resolve_dirname=packages/flow-deps/node-modules
+module.system.node.resolve_dirname=flow-deps-modules
 
 include_warnings=true
 
 [libs]
 shared/flow-typed
-
-[lints]
-deprecated-utility=warn

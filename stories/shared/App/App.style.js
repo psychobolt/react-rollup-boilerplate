@@ -22,6 +22,6 @@ export const h1 = css`
   display: block;
 `;
 
-export const app = css`
+export const container = css`
   text-align: center;
 `;

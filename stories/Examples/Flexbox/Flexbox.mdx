@@ -1,0 +1,16 @@
+import { Meta, Canvas, Source } from '@storybook/blocks';
+
+import * as Stories from './Flexbox.stories.js';
+import css from '!./flexbox.css?raw';
+
+<Meta of={Stories} />
+
+# Flexbox
+
+This is a example based on the [flexbox tutorial](https://internetingishard.netlify.app/html-and-css/flexbox/) from the "HTML & CSS Is Hard" [online book](https://internetingishard.netlify.app/html-and-css/).
+
+<Canvas of={Stories.Example} />
+
+## Flexbox.css
+
+<Source language='css' code={css} />
