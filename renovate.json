@@ -4,14 +4,8 @@
   "automerge": true,
   "packageRules": [
     {
-      "matchPackageNames": ["@mdx-js/react", "flow-bin", "eslint"],
-      "automerge": false
-    },
-    {
-      "matchPackageNames": ["glob"],
-      "major": {
-        "dependencyDashboardApproval": true
-      }
+      "matchPackageNames": ["flow-bin"],
+      "allowedVersions": "<0.207.0"
     }
   ]
 }
