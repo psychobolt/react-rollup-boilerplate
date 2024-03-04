@@ -6,7 +6,7 @@ const meta = {
   title: 'Examples/User Page',
   render: UserPage,
   parameters: {
-    chromatic: { delay: 20 },
+    chromatic: { delay: 3500 },
     // More on how to position stories at: https://storybook.js.org/docs/react/configure/story-layout
     layout: 'fullscreen',
     docs: {
