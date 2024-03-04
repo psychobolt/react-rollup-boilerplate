@@ -151,7 +151,7 @@
     "rollup-plugin-terser": "7.0.2",
     "sass": "1.71.1",
     "sass-loader": "14.1.1",
-    "slash": "3.0.0",
+    "slash": "5.1.0",
     "source-map-loader": "5.0.0",
     "storybook": "7.6.17",
     "style-loader": "3.3.4",
