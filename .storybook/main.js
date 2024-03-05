@@ -11,12 +11,7 @@ const require = createRequire(import.meta.url);
  * It is needed in projects that use Yarn PnP or are set up within a monorepo.
  */
 function getAbsolutePath(moduleId) {
-  const absolutePath = dirname(require.resolve(join(moduleId, 'package.json')));
-  const { alias } = require;
-  if (alias) {
-    alias[moduleId] = absolutePath;
-  }
-  return absolutePath;
+  return dirname(require.resolve(join(moduleId, 'package.json')));
 }
 
 const mainDir = '@(src|stories)';
