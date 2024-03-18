@@ -80,7 +80,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/addon-interactions", "npm:7.6.17"],\
           ["@storybook/addon-links", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.6.17"],\
           ["@storybook/addon-onboarding", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.0.11"],\
-          ["@storybook/addon-styling-webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.0.6"],\
+          ["@storybook/addon-styling-webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.0.0"],\
           ["@storybook/blocks", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.6.17"],\
           ["@storybook/core-webpack", "patch:@storybook/core-webpack@npm%3A7.6.17#~/.yarn/patches/@storybook-core-webpack-npm-7.6.17-4f0f3e4ec4.patch::version=7.6.17&hash=b59564"],\
           ["@storybook/jest", "npm:0.2.3"],\
@@ -8790,7 +8790,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/addon-interactions", "npm:7.6.17"],\
           ["@storybook/addon-links", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.6.17"],\
           ["@storybook/addon-onboarding", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.0.11"],\
-          ["@storybook/addon-styling-webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.0.6"],\
+          ["@storybook/addon-styling-webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.0.0"],\
           ["@storybook/blocks", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.6.17"],\
           ["@storybook/core-webpack", "patch:@storybook/core-webpack@npm%3A7.6.17#~/.yarn/patches/@storybook-core-webpack-npm-7.6.17-4f0f3e4ec4.patch::version=7.6.17&hash=b59564"],\
           ["@storybook/jest", "npm:0.2.3"],\
@@ -10777,18 +10777,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@storybook/addon-styling-webpack", [\
-      ["npm:0.0.6", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@storybook-addon-styling-webpack-npm-0.0.6-058f56addf-10c0.zip/node_modules/@storybook/addon-styling-webpack/",\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@storybook-addon-styling-webpack-npm-1.0.0-985a77463c-10c0.zip/node_modules/@storybook/addon-styling-webpack/",\
         "packageDependencies": [\
-          ["@storybook/addon-styling-webpack", "npm:0.0.6"]\
+          ["@storybook/addon-styling-webpack", "npm:1.0.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.0.6", {\
-        "packageLocation": "./.yarn/__virtual__/@storybook-addon-styling-webpack-virtual-ede28735f3/5/cache/others/berry/cache/@storybook-addon-styling-webpack-npm-0.0.6-058f56addf-10c0.zip/node_modules/@storybook/addon-styling-webpack/",\
+      ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/@storybook-addon-styling-webpack-virtual-1bb4a34492/5/cache/others/berry/cache/@storybook-addon-styling-webpack-npm-1.0.0-985a77463c-10c0.zip/node_modules/@storybook/addon-styling-webpack/",\
         "packageDependencies": [\
-          ["@storybook/addon-styling-webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.0.6"],\
-          ["@storybook/node-logger", "npm:7.6.17"],\
+          ["@storybook/addon-styling-webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.0.0"],\
+          ["@storybook/node-logger", "npm:8.0.0"],\
           ["@types/webpack", null],\
           ["webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.90.3"]\
         ],\
@@ -11437,6 +11437,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/@storybook-node-logger-npm-7.6.17-ccddbfa6e4-10c0.zip/node_modules/@storybook/node-logger/",\
         "packageDependencies": [\
           ["@storybook/node-logger", "npm:7.6.17"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:8.0.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@storybook-node-logger-npm-8.0.0-bf400e648f-10c0.zip/node_modules/@storybook/node-logger/",\
+        "packageDependencies": [\
+          ["@storybook/node-logger", "npm:8.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\

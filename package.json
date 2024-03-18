@@ -85,7 +85,7 @@
     "@storybook/addon-interactions": "7.6.17",
     "@storybook/addon-links": "7.6.17",
     "@storybook/addon-onboarding": "1.0.11",
-    "@storybook/addon-styling-webpack": "0.0.6",
+    "@storybook/addon-styling-webpack": "1.0.0",
     "@storybook/blocks": "7.6.17",
     "@storybook/core-webpack": "7.6.17",
     "@storybook/jest": "0.2.3",
