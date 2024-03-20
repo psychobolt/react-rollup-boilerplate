@@ -6204,7 +6204,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@psychobolt/default-export@workspace:packages/default-export"
   dependencies:
-    "@testing-library/react": "npm:14.2.1"
+    "@testing-library/react": "npm:14.2.2"
     app-root-path: "npm:3.1.0"
     react: "npm:18.2.0"
   peerDependencies:
@@ -6264,7 +6264,7 @@ __metadata:
     "@storybook/react-webpack5": "npm:7.6.17"
     "@storybook/test": "npm:7.6.17"
     "@storybook/testing-library": "npm:0.2.2"
-    "@testing-library/react": "npm:14.2.1"
+    "@testing-library/react": "npm:14.2.2"
     "@yarnpkg/core": "npm:4.0.3"
     "@yarnpkg/sdks": "npm:3.1.0"
     app-root-path: "npm:3.1.0"
@@ -8359,9 +8359,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react@npm:14.2.1":
-  version: 14.2.1
-  resolution: "@testing-library/react@npm:14.2.1"
+"@testing-library/react@npm:14.2.2":
+  version: 14.2.2
+  resolution: "@testing-library/react@npm:14.2.2"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
     "@testing-library/dom": "npm:^9.0.0"
@@ -8369,7 +8369,7 @@ __metadata:
   peerDependencies:
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: 10c0/83b35cf8bf5640f1b63b32223ebc75799dc1a8e034d819120b26838fba0b0ab10bdbe6ad07dd8ae8287365f2b0c52dc9892a6fa11bb24d3e63ad97dfb7f2f296
+  checksum: 10c0/ab36707f6701a4a56dd217e16e00d6326e0f760bb2e716245422c7500a0b94efcd351d0aa89c4fab2916e6ebc68c983cec6b3ae0804de813cafc913a612668f6
   languageName: node
   linkType: hard
 
