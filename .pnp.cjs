@@ -119,7 +119,7 @@ const RAW_RUNTIME_STATE =
           ["execa", "npm:8.0.1"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:3.9.0"],\
-          ["glob", "npm:10.3.10"],\
+          ["glob", "npm:10.3.12"],\
           ["globals", "npm:14.0.0"],\
           ["http-server", "npm:14.1.1"],\
           ["is-class", "npm:0.0.9"],\
@@ -10862,7 +10862,7 @@ const RAW_RUNTIME_STATE =
           ["execa", "npm:8.0.1"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:3.9.0"],\
-          ["glob", "npm:10.3.10"],\
+          ["glob", "npm:10.3.12"],\
           ["globals", "npm:14.0.0"],\
           ["http-server", "npm:14.1.1"],\
           ["is-class", "npm:0.0.9"],\
@@ -22081,6 +22081,18 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
+      ["npm:10.3.12", {\
+        "packageLocation": "../../../../cache/others/berry/cache/glob-npm-10.3.12-f2e90133a0-10c0.zip/node_modules/glob/",\
+        "packageDependencies": [\
+          ["glob", "npm:10.3.12"],\
+          ["foreground-child", "npm:3.1.1"],\
+          ["jackspeak", "npm:2.3.6"],\
+          ["minimatch", "npm:9.0.1"],\
+          ["minipass", "npm:7.0.4"],\
+          ["path-scurry", "npm:1.10.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:7.2.0", {\
         "packageLocation": "../../../../cache/others/berry/cache/glob-npm-7.2.0-bb4644d239-10c0.zip/node_modules/glob/",\
         "packageDependencies": [\
@@ -27023,6 +27035,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/path-scurry-npm-1.10.1-52bd946f2e-10c0.zip/node_modules/path-scurry/",\
         "packageDependencies": [\
           ["path-scurry", "npm:1.10.1"],\
+          ["lru-cache", "npm:10.2.0"],\
+          ["minipass", "npm:7.0.4"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.10.2", {\
+        "packageLocation": "../../../../cache/others/berry/cache/path-scurry-npm-1.10.2-676482c764-10c0.zip/node_modules/path-scurry/",\
+        "packageDependencies": [\
+          ["path-scurry", "npm:1.10.2"],\
           ["lru-cache", "npm:10.2.0"],\
           ["minipass", "npm:7.0.4"]\
         ],\
