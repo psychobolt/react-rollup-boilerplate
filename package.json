@@ -154,7 +154,7 @@
     "slash": "5.1.0",
     "source-map-loader": "5.0.0",
     "storybook": "7.6.17",
-    "style-loader": "3.3.4",
+    "style-loader": "4.0.0",
     "styled-components": "6.1.8",
     "stylelint": "14.16.1",
     "stylelint-config-standard-scss": "5.0.0",
