@@ -23,7 +23,7 @@
   },
   "scripts": {
     "flow-deps-link": "yarn symlink-dir packages/flow-deps/node_modules flow-deps-modules",
-    "g:flow-typed-update": "cd $INIT_CWD && flow-typed update --libdefDir shared/flow-typed -s --skipFlowRestart -p $PROJECT_CWD",
+    "g:flow-typed-update": "cd $INIT_CWD && flow-typed update --libdefDir shared/flow-typed -i peer -s --skipFlowRestart -p $PROJECT_CWD",
     "flow-typed-update": "yarn workspaces foreach -A --no-private run g:flow-typed-update",
     "flow-typed-install": "rimraf shared/flow-typed/npm && yarn flow-deps-link && yarn flow-typed-update",
     "flow-typed-create-stub": "flow-typed create-stub --libdefDir shared/flow-typed/",
