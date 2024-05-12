@@ -120,7 +120,7 @@ const RAW_RUNTIME_STATE =
           ["execa", "npm:8.0.1"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.0.0"],\
-          ["glob", "npm:10.3.14"],\
+          ["glob", "npm:10.3.15"],\
           ["globals", "npm:15.2.0"],\
           ["http-server", "npm:14.1.1"],\
           ["is-class", "npm:0.0.9"],\
@@ -11056,7 +11056,7 @@ const RAW_RUNTIME_STATE =
           ["execa", "npm:8.0.1"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.0.0"],\
-          ["glob", "npm:10.3.14"],\
+          ["glob", "npm:10.3.15"],\
           ["globals", "npm:15.2.0"],\
           ["http-server", "npm:14.1.1"],\
           ["is-class", "npm:0.0.9"],\
@@ -22697,10 +22697,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:10.3.14", {\
-        "packageLocation": "../../../../cache/others/berry/cache/glob-npm-10.3.14-be63872977-10c0.zip/node_modules/glob/",\
+      ["npm:10.3.15", {\
+        "packageLocation": "../../../../cache/others/berry/cache/glob-npm-10.3.15-501e87a16f-10c0.zip/node_modules/glob/",\
         "packageDependencies": [\
-          ["glob", "npm:10.3.14"],\
+          ["glob", "npm:10.3.15"],\
           ["foreground-child", "npm:3.1.1"],\
           ["jackspeak", "npm:2.3.6"],\
           ["minimatch", "npm:9.0.1"],\
