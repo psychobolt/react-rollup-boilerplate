@@ -6459,7 +6459,7 @@ __metadata:
     flow-bin: "npm:0.206.0"
     flow-typed: "npm:4.0.0"
     glob: "npm:10.3.14"
-    globals: "npm:15.0.0"
+    globals: "npm:15.2.0"
     http-server: "npm:14.1.1"
     is-class: "npm:0.0.9"
     jest: "npm:27.5.1"
@@ -15568,10 +15568,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:15.0.0":
-  version: 15.0.0
-  resolution: "globals@npm:15.0.0"
-  checksum: 10c0/b93e356a7bd4562d73a9defa95a0ff5e8a0b7726a4e2af16bd8ad019e14cd21d85e0a27b46e7e270d34e25df0bc0f9473ca21b47266c406c0e40973956085777
+"globals@npm:15.2.0":
+  version: 15.2.0
+  resolution: "globals@npm:15.2.0"
+  checksum: 10c0/ba8c34ef10fc1e65319bfde912a76dbe7654085af8b09d897974cfbe000c6d950ddcf28b4a0de372fe4144836aede32210a97b27ef184f68e1ff8bcd1a74fc5e
   languageName: node
   linkType: hard
 
