@@ -140,7 +140,7 @@ const RAW_RUNTIME_STATE =
           ["react-is", "npm:18.3.1"],\
           ["react-lazily", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.9.2"],\
           ["require-from-string", "npm:2.0.2"],\
-          ["rimraf", "npm:5.0.6"],\
+          ["rimraf", "npm:5.0.7"],\
           ["rollup", "npm:4.16.4"],\
           ["rollup-plugin-flow-entry", "npm:0.3.6"],\
           ["rollup-plugin-mjs-entry", "npm:0.1.1"],\
@@ -11076,7 +11076,7 @@ const RAW_RUNTIME_STATE =
           ["react-is", "npm:18.3.1"],\
           ["react-lazily", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.9.2"],\
           ["require-from-string", "npm:2.0.2"],\
-          ["rimraf", "npm:5.0.6"],\
+          ["rimraf", "npm:5.0.7"],\
           ["rollup", "npm:4.16.4"],\
           ["rollup-plugin-flow-entry", "npm:0.3.6"],\
           ["rollup-plugin-mjs-entry", "npm:0.1.1"],\
@@ -29694,10 +29694,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:5.0.6", {\
-        "packageLocation": "../../../../cache/others/berry/cache/rimraf-npm-5.0.6-cbf1ebc02c-10c0.zip/node_modules/rimraf/",\
+      ["npm:5.0.7", {\
+        "packageLocation": "../../../../cache/others/berry/cache/rimraf-npm-5.0.7-5c7aa1db5b-10c0.zip/node_modules/rimraf/",\
         "packageDependencies": [\
-          ["rimraf", "npm:5.0.6"],\
+          ["rimraf", "npm:5.0.7"],\
           ["glob", "npm:10.3.10"]\
         ],\
         "linkType": "HARD"\
