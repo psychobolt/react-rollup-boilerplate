@@ -66,7 +66,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-flow", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.24.1"],\
           ["@babel/preset-react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.24.1"],\
           ["@babel/template", "npm:7.24.0"],\
-          ["@eslint/eslintrc", "npm:3.0.2"],\
+          ["@eslint/eslintrc", "npm:3.1.0"],\
           ["@mdx-js/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:3.0.1"],\
           ["@psychobolt/default-export", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#workspace:packages/default-export"],\
           ["@rollup/plugin-alias", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.1.0"],\
@@ -9638,10 +9638,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:3.0.2", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@eslint-eslintrc-npm-3.0.2-1fbcfb08c5-10c0.zip/node_modules/@eslint/eslintrc/",\
+      ["npm:3.1.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@eslint-eslintrc-npm-3.1.0-3837a202e2-10c0.zip/node_modules/@eslint/eslintrc/",\
         "packageDependencies": [\
-          ["@eslint/eslintrc", "npm:3.0.2"],\
+          ["@eslint/eslintrc", "npm:3.1.0"],\
           ["ajv", "npm:6.12.6"],\
           ["debug", "virtual:d9a5f00bfc11d56fd0d391c83d70ceade45ea6b20139b488c916c2225b2c904e8c8722786b03dfb6d06fef38f31a649a4fbdf210a93be455090758ff610f2afb#npm:4.3.4"],\
           ["espree", "npm:10.0.1"],\
@@ -11002,7 +11002,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-flow", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.24.1"],\
           ["@babel/preset-react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.24.1"],\
           ["@babel/template", "npm:7.24.0"],\
-          ["@eslint/eslintrc", "npm:3.0.2"],\
+          ["@eslint/eslintrc", "npm:3.1.0"],\
           ["@mdx-js/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:3.0.1"],\
           ["@psychobolt/default-export", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#workspace:packages/default-export"],\
           ["@rollup/plugin-alias", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.1.0"],\

@@ -70,7 +70,7 @@
     "@babel/preset-flow": "7.24.1",
     "@babel/preset-react": "7.24.1",
     "@babel/template": "7.24.0",
-    "@eslint/eslintrc": "3.0.2",
+    "@eslint/eslintrc": "3.1.0",
     "@mdx-js/react": "3.0.1",
     "@psychobolt/default-export": "workspace:^",
     "@rollup/plugin-alias": "5.1.0",
