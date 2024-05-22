@@ -120,7 +120,7 @@ const RAW_RUNTIME_STATE =
           ["execa", "npm:9.1.0"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.0.0"],\
-          ["glob", "npm:10.3.15"],\
+          ["glob", "npm:10.3.16"],\
           ["globals", "npm:15.3.0"],\
           ["http-server", "npm:14.1.1"],\
           ["is-class", "npm:0.0.9"],\
@@ -11056,7 +11056,7 @@ const RAW_RUNTIME_STATE =
           ["execa", "npm:9.1.0"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.0.0"],\
-          ["glob", "npm:10.3.15"],\
+          ["glob", "npm:10.3.16"],\
           ["globals", "npm:15.3.0"],\
           ["http-server", "npm:14.1.1"],\
           ["is-class", "npm:0.0.9"],\
@@ -22751,12 +22751,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:10.3.15", {\
-        "packageLocation": "../../../../cache/others/berry/cache/glob-npm-10.3.15-501e87a16f-10c0.zip/node_modules/glob/",\
+      ["npm:10.3.16", {\
+        "packageLocation": "../../../../cache/others/berry/cache/glob-npm-10.3.16-9a31392238-10c0.zip/node_modules/glob/",\
         "packageDependencies": [\
-          ["glob", "npm:10.3.15"],\
+          ["glob", "npm:10.3.16"],\
           ["foreground-child", "npm:3.1.1"],\
-          ["jackspeak", "npm:2.3.6"],\
+          ["jackspeak", "npm:3.1.2"],\
           ["minimatch", "npm:9.0.1"],\
           ["minipass", "npm:7.0.4"],\
           ["path-scurry", "npm:1.11.0"]\
@@ -24446,6 +24446,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/jackspeak-npm-2.3.6-42e1233172-10c0.zip/node_modules/jackspeak/",\
         "packageDependencies": [\
           ["jackspeak", "npm:2.3.6"],\
+          ["@isaacs/cliui", "npm:8.0.2"],\
+          ["@pkgjs/parseargs", "npm:0.11.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:3.1.2", {\
+        "packageLocation": "../../../../cache/others/berry/cache/jackspeak-npm-3.1.2-dbb3ed8474-10c0.zip/node_modules/jackspeak/",\
+        "packageDependencies": [\
+          ["jackspeak", "npm:3.1.2"],\
           ["@isaacs/cliui", "npm:8.0.2"],\
           ["@pkgjs/parseargs", "npm:0.11.0"]\
         ],\
