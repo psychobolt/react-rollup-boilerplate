@@ -120,7 +120,7 @@ const RAW_RUNTIME_STATE =
           ["execa", "npm:9.1.0"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.0.0"],\
-          ["glob", "npm:10.3.16"],\
+          ["glob", "npm:10.4.0"],\
           ["globals", "npm:15.3.0"],\
           ["http-server", "npm:14.1.1"],\
           ["is-class", "npm:0.0.9"],\
@@ -11056,7 +11056,7 @@ const RAW_RUNTIME_STATE =
           ["execa", "npm:9.1.0"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.0.0"],\
-          ["glob", "npm:10.3.16"],\
+          ["glob", "npm:10.4.0"],\
           ["globals", "npm:15.3.0"],\
           ["http-server", "npm:14.1.1"],\
           ["is-class", "npm:0.0.9"],\
@@ -22767,15 +22767,15 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:10.3.16", {\
-        "packageLocation": "../../../../cache/others/berry/cache/glob-npm-10.3.16-9a31392238-10c0.zip/node_modules/glob/",\
+      ["npm:10.4.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/glob-npm-10.4.0-f5b31cc800-10c0.zip/node_modules/glob/",\
         "packageDependencies": [\
-          ["glob", "npm:10.3.16"],\
+          ["glob", "npm:10.4.0"],\
           ["foreground-child", "npm:3.1.1"],\
           ["jackspeak", "npm:3.1.2"],\
-          ["minimatch", "npm:9.0.1"],\
-          ["minipass", "npm:7.0.4"],\
-          ["path-scurry", "npm:1.11.0"]\
+          ["minimatch", "npm:9.0.4"],\
+          ["minipass", "npm:7.1.2"],\
+          ["path-scurry", "npm:1.11.1"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -26731,6 +26731,13 @@ const RAW_RUNTIME_STATE =
           ["minipass", "npm:7.0.4"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.1.2", {\
+        "packageLocation": "../../../../cache/others/berry/cache/minipass-npm-7.1.2-3a5327d36d-10c0.zip/node_modules/minipass/",\
+        "packageDependencies": [\
+          ["minipass", "npm:7.1.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["minipass-collect", [\
@@ -27839,10 +27846,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:1.11.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/path-scurry-npm-1.11.0-007c9030ff-10c0.zip/node_modules/path-scurry/",\
+      ["npm:1.11.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/path-scurry-npm-1.11.1-aaf8c339af-10c0.zip/node_modules/path-scurry/",\
         "packageDependencies": [\
-          ["path-scurry", "npm:1.11.0"],\
+          ["path-scurry", "npm:1.11.1"],\
           ["lru-cache", "npm:10.2.0"],\
           ["minipass", "npm:7.0.4"]\
         ],\
