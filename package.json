@@ -134,7 +134,7 @@
     "jest-styled-components": "7.2.0",
     "lodash": "4.17.21",
     "micromatch": "4.0.7",
-    "postcss": "8.4.38",
+    "postcss": "8.4.39",
     "postcss-scss": "4.0.9",
     "prop-types": "15.8.1",
     "raf": "3.4.1",
