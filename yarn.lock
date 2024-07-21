@@ -6714,7 +6714,7 @@ __metadata:
     react-is: "npm:18.3.1"
     react-lazily: "npm:0.9.2"
     require-from-string: "npm:2.0.2"
-    rimraf: "npm:5.0.9"
+    rimraf: "npm:6.0.1"
     rollup: "npm:4.19.0"
     rollup-plugin-flow-entry: "npm:0.3.6"
     rollup-plugin-mjs-entry: "npm:0.1.1"
@@ -15933,7 +15933,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:11.0.0":
+"glob@npm:11.0.0, glob@npm:^11.0.0":
   version: 11.0.0
   resolution: "glob@npm:11.0.0"
   dependencies:
@@ -15949,7 +15949,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^10.0.0, glob@npm:^10.3.7":
+"glob@npm:^10.0.0":
   version: 10.3.10
   resolution: "glob@npm:10.3.10"
   dependencies:
@@ -22287,14 +22287,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:5.0.9":
-  version: 5.0.9
-  resolution: "rimraf@npm:5.0.9"
+"rimraf@npm:6.0.1":
+  version: 6.0.1
+  resolution: "rimraf@npm:6.0.1"
   dependencies:
-    glob: "npm:^10.3.7"
+    glob: "npm:^11.0.0"
+    package-json-from-dist: "npm:^1.0.0"
   bin:
     rimraf: dist/esm/bin.mjs
-  checksum: 10c0/87374682492b9e64de9c6fcbf2c8f209c7a2cd0e9749b3732eef8a62c6f859a9ed996d46f662d9ad5dd38c2c469f8e88de56b6c509026070ee3f06369cac1bc8
+  checksum: 10c0/b30b6b072771f0d1e73b4ca5f37bb2944ee09375be9db5f558fcd3310000d29dfcfa93cf7734d75295ad5a7486dc8e40f63089ced1722a664539ffc0c3ece8c6
   languageName: node
   linkType: hard
 
