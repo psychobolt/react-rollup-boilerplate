@@ -158,7 +158,7 @@ const RAW_RUNTIME_STATE =
           ["stylelint-processor-styled-components", "https://github.com/psychobolt/stylelint-processor-styled-components.git#commit=a8f7cb15b42925a961ffd8af7c6e2ce13ffb3cd5"],\
           ["symlink-dir", "npm:6.0.1"],\
           ["webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.93.0"],\
-          ["webpack-merge", "npm:5.10.0"],\
+          ["webpack-merge", "npm:6.0.1"],\
           ["yargs", "npm:17.7.2"]\
         ],\
         "linkType": "SOFT"\
@@ -11254,7 +11254,7 @@ const RAW_RUNTIME_STATE =
           ["stylelint-processor-styled-components", "https://github.com/psychobolt/stylelint-processor-styled-components.git#commit=a8f7cb15b42925a961ffd8af7c6e2ce13ffb3cd5"],\
           ["symlink-dir", "npm:6.0.1"],\
           ["webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.93.0"],\
-          ["webpack-merge", "npm:5.10.0"],\
+          ["webpack-merge", "npm:6.0.1"],\
           ["yargs", "npm:17.7.2"]\
         ],\
         "linkType": "SOFT"\
@@ -33646,10 +33646,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["webpack-merge", [\
-      ["npm:5.10.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/webpack-merge-npm-5.10.0-c2d9fd1f83-10c0.zip/node_modules/webpack-merge/",\
+      ["npm:6.0.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/webpack-merge-npm-6.0.1-7db02d1a02-10c0.zip/node_modules/webpack-merge/",\
         "packageDependencies": [\
-          ["webpack-merge", "npm:5.10.0"],\
+          ["webpack-merge", "npm:6.0.1"],\
           ["clone-deep", "npm:4.0.1"],\
           ["flat", "npm:5.0.2"],\
           ["wildcard", "npm:2.0.1"]\
