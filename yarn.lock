@@ -6920,8 +6920,8 @@ __metadata:
     "@storybook/test": "npm:7.6.20"
     "@storybook/testing-library": "npm:0.2.2"
     "@testing-library/react": "npm:15.0.7"
-    "@yarnpkg/core": "npm:4.1.1"
-    "@yarnpkg/sdks": "npm:3.1.3"
+    "@yarnpkg/core": "npm:4.1.2"
+    "@yarnpkg/sdks": "npm:3.2.0"
     app-root-path: "npm:3.1.0"
     babel-jest: "npm:29.7.0"
     babel-loader: "npm:9.1.3"
@@ -10614,9 +10614,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:4.1.1":
-  version: 4.1.1
-  resolution: "@yarnpkg/core@npm:4.1.1"
+"@yarnpkg/core@npm:4.1.2, @yarnpkg/core@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "@yarnpkg/core@npm:4.1.2"
   dependencies:
     "@arcanis/slice-ansi": "npm:^1.1.1"
     "@types/semver": "npm:^7.1.0"
@@ -10627,7 +10627,7 @@ __metadata:
     "@yarnpkg/shell": "npm:^4.0.2"
     camelcase: "npm:^5.3.1"
     chalk: "npm:^3.0.0"
-    ci-info: "npm:^3.2.0"
+    ci-info: "npm:^4.0.0"
     clipanion: "npm:^4.0.0-rc.2"
     cross-spawn: "npm:7.0.3"
     diff: "npm:^5.1.0"
@@ -10644,41 +10644,7 @@ __metadata:
     treeify: "npm:^1.1.0"
     tslib: "npm:^2.4.0"
     tunnel: "npm:^0.0.6"
-  checksum: 10c0/7db63b4144b397a18ea92a468aed3338b3feabd8b812541a37de9d6ff380b65fdfcff926aa5a697430280ba31937c794fadd662f5523437e6098230516a27fdd
-  languageName: node
-  linkType: hard
-
-"@yarnpkg/core@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "@yarnpkg/core@npm:4.1.0"
-  dependencies:
-    "@arcanis/slice-ansi": "npm:^1.1.1"
-    "@types/semver": "npm:^7.1.0"
-    "@types/treeify": "npm:^1.0.0"
-    "@yarnpkg/fslib": "npm:^3.1.0"
-    "@yarnpkg/libzip": "npm:^3.1.0"
-    "@yarnpkg/parsers": "npm:^3.0.2"
-    "@yarnpkg/shell": "npm:^4.0.2"
-    camelcase: "npm:^5.3.1"
-    chalk: "npm:^3.0.0"
-    ci-info: "npm:^3.2.0"
-    clipanion: "npm:^4.0.0-rc.2"
-    cross-spawn: "npm:7.0.3"
-    diff: "npm:^5.1.0"
-    dotenv: "npm:^16.3.1"
-    fast-glob: "npm:^3.2.2"
-    got: "npm:^11.7.0"
-    lodash: "npm:^4.17.15"
-    micromatch: "npm:^4.0.2"
-    p-limit: "npm:^2.2.0"
-    semver: "npm:^7.1.2"
-    strip-ansi: "npm:^6.0.0"
-    tar: "npm:^6.0.5"
-    tinylogic: "npm:^2.0.0"
-    treeify: "npm:^1.1.0"
-    tslib: "npm:^2.4.0"
-    tunnel: "npm:^0.0.6"
-  checksum: 10c0/0c56484c162a33e98db67528864917d8b03529af8a3abc70b33e21841573e8747dd0c779517b0bc09b7f049857daaaabe3e5fece197554fdf1d4c21c60828f3d
+  checksum: 10c0/c92941a58fa492b169ba6c4f20f49212306b0233d1d721533e40c78f7056b8738f00fd7142807e7418388d2c91f15b0f463ab033f48dacecaab75b7993c743c7
   languageName: node
   linkType: hard
 
@@ -10754,11 +10720,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/sdks@npm:3.1.3":
-  version: 3.1.3
-  resolution: "@yarnpkg/sdks@npm:3.1.3"
+"@yarnpkg/sdks@npm:3.2.0":
+  version: 3.2.0
+  resolution: "@yarnpkg/sdks@npm:3.2.0"
   dependencies:
-    "@yarnpkg/core": "npm:^4.1.0"
+    "@yarnpkg/core": "npm:^4.1.2"
     "@yarnpkg/fslib": "npm:^3.1.0"
     "@yarnpkg/parsers": "npm:^3.0.2"
     chalk: "npm:^3.0.0"
@@ -10768,7 +10734,7 @@ __metadata:
     tslib: "npm:^2.4.0"
   bin:
     sdks: ./lib/cli.js
-  checksum: 10c0/3747fbd088c8203b5075ac60eec2566d046922de2ef5029c3af941a50f04703772501ec92f63665441e57af2c49baca215fb5409063412ce0f7bf440aced32d0
+  checksum: 10c0/f6d8f4844d036eedc7e994c5e0b1fbd33caa88a971fc2f8dec20870d1dbbde784d9d24388b40efe505b08d4d1c7fadede06ef82529b4a860eeb2a423459f962c
   languageName: node
   linkType: hard
 
@@ -12576,6 +12542,13 @@ __metadata:
   version: 3.3.0
   resolution: "ci-info@npm:3.3.0"
   checksum: 10c0/f23ec1b3c4717abb5fb9934fe0ab6db621cf767abd3832f07af2803e4809d21908d8b87321de4b79861dfe8105c08dba1803a9fb6346d5586b0c57db2bfbce3b
+  languageName: node
+  linkType: hard
+
+"ci-info@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "ci-info@npm:4.0.0"
+  checksum: 10c0/ecc003e5b60580bd081d83dd61d398ddb8607537f916313e40af4667f9c92a1243bd8e8a591a5aa78e418afec245dbe8e90a0e26e39ca0825129a99b978dd3f9
   languageName: node
   linkType: hard
 
