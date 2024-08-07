@@ -93,7 +93,7 @@
     "@storybook/react-webpack5": "7.6.20",
     "@storybook/test": "7.6.20",
     "@storybook/testing-library": "0.2.2",
-    "@testing-library/react": "15.0.7",
+    "@testing-library/react": "16.0.0",
     "@yarnpkg/core": "4.1.2",
     "@yarnpkg/sdks": "3.2.0",
     "app-root-path": "3.1.0",
