@@ -133,7 +133,7 @@
     "jest-specific-snapshot": "8.0.0",
     "jest-styled-components": "7.2.0",
     "lodash": "4.17.21",
-    "micromatch": "4.0.7",
+    "micromatch": "4.0.8",
     "postcss": "8.4.41",
     "postcss-scss": "4.0.9",
     "prop-types": "15.8.1",
