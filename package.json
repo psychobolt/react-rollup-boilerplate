@@ -175,7 +175,7 @@
       "packages/*"
     ]
   },
-  "packageManager": "yarn@4.4.0",
+  "packageManager": "yarn@4.4.1",
   "resolutions": {
     "@storybook/core-webpack@npm:7.6.17": "patch:@storybook/core-webpack@npm%3A7.6.17#~/.yarn/patches/@storybook-core-webpack-npm-7.6.17-4f0f3e4ec4.patch"
   }
