@@ -42,7 +42,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@babel/cli", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.24.8"],\
+          ["@babel/cli", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.25.6"],\
           ["@babel/core", "npm:7.25.2"],\
           ["@babel/eslint-parser", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.25.1"],\
           ["@babel/helper-compilation-targets", "npm:7.25.2"],\
@@ -236,22 +236,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@babel/cli", [\
-      ["npm:7.24.8", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@babel-cli-npm-7.24.8-c016c7de12-10c0.zip/node_modules/@babel/cli/",\
+      ["npm:7.25.6", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@babel-cli-npm-7.25.6-dece2fe590-10c0.zip/node_modules/@babel/cli/",\
         "packageDependencies": [\
-          ["@babel/cli", "npm:7.24.8"]\
+          ["@babel/cli", "npm:7.25.6"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.24.8", {\
-        "packageLocation": "./.yarn/__virtual__/@babel-cli-virtual-f6da47bd37/5/cache/others/berry/cache/@babel-cli-npm-7.24.8-c016c7de12-10c0.zip/node_modules/@babel/cli/",\
+      ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.25.6", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-cli-virtual-b0f1237e43/5/cache/others/berry/cache/@babel-cli-npm-7.25.6-dece2fe590-10c0.zip/node_modules/@babel/cli/",\
         "packageDependencies": [\
-          ["@babel/cli", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.24.8"],\
+          ["@babel/cli", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.25.6"],\
           ["@babel/core", "npm:7.25.2"],\
           ["@jridgewell/trace-mapping", "npm:0.3.25"],\
           ["@nicolo-ribaudo/chokidar-2", "npm:2.1.8-no-fsevents.3"],\
           ["@types/babel__core", null],\
-          ["chokidar", "npm:3.5.3"],\
+          ["chokidar", "npm:3.6.0"],\
           ["commander", "npm:6.2.1"],\
           ["convert-source-map", "npm:2.0.0"],\
           ["fs-readdir-recursive", "npm:1.1.0"],\
@@ -11589,7 +11589,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@psychobolt/react-rollup-boilerplate", "workspace:."],\
-          ["@babel/cli", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.24.8"],\
+          ["@babel/cli", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.25.6"],\
           ["@babel/core", "npm:7.25.2"],\
           ["@babel/eslint-parser", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.25.1"],\
           ["@babel/helper-compilation-targets", "npm:7.25.2"],\
@@ -19242,21 +19242,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["chokidar", [\
-      ["npm:3.5.3", {\
-        "packageLocation": "../../../../cache/others/berry/cache/chokidar-npm-3.5.3-c5f9b0a56a-10c0.zip/node_modules/chokidar/",\
-        "packageDependencies": [\
-          ["chokidar", "npm:3.5.3"],\
-          ["anymatch", "npm:3.1.2"],\
-          ["braces", "npm:3.0.2"],\
-          ["fsevents", "patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
-          ["glob-parent", "npm:5.1.2"],\
-          ["is-binary-path", "npm:2.1.0"],\
-          ["is-glob", "npm:4.0.3"],\
-          ["normalize-path", "npm:3.0.0"],\
-          ["readdirp", "npm:3.6.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:3.6.0", {\
         "packageLocation": "../../../../cache/others/berry/cache/chokidar-npm-3.6.0-3c413a828f-10c0.zip/node_modules/chokidar/",\
         "packageDependencies": [\
