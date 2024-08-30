@@ -155,7 +155,7 @@
     "source-map-loader": "5.0.0",
     "storybook": "7.6.20",
     "style-loader": "4.0.0",
-    "styled-components": "6.1.12",
+    "styled-components": "6.1.13",
     "stylelint": "14.16.1",
     "stylelint-config-standard-scss": "5.0.0",
     "stylelint-config-styled-components": "0.1.1",
