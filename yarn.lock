@@ -7040,7 +7040,7 @@ __metadata:
     eslint-config-react-app: "npm:7.0.1"
     eslint-import-resolver-alias: "npm:1.1.2"
     eslint-import-resolver-node: "npm:0.3.9"
-    eslint-import-resolver-webpack: "npm:0.13.8"
+    eslint-import-resolver-webpack: "npm:0.13.9"
     eslint-plugin-flowtype: "npm:8.0.3"
     eslint-plugin-import: "npm:2.29.1"
     eslint-plugin-jest: "npm:28.8.2"
@@ -11376,18 +11376,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array.prototype.find@npm:^2.2.2":
-  version: 2.2.2
-  resolution: "array.prototype.find@npm:2.2.2"
-  dependencies:
-    call-bind: "npm:^1.0.2"
-    define-properties: "npm:^1.2.0"
-    es-abstract: "npm:^1.22.1"
-    es-shim-unscopables: "npm:^1.0.0"
-  checksum: 10c0/5008d3e6089f7047db1886d0dc2d75bdd342b886528dbca3c67920f18fd435dbc878b9c55243c96e18423d139d5ddb08cdbc8f95bd89ed4f2f53c63260eb444a
-  languageName: node
-  linkType: hard
-
 "array.prototype.findlast@npm:^1.2.5":
   version: 1.2.5
   resolution: "array.prototype.findlast@npm:1.2.5"
@@ -14759,11 +14747,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-webpack@npm:0.13.8":
-  version: 0.13.8
-  resolution: "eslint-import-resolver-webpack@npm:0.13.8"
+"eslint-import-resolver-webpack@npm:0.13.9":
+  version: 0.13.9
+  resolution: "eslint-import-resolver-webpack@npm:0.13.9"
   dependencies:
-    array.prototype.find: "npm:^2.2.2"
     debug: "npm:^3.2.7"
     enhanced-resolve: "npm:^0.9.1"
     find-root: "npm:^1.1.0"
@@ -14777,7 +14764,7 @@ __metadata:
   peerDependencies:
     eslint-plugin-import: ">=1.4.0"
     webpack: ">=1.11.0"
-  checksum: 10c0/b1f07ab1d46f9de66a106c77f9d32fc4b3261a9ba4079a4c0a2c3e49ab6745f452abb97d343cc82e67812b29f5688859e66617405fd8c402562e51f7eb09af07
+  checksum: 10c0/9a56453961920eec478d71e2b0e94eb388ea5ee092aaa5044b33eb10c7f8a82aaf4d9b553c958afaa1a1f42e1428d843bcaa83ca59ea825cf593eb555c30e853
   languageName: node
   linkType: hard
 
