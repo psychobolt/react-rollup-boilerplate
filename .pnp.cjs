@@ -101,7 +101,7 @@ const RAW_RUNTIME_STATE =
           ["babel-plugin-module-resolver", "npm:5.0.2"],\
           ["babel-plugin-styled-components", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:2.1.4"],\
           ["cash-true", "npm:0.0.2"],\
-          ["concurrently", "npm:8.2.2"],\
+          ["concurrently", "npm:9.0.0"],\
           ["cross-env", "npm:7.0.3"],\
           ["css-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:6.11.0"],\
           ["eslint", "npm:8.57.0"],\
@@ -9477,14 +9477,6 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:7.22.5", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@babel-runtime-npm-7.22.5-0a6711d04c-10c0.zip/node_modules/@babel/runtime/",\
-        "packageDependencies": [\
-          ["@babel/runtime", "npm:7.22.5"],\
-          ["regenerator-runtime", "npm:0.13.11"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:7.24.0", {\
         "packageLocation": "../../../../cache/others/berry/cache/@babel-runtime-npm-7.24.0-7eb1dd11a2-10c0.zip/node_modules/@babel/runtime/",\
         "packageDependencies": [\
@@ -11648,7 +11640,7 @@ const RAW_RUNTIME_STATE =
           ["babel-plugin-module-resolver", "npm:5.0.2"],\
           ["babel-plugin-styled-components", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:2.1.4"],\
           ["cash-true", "npm:0.0.2"],\
-          ["concurrently", "npm:8.2.2"],\
+          ["concurrently", "npm:9.0.0"],\
           ["cross-env", "npm:7.0.3"],\
           ["css-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:6.11.0"],\
           ["eslint", "npm:8.57.0"],\
@@ -19666,16 +19658,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["concurrently", [\
-      ["npm:8.2.2", {\
-        "packageLocation": "../../../../cache/others/berry/cache/concurrently-npm-8.2.2-8ae42f052b-10c0.zip/node_modules/concurrently/",\
+      ["npm:9.0.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/concurrently-npm-9.0.0-bf1ca28d11-10c0.zip/node_modules/concurrently/",\
         "packageDependencies": [\
-          ["concurrently", "npm:8.2.2"],\
+          ["concurrently", "npm:9.0.0"],\
           ["chalk", "npm:4.1.2"],\
-          ["date-fns", "npm:2.30.0"],\
           ["lodash", "npm:4.17.21"],\
           ["rxjs", "npm:7.8.1"],\
           ["shell-quote", "npm:1.8.1"],\
-          ["spawn-command", "npm:0.0.2"],\
           ["supports-color", "npm:8.1.1"],\
           ["tree-kill", "npm:1.2.2"],\
           ["yargs", "npm:17.7.2"]\
@@ -20187,16 +20177,6 @@ const RAW_RUNTIME_STATE =
           ["call-bind", "npm:1.0.7"],\
           ["es-errors", "npm:1.3.0"],\
           ["is-data-view", "npm:1.0.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["date-fns", [\
-      ["npm:2.30.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/date-fns-npm-2.30.0-895c790e0f-10c0.zip/node_modules/date-fns/",\
-        "packageDependencies": [\
-          ["date-fns", "npm:2.30.0"],\
-          ["@babel/runtime", "npm:7.22.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -30205,13 +30185,6 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.13.11", {\
-        "packageLocation": "../../../../cache/others/berry/cache/regenerator-runtime-npm-0.13.11-90bf536060-10c0.zip/node_modules/regenerator-runtime/",\
-        "packageDependencies": [\
-          ["regenerator-runtime", "npm:0.13.11"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.13.9", {\
         "packageLocation": "../../../../cache/others/berry/cache/regenerator-runtime-npm-0.13.9-6d02340eec-10c0.zip/node_modules/regenerator-runtime/",\
         "packageDependencies": [\
@@ -31437,15 +31410,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/space-separated-tokens-npm-1.1.5-2352c83473-10c0.zip/node_modules/space-separated-tokens/",\
         "packageDependencies": [\
           ["space-separated-tokens", "npm:1.1.5"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["spawn-command", [\
-      ["npm:0.0.2", {\
-        "packageLocation": "../../../../cache/others/berry/cache/spawn-command-npm-0.0.2-014d4d5d9f-10c0.zip/node_modules/spawn-command/",\
-        "packageDependencies": [\
-          ["spawn-command", "npm:0.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
