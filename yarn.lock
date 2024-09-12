@@ -7036,7 +7036,7 @@ __metadata:
     eslint-plugin-import: "npm:2.30.0"
     eslint-plugin-jest: "npm:28.8.3"
     eslint-plugin-jsx-a11y: "npm:6.10.0"
-    eslint-plugin-react: "npm:7.35.2"
+    eslint-plugin-react: "npm:7.36.0"
     eslint-plugin-react-hooks: "npm:4.6.2"
     eslint-plugin-storybook: "npm:0.8.0"
     execa: "npm:9.3.1"
@@ -14909,9 +14909,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:7.35.2":
-  version: 7.35.2
-  resolution: "eslint-plugin-react@npm:7.35.2"
+"eslint-plugin-react@npm:7.36.0":
+  version: 7.36.0
+  resolution: "eslint-plugin-react@npm:7.36.0"
   dependencies:
     array-includes: "npm:^3.1.8"
     array.prototype.findlast: "npm:^1.2.5"
@@ -14933,7 +14933,7 @@ __metadata:
     string.prototype.repeat: "npm:^1.0.0"
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
-  checksum: 10c0/5f891f5a77e902a0ca8d10b23d0b800e90a09400187febe5986c5078d6277baa4b974d6acdbba25baae065dbcf12eb9241b5f5782527d0780314c2ee5006a8af
+  checksum: 10c0/001e634fee12afca8e1f15a1b6c2e5e9a2db137a4f59f21c1ad2e4b3b7ba708f1be92a559c5d6f9e7e2e0dd0ca709e3d91ecc0e96442cc1e200d2a4b1725423c
   languageName: node
   linkType: hard
 
