@@ -117,7 +117,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.36.1"],\
           ["eslint-plugin-react-hooks", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:4.6.2"],\
           ["eslint-plugin-storybook", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.8.0"],\
-          ["execa", "npm:9.3.1"],\
+          ["execa", "npm:9.4.0"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.0.0"],\
           ["glob", "npm:11.0.0"],\
@@ -11656,7 +11656,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.36.1"],\
           ["eslint-plugin-react-hooks", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:4.6.2"],\
           ["eslint-plugin-storybook", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.8.0"],\
-          ["execa", "npm:9.3.1"],\
+          ["execa", "npm:9.4.0"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.0.0"],\
           ["glob", "npm:11.0.0"],\
@@ -22504,10 +22504,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:9.3.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/execa-npm-9.3.1-37e531909d-10c0.zip/node_modules/execa/",\
+      ["npm:9.4.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/execa-npm-9.4.0-2ce9210b2d-10c0.zip/node_modules/execa/",\
         "packageDependencies": [\
-          ["execa", "npm:9.3.1"],\
+          ["execa", "npm:9.4.0"],\
           ["@sindresorhus/merge-streams", "npm:4.0.0"],\
           ["cross-spawn", "npm:7.0.3"],\
           ["figures", "npm:6.1.0"],\
@@ -22515,7 +22515,7 @@ const RAW_RUNTIME_STATE =
           ["human-signals", "npm:8.0.0"],\
           ["is-plain-obj", "npm:4.1.0"],\
           ["is-stream", "npm:4.0.1"],\
-          ["npm-run-path", "npm:5.3.0"],\
+          ["npm-run-path", "npm:6.0.0"],\
           ["pretty-ms", "npm:9.0.0"],\
           ["signal-exit", "npm:4.1.0"],\
           ["strip-final-newline", "npm:4.0.0"],\
@@ -27987,11 +27987,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:5.3.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/npm-run-path-npm-5.3.0-193efca236-10c0.zip/node_modules/npm-run-path/",\
+      ["npm:6.0.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/npm-run-path-npm-6.0.0-606e0c0261-10c0.zip/node_modules/npm-run-path/",\
         "packageDependencies": [\
-          ["npm-run-path", "npm:5.3.0"],\
-          ["path-key", "npm:4.0.0"]\
+          ["npm-run-path", "npm:6.0.0"],\
+          ["path-key", "npm:4.0.0"],\
+          ["unicorn-magic", "npm:0.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -33288,6 +33289,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/unicode-property-aliases-ecmascript-npm-2.0.0-1636cb7768-10c0.zip/node_modules/unicode-property-aliases-ecmascript/",\
         "packageDependencies": [\
           ["unicode-property-aliases-ecmascript", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["unicorn-magic", [\
+      ["npm:0.3.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/unicorn-magic-npm-0.3.0-4d15f393a4-10c0.zip/node_modules/unicorn-magic/",\
+        "packageDependencies": [\
+          ["unicorn-magic", "npm:0.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
