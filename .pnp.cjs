@@ -145,7 +145,7 @@ const RAW_RUNTIME_STATE =
           ["rollup-plugin-flow-entry", "npm:0.3.6"],\
           ["rollup-plugin-mjs-entry", "npm:0.1.1"],\
           ["rollup-plugin-terser", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.0.2"],\
-          ["sass", "npm:1.78.0"],\
+          ["sass", "npm:1.79.1"],\
           ["sass-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:16.0.1"],\
           ["slash", "npm:5.1.0"],\
           ["source-map-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.0.0"],\
@@ -11684,7 +11684,7 @@ const RAW_RUNTIME_STATE =
           ["rollup-plugin-flow-entry", "npm:0.3.6"],\
           ["rollup-plugin-mjs-entry", "npm:0.1.1"],\
           ["rollup-plugin-terser", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.0.2"],\
-          ["sass", "npm:1.78.0"],\
+          ["sass", "npm:1.79.1"],\
           ["sass-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:16.0.1"],\
           ["slash", "npm:5.1.0"],\
           ["source-map-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.0.0"],\
@@ -19271,6 +19271,14 @@ const RAW_RUNTIME_STATE =
           ["is-glob", "npm:4.0.3"],\
           ["normalize-path", "npm:3.0.0"],\
           ["readdirp", "npm:3.6.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:4.0.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/chokidar-npm-4.0.0-39d260a09b-10c0.zip/node_modules/chokidar/",\
+        "packageDependencies": [\
+          ["chokidar", "npm:4.0.0"],\
+          ["readdirp", "npm:4.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -30141,6 +30149,13 @@ const RAW_RUNTIME_STATE =
           ["picomatch", "npm:2.3.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:4.0.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/readdirp-npm-4.0.1-17b55c8032-10c0.zip/node_modules/readdirp/",\
+        "packageDependencies": [\
+          ["readdirp", "npm:4.0.1"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["readline2", [\
@@ -30890,11 +30905,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["sass", [\
-      ["npm:1.78.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/sass-npm-1.78.0-4aa9d2730a-10c0.zip/node_modules/sass/",\
+      ["npm:1.79.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/sass-npm-1.79.1-9387e978e7-10c0.zip/node_modules/sass/",\
         "packageDependencies": [\
-          ["sass", "npm:1.78.0"],\
-          ["chokidar", "npm:3.6.0"],\
+          ["sass", "npm:1.79.1"],\
+          ["chokidar", "npm:4.0.0"],\
           ["immutable", "npm:4.3.5"],\
           ["source-map-js", "npm:1.0.2"]\
         ],\
@@ -30921,7 +30936,7 @@ const RAW_RUNTIME_STATE =
           ["@types/webpack", null],\
           ["neo-async", "npm:2.6.2"],\
           ["node-sass", null],\
-          ["sass", "npm:1.78.0"],\
+          ["sass", "npm:1.79.1"],\
           ["sass-embedded", null],\
           ["webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.94.0"]\
         ],\
