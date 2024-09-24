@@ -75,7 +75,7 @@
     "@psychobolt/default-export": "workspace:^",
     "@rollup/plugin-alias": "5.1.1",
     "@rollup/plugin-babel": "6.0.4",
-    "@rollup/plugin-commonjs": "26.0.3",
+    "@rollup/plugin-commonjs": "28.0.0",
     "@rollup/plugin-node-resolve": "15.3.0",
     "@rollup/plugin-replace": "5.0.7",
     "@storybook/addon-actions": "7.6.20",
