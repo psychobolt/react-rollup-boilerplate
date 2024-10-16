@@ -117,7 +117,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.37.1"],\
           ["eslint-plugin-react-hooks", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.0.0"],\
           ["eslint-plugin-storybook", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.9.0"],\
-          ["execa", "npm:9.4.0"],\
+          ["execa", "npm:9.4.1"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.0.0"],\
           ["glob", "npm:11.0.0"],\
@@ -11074,7 +11074,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.37.1"],\
           ["eslint-plugin-react-hooks", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.0.0"],\
           ["eslint-plugin-storybook", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.9.0"],\
-          ["execa", "npm:9.4.0"],\
+          ["execa", "npm:9.4.1"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.0.0"],\
           ["glob", "npm:11.0.0"],\
@@ -21929,10 +21929,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:9.4.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/execa-npm-9.4.0-2ce9210b2d-10c0.zip/node_modules/execa/",\
+      ["npm:9.4.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/execa-npm-9.4.1-0943deccc5-10c0.zip/node_modules/execa/",\
         "packageDependencies": [\
-          ["execa", "npm:9.4.0"],\
+          ["execa", "npm:9.4.1"],\
           ["@sindresorhus/merge-streams", "npm:4.0.0"],\
           ["cross-spawn", "npm:7.0.3"],\
           ["figures", "npm:6.1.0"],\
