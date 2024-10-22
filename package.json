@@ -118,7 +118,7 @@
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-jest": "28.8.3",
     "eslint-plugin-jsx-a11y": "6.10.1",
-    "eslint-plugin-react": "7.37.1",
+    "eslint-plugin-react": "7.37.2",
     "eslint-plugin-react-hooks": "5.0.0",
     "eslint-plugin-storybook": "0.10.1",
     "execa": "9.4.1",
