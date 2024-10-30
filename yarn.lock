@@ -6746,7 +6746,7 @@ __metadata:
     rollup-plugin-flow-entry: "npm:0.3.6"
     rollup-plugin-mjs-entry: "npm:0.1.1"
     rollup-plugin-terser: "npm:7.0.2"
-    sass: "npm:1.80.4"
+    sass: "npm:1.80.5"
     sass-loader: "npm:16.0.2"
     slash: "npm:5.1.0"
     source-map-loader: "npm:5.0.0"
@@ -22633,9 +22633,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.80.4":
-  version: 1.80.4
-  resolution: "sass@npm:1.80.4"
+"sass@npm:1.80.5":
+  version: 1.80.5
+  resolution: "sass@npm:1.80.5"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^4.0.0"
@@ -22643,7 +22643,7 @@ __metadata:
     source-map-js: "npm:>=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 10c0/58ca0f2d10720cde6621ee62f4bdbb537ea2ac572c565d5f02309f8271a5e1e880ad8c163b933e52b22b3dc0550973fb5a6033a500248e6a0d89dd050c1743cf
+  checksum: 10c0/d592e57c037315f4c5976af3d37ce4c7758b1b4e89d064455d6992829ea59888c71b9dbc86f7fc8dca87ac98ebc9cece10e5c8fc5509bf192db81712a34fd579
   languageName: node
   linkType: hard
 
