@@ -125,7 +125,7 @@
     "flow-bin": "0.206.0",
     "flow-typed": "4.0.0",
     "glob": "11.0.0",
-    "globals": "15.11.0",
+    "globals": "15.12.0",
     "http-server": "14.1.1",
     "is-class": "0.0.9",
     "jest": "27.5.1",
