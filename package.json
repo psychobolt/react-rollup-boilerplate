@@ -94,7 +94,7 @@
     "@storybook/test": "7.6.20",
     "@storybook/testing-library": "0.2.2",
     "@testing-library/react": "15.0.7",
-    "@yarnpkg/core": "4.1.4",
+    "@yarnpkg/core": "4.1.6",
     "@yarnpkg/sdks": "3.2.0",
     "app-root-path": "3.1.0",
     "babel-jest": "29.7.0",
@@ -175,7 +175,7 @@
       "packages/*"
     ]
   },
-  "packageManager": "yarn@4.5.1",
+  "packageManager": "yarn@4.5.3",
   "resolutions": {
     "@storybook/core-webpack@npm:7.6.17": "patch:@storybook/core-webpack@npm%3A7.6.17#~/.yarn/patches/@storybook-core-webpack-npm-7.6.17-4f0f3e4ec4.patch"
   }

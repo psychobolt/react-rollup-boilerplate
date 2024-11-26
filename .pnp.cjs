@@ -90,7 +90,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/test", "npm:7.6.20"],\
           ["@storybook/testing-library", "npm:0.2.2"],\
           ["@testing-library/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:15.0.7"],\
-          ["@yarnpkg/core", "npm:4.1.4"],\
+          ["@yarnpkg/core", "npm:4.1.6"],\
           ["@yarnpkg/sdks", "npm:3.2.0"],\
           ["app-root-path", "npm:3.1.0"],\
           ["babel-jest", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:29.7.0"],\
@@ -11113,7 +11113,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/test", "npm:7.6.20"],\
           ["@storybook/testing-library", "npm:0.2.2"],\
           ["@testing-library/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:15.0.7"],\
-          ["@yarnpkg/core", "npm:4.1.4"],\
+          ["@yarnpkg/core", "npm:4.1.6"],\
           ["@yarnpkg/sdks", "npm:3.2.0"],\
           ["app-root-path", "npm:3.1.0"],\
           ["babel-jest", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:29.7.0"],\
@@ -16304,13 +16304,13 @@ const RAW_RUNTIME_STATE =
           ["@types/semver", "npm:7.3.9"],\
           ["@types/treeify", "npm:1.0.0"],\
           ["@yarnpkg/fslib", "npm:3.1.0"],\
-          ["@yarnpkg/libzip", "virtual:0619ce7bafc4e34bfd3a946a604c22c4102935424d79bef2bafa9aacd657d47821c43fd52c8011c78c165122ff8c04e2f2c235f4cfa8609e09bab7356cf1f7bc#npm:3.1.0"],\
+          ["@yarnpkg/libzip", "virtual:eb1af4e935c44961200e2fbd90f764021c5ee1503944ba311cc853ae04dda2f83d4528f4470ed93e9b377f611ca23b14f87abf92b2421b68b87276a95e34ad24#npm:3.1.0"],\
           ["@yarnpkg/parsers", "npm:3.0.2"],\
           ["@yarnpkg/shell", "npm:4.0.2"],\
           ["camelcase", "npm:5.3.1"],\
           ["chalk", "npm:3.0.0"],\
           ["ci-info", "npm:4.0.0"],\
-          ["clipanion", "virtual:aef3630ccb920f27e72708392ff7fdef790d8b9c4716c04af21d6dfd50716a18ccca731012940d90b405f4d79eb1b017d2b7c8ffa8293485374613021748e40e#npm:4.0.0-rc.3"],\
+          ["clipanion", "virtual:e74e0c7face772469c5d9d70719bbd83a0b053c4a74b651bfc2a4f7de3d205468e1258219594675d4ae727005789cab9cdeba038300276cac6c939326b4ca52c#npm:4.0.0-rc.3"],\
           ["cross-spawn", "npm:7.0.3"],\
           ["diff", "npm:5.1.0"],\
           ["dotenv", "npm:16.4.5"],\
@@ -16329,21 +16329,21 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:4.1.4", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@yarnpkg-core-npm-4.1.4-0619ce7baf-10c0.zip/node_modules/@yarnpkg/core/",\
+      ["npm:4.1.6", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@yarnpkg-core-npm-4.1.6-9a4fedf5cf-10c0.zip/node_modules/@yarnpkg/core/",\
         "packageDependencies": [\
-          ["@yarnpkg/core", "npm:4.1.4"],\
+          ["@yarnpkg/core", "npm:4.1.6"],\
           ["@arcanis/slice-ansi", "npm:1.1.1"],\
           ["@types/semver", "npm:7.3.9"],\
           ["@types/treeify", "npm:1.0.0"],\
-          ["@yarnpkg/fslib", "npm:3.1.0"],\
-          ["@yarnpkg/libzip", "virtual:0619ce7bafc4e34bfd3a946a604c22c4102935424d79bef2bafa9aacd657d47821c43fd52c8011c78c165122ff8c04e2f2c235f4cfa8609e09bab7356cf1f7bc#npm:3.1.0"],\
+          ["@yarnpkg/fslib", "npm:3.1.1"],\
+          ["@yarnpkg/libzip", "virtual:9a4fedf5cfa52d65d4531d1193ebb3740286722fac9cb6b579c5c716520478d5994f256b21e32705033554e0a0fcbeaf703fbcff19bba1d97fe7a3b456f4a066#npm:3.1.0"],\
           ["@yarnpkg/parsers", "npm:3.0.2"],\
-          ["@yarnpkg/shell", "npm:4.1.0"],\
+          ["@yarnpkg/shell", "npm:4.1.1"],\
           ["camelcase", "npm:5.3.1"],\
           ["chalk", "npm:3.0.0"],\
           ["ci-info", "npm:4.0.0"],\
-          ["clipanion", "virtual:aef3630ccb920f27e72708392ff7fdef790d8b9c4716c04af21d6dfd50716a18ccca731012940d90b405f4d79eb1b017d2b7c8ffa8293485374613021748e40e#npm:4.0.0-rc.3"],\
+          ["clipanion", "virtual:e74e0c7face772469c5d9d70719bbd83a0b053c4a74b651bfc2a4f7de3d205468e1258219594675d4ae727005789cab9cdeba038300276cac6c939326b4ca52c#npm:4.0.0-rc.3"],\
           ["cross-spawn", "npm:7.0.3"],\
           ["diff", "npm:5.1.0"],\
           ["dotenv", "npm:16.4.5"],\
@@ -16411,6 +16411,14 @@ const RAW_RUNTIME_STATE =
           ["tslib", "npm:2.6.2"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:3.1.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@yarnpkg-fslib-npm-3.1.1-dfd6328a15-10c0.zip/node_modules/@yarnpkg/fslib/",\
+        "packageDependencies": [\
+          ["@yarnpkg/fslib", "npm:3.1.1"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@yarnpkg/libzip", [\
@@ -16430,10 +16438,25 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:0619ce7bafc4e34bfd3a946a604c22c4102935424d79bef2bafa9aacd657d47821c43fd52c8011c78c165122ff8c04e2f2c235f4cfa8609e09bab7356cf1f7bc#npm:3.1.0", {\
-        "packageLocation": "./.yarn/__virtual__/@yarnpkg-libzip-virtual-9e816ee0b3/5/cache/others/berry/cache/@yarnpkg-libzip-npm-3.1.0-73edb40bfc-10c0.zip/node_modules/@yarnpkg/libzip/",\
+      ["virtual:9a4fedf5cfa52d65d4531d1193ebb3740286722fac9cb6b579c5c716520478d5994f256b21e32705033554e0a0fcbeaf703fbcff19bba1d97fe7a3b456f4a066#npm:3.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/@yarnpkg-libzip-virtual-bd8a773c0b/5/cache/others/berry/cache/@yarnpkg-libzip-npm-3.1.0-73edb40bfc-10c0.zip/node_modules/@yarnpkg/libzip/",\
         "packageDependencies": [\
-          ["@yarnpkg/libzip", "virtual:0619ce7bafc4e34bfd3a946a604c22c4102935424d79bef2bafa9aacd657d47821c43fd52c8011c78c165122ff8c04e2f2c235f4cfa8609e09bab7356cf1f7bc#npm:3.1.0"],\
+          ["@yarnpkg/libzip", "virtual:9a4fedf5cfa52d65d4531d1193ebb3740286722fac9cb6b579c5c716520478d5994f256b21e32705033554e0a0fcbeaf703fbcff19bba1d97fe7a3b456f4a066#npm:3.1.0"],\
+          ["@types/emscripten", "npm:1.39.6"],\
+          ["@types/yarnpkg__fslib", null],\
+          ["@yarnpkg/fslib", "npm:3.1.1"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "packagePeers": [\
+          "@types/yarnpkg__fslib",\
+          "@yarnpkg/fslib"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:eb1af4e935c44961200e2fbd90f764021c5ee1503944ba311cc853ae04dda2f83d4528f4470ed93e9b377f611ca23b14f87abf92b2421b68b87276a95e34ad24#npm:3.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/@yarnpkg-libzip-virtual-9e5524a5ef/5/cache/others/berry/cache/@yarnpkg-libzip-npm-3.1.0-73edb40bfc-10c0.zip/node_modules/@yarnpkg/libzip/",\
+        "packageDependencies": [\
+          ["@yarnpkg/libzip", "virtual:eb1af4e935c44961200e2fbd90f764021c5ee1503944ba311cc853ae04dda2f83d4528f4470ed93e9b377f611ca23b14f87abf92b2421b68b87276a95e34ad24#npm:3.1.0"],\
           ["@types/emscripten", "npm:1.39.6"],\
           ["@types/yarnpkg__fslib", null],\
           ["@yarnpkg/fslib", "npm:3.1.0"],\
@@ -16466,7 +16489,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "npm:3.1.0"],\
           ["@yarnpkg/parsers", "npm:3.0.2"],\
           ["chalk", "npm:3.0.0"],\
-          ["clipanion", "virtual:aef3630ccb920f27e72708392ff7fdef790d8b9c4716c04af21d6dfd50716a18ccca731012940d90b405f4d79eb1b017d2b7c8ffa8293485374613021748e40e#npm:4.0.0-rc.3"],\
+          ["clipanion", "virtual:e74e0c7face772469c5d9d70719bbd83a0b053c4a74b651bfc2a4f7de3d205468e1258219594675d4ae727005789cab9cdeba038300276cac6c939326b4ca52c#npm:4.0.0-rc.3"],\
           ["comment-json", "npm:2.4.2"],\
           ["lodash", "npm:4.17.21"],\
           ["tslib", "npm:2.6.2"]\
@@ -16482,7 +16505,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "npm:3.0.2"],\
           ["@yarnpkg/parsers", "npm:3.0.2"],\
           ["chalk", "npm:3.0.0"],\
-          ["clipanion", "virtual:aef3630ccb920f27e72708392ff7fdef790d8b9c4716c04af21d6dfd50716a18ccca731012940d90b405f4d79eb1b017d2b7c8ffa8293485374613021748e40e#npm:4.0.0-rc.3"],\
+          ["clipanion", "virtual:e74e0c7face772469c5d9d70719bbd83a0b053c4a74b651bfc2a4f7de3d205468e1258219594675d4ae727005789cab9cdeba038300276cac6c939326b4ca52c#npm:4.0.0-rc.3"],\
           ["cross-spawn", "npm:7.0.3"],\
           ["fast-glob", "npm:3.2.11"],\
           ["micromatch", "npm:4.0.5"],\
@@ -16490,14 +16513,14 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:4.1.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@yarnpkg-shell-npm-4.1.0-aef3630ccb-10c0.zip/node_modules/@yarnpkg/shell/",\
+      ["npm:4.1.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@yarnpkg-shell-npm-4.1.1-e74e0c7fac-10c0.zip/node_modules/@yarnpkg/shell/",\
         "packageDependencies": [\
-          ["@yarnpkg/shell", "npm:4.1.0"],\
-          ["@yarnpkg/fslib", "npm:3.1.0"],\
+          ["@yarnpkg/shell", "npm:4.1.1"],\
+          ["@yarnpkg/fslib", "npm:3.1.1"],\
           ["@yarnpkg/parsers", "npm:3.0.2"],\
           ["chalk", "npm:3.0.0"],\
-          ["clipanion", "virtual:aef3630ccb920f27e72708392ff7fdef790d8b9c4716c04af21d6dfd50716a18ccca731012940d90b405f4d79eb1b017d2b7c8ffa8293485374613021748e40e#npm:4.0.0-rc.3"],\
+          ["clipanion", "virtual:e74e0c7face772469c5d9d70719bbd83a0b053c4a74b651bfc2a4f7de3d205468e1258219594675d4ae727005789cab9cdeba038300276cac6c939326b4ca52c#npm:4.0.0-rc.3"],\
           ["cross-spawn", "npm:7.0.3"],\
           ["fast-glob", "npm:3.2.11"],\
           ["micromatch", "npm:4.0.5"],\
@@ -18914,10 +18937,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:aef3630ccb920f27e72708392ff7fdef790d8b9c4716c04af21d6dfd50716a18ccca731012940d90b405f4d79eb1b017d2b7c8ffa8293485374613021748e40e#npm:4.0.0-rc.3", {\
-        "packageLocation": "./.yarn/__virtual__/clipanion-virtual-883269121e/5/cache/others/berry/cache/clipanion-npm-4.0.0-rc.3-e62cc70585-10c0.zip/node_modules/clipanion/",\
+      ["virtual:e74e0c7face772469c5d9d70719bbd83a0b053c4a74b651bfc2a4f7de3d205468e1258219594675d4ae727005789cab9cdeba038300276cac6c939326b4ca52c#npm:4.0.0-rc.3", {\
+        "packageLocation": "./.yarn/__virtual__/clipanion-virtual-b6b56bd718/5/cache/others/berry/cache/clipanion-npm-4.0.0-rc.3-e62cc70585-10c0.zip/node_modules/clipanion/",\
         "packageDependencies": [\
-          ["clipanion", "virtual:aef3630ccb920f27e72708392ff7fdef790d8b9c4716c04af21d6dfd50716a18ccca731012940d90b405f4d79eb1b017d2b7c8ffa8293485374613021748e40e#npm:4.0.0-rc.3"],\
+          ["clipanion", "virtual:e74e0c7face772469c5d9d70719bbd83a0b053c4a74b651bfc2a4f7de3d205468e1258219594675d4ae727005789cab9cdeba038300276cac6c939326b4ca52c#npm:4.0.0-rc.3"],\
           ["@types/typanion", null],\
           ["typanion", "npm:3.14.0"]\
         ],\
@@ -36815,7 +36838,7 @@ class MountFS extends BasePortableFakeFS {
         if (this.notMount.has(filePath))
           continue;
         try {
-          if (this.typeCheck !== null && (this.baseFs.lstatSync(filePath).mode & fs.constants.S_IFMT) !== this.typeCheck) {
+          if (this.typeCheck !== null && (this.baseFs.statSync(filePath).mode & fs.constants.S_IFMT) !== this.typeCheck) {
             this.notMount.add(filePath);
             continue;
           }
