@@ -121,7 +121,7 @@ const RAW_RUNTIME_STATE =
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.0.0"],\
           ["glob", "npm:11.0.0"],\
-          ["globals", "npm:15.11.0"],\
+          ["globals", "npm:15.12.0"],\
           ["http-server", "npm:14.1.1"],\
           ["is-class", "npm:0.0.9"],\
           ["jest", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:27.5.1"],\
@@ -11144,7 +11144,7 @@ const RAW_RUNTIME_STATE =
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.0.0"],\
           ["glob", "npm:11.0.0"],\
-          ["globals", "npm:15.11.0"],\
+          ["globals", "npm:15.12.0"],\
           ["http-server", "npm:14.1.1"],\
           ["is-class", "npm:0.0.9"],\
           ["jest", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:27.5.1"],\
@@ -23222,10 +23222,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:15.11.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/globals-npm-15.11.0-336de1c0c2-10c0.zip/node_modules/globals/",\
+      ["npm:15.12.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/globals-npm-15.12.0-998488f877-10c0.zip/node_modules/globals/",\
         "packageDependencies": [\
-          ["globals", "npm:15.11.0"]\
+          ["globals", "npm:15.12.0"]\
         ],\
         "linkType": "HARD"\
       }]\
