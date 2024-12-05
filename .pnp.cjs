@@ -42,7 +42,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@babel/cli", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.25.9"],\
+          ["@babel/cli", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.26.4"],\
           ["@babel/core", "npm:7.26.0"],\
           ["@babel/eslint-parser", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.25.9"],\
           ["@babel/helper-compilation-targets", "npm:7.25.9"],\
@@ -236,17 +236,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@babel/cli", [\
-      ["npm:7.25.9", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@babel-cli-npm-7.25.9-e01a372fb5-10c0.zip/node_modules/@babel/cli/",\
+      ["npm:7.26.4", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@babel-cli-npm-7.26.4-2174a27451-10c0.zip/node_modules/@babel/cli/",\
         "packageDependencies": [\
-          ["@babel/cli", "npm:7.25.9"]\
+          ["@babel/cli", "npm:7.26.4"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.25.9", {\
-        "packageLocation": "./.yarn/__virtual__/@babel-cli-virtual-986b4b8eea/5/cache/others/berry/cache/@babel-cli-npm-7.25.9-e01a372fb5-10c0.zip/node_modules/@babel/cli/",\
+      ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.26.4", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-cli-virtual-c7af146eef/5/cache/others/berry/cache/@babel-cli-npm-7.26.4-2174a27451-10c0.zip/node_modules/@babel/cli/",\
         "packageDependencies": [\
-          ["@babel/cli", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.25.9"],\
+          ["@babel/cli", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.26.4"],\
           ["@babel/core", "npm:7.26.0"],\
           ["@jridgewell/trace-mapping", "npm:0.3.25"],\
           ["@nicolo-ribaudo/chokidar-2", "npm:2.1.8-no-fsevents.3"],\
@@ -11065,7 +11065,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@psychobolt/react-rollup-boilerplate", "workspace:."],\
-          ["@babel/cli", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.25.9"],\
+          ["@babel/cli", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.26.4"],\
           ["@babel/core", "npm:7.26.0"],\
           ["@babel/eslint-parser", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.25.9"],\
           ["@babel/helper-compilation-targets", "npm:7.25.9"],\
