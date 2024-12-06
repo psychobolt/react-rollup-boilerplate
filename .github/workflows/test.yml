@@ -97,6 +97,6 @@ jobs:
       - uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4
         with:
           name: ${{ matrix.flag }}_coverage_${{ github.sha }}
-      - uses: codecov/codecov-action@c2fcb216de2b0348de0100baa3ea2cad9f100a01 # v5
+      - uses: codecov/codecov-action@7f8b4b4bde536c465e797be725718b88c5d95e0e # v5
         with:
           flags: ${{ matrix.flag }}
