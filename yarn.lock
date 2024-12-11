@@ -6710,7 +6710,7 @@ __metadata:
     eslint-config-react-app: "npm:7.0.1"
     eslint-import-resolver-alias: "npm:1.1.2"
     eslint-import-resolver-node: "npm:0.3.9"
-    eslint-import-resolver-webpack: "npm:0.13.9"
+    eslint-import-resolver-webpack: "npm:0.13.10"
     eslint-plugin-flowtype: "npm:8.0.3"
     eslint-plugin-import: "npm:2.31.0"
     eslint-plugin-jest: "npm:28.9.0"
@@ -14488,24 +14488,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-webpack@npm:0.13.9":
-  version: 0.13.9
-  resolution: "eslint-import-resolver-webpack@npm:0.13.9"
+"eslint-import-resolver-webpack@npm:0.13.10":
+  version: 0.13.10
+  resolution: "eslint-import-resolver-webpack@npm:0.13.10"
   dependencies:
     debug: "npm:^3.2.7"
     enhanced-resolve: "npm:^0.9.1"
     find-root: "npm:^1.1.0"
-    hasown: "npm:^2.0.0"
+    hasown: "npm:^2.0.2"
     interpret: "npm:^1.4.0"
-    is-core-module: "npm:^2.13.1"
-    is-regex: "npm:^1.1.4"
+    is-core-module: "npm:^2.15.1"
+    is-regex: "npm:^1.2.0"
     lodash: "npm:^4.17.21"
     resolve: "npm:^2.0.0-next.5"
     semver: "npm:^5.7.2"
   peerDependencies:
     eslint-plugin-import: ">=1.4.0"
     webpack: ">=1.11.0"
-  checksum: 10c0/9a56453961920eec478d71e2b0e94eb388ea5ee092aaa5044b33eb10c7f8a82aaf4d9b553c958afaa1a1f42e1428d843bcaa83ca59ea825cf593eb555c30e853
+  checksum: 10c0/781cc6934771e6ba73e8ed29098d07b52d26e1de3aabfe13b44f658360e951bd451b6bd40f8c9a1567b471d6f80ae944948411b4358de975eb60611dc31babf4
   languageName: node
   linkType: hard
 
@@ -16199,6 +16199,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gopd@npm:^1.1.0":
+  version: 1.2.0
+  resolution: "gopd@npm:1.2.0"
+  checksum: 10c0/50fff1e04ba2b7737c097358534eacadad1e68d24cccee3272e04e007bed008e68d2614f3987788428fd192a5ae3889d08fb2331417e4fc4a9ab366b2043cead
+  languageName: node
+  linkType: hard
+
 "got@npm:^11.7.0":
   version: 11.8.3
   resolution: "got@npm:11.8.3"
@@ -17036,15 +17043,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.13.1":
-  version: 2.13.1
-  resolution: "is-core-module@npm:2.13.1"
-  dependencies:
-    hasown: "npm:^2.0.0"
-  checksum: 10c0/2cba9903aaa52718f11c4896dabc189bab980870aae86a62dc0d5cedb546896770ee946fb14c84b7adf0735f5eaea4277243f1b95f5cefa90054f92fbcac2518
-  languageName: node
-  linkType: hard
-
 "is-core-module@npm:^2.15.1":
   version: 2.15.1
   resolution: "is-core-module@npm:2.15.1"
@@ -17305,6 +17303,18 @@ __metadata:
     call-bind: "npm:^1.0.2"
     has-tostringtag: "npm:^1.0.0"
   checksum: 10c0/bb72aae604a69eafd4a82a93002058c416ace8cde95873589a97fc5dac96a6c6c78a9977d487b7b95426a8f5073969124dd228f043f9f604f041f32fcc465fc1
+  languageName: node
+  linkType: hard
+
+"is-regex@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "is-regex@npm:1.2.0"
+  dependencies:
+    call-bind: "npm:^1.0.7"
+    gopd: "npm:^1.1.0"
+    has-tostringtag: "npm:^1.0.2"
+    hasown: "npm:^2.0.2"
+  checksum: 10c0/a407fefb871ceedebe718c35d2f4ba75dc3360c335e99ff2f8bc4488bdcc7b0b3bb78a208d1aa896cf2745630b97752ffd40b501c10bb7afc31d23c2e0092e8d
   languageName: node
   linkType: hard
 
