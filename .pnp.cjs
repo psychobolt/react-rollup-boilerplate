@@ -90,7 +90,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/test", "npm:7.6.20"],\
           ["@storybook/testing-library", "npm:0.2.2"],\
           ["@testing-library/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:15.0.7"],\
-          ["@yarnpkg/core", "npm:4.1.6"],\
+          ["@yarnpkg/core", "npm:4.2.0"],\
           ["@yarnpkg/sdks", "npm:3.2.0"],\
           ["app-root-path", "npm:3.1.0"],\
           ["babel-jest", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:29.7.0"],\
@@ -11113,7 +11113,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/test", "npm:7.6.20"],\
           ["@storybook/testing-library", "npm:0.2.2"],\
           ["@testing-library/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:15.0.7"],\
-          ["@yarnpkg/core", "npm:4.1.6"],\
+          ["@yarnpkg/core", "npm:4.2.0"],\
           ["@yarnpkg/sdks", "npm:3.2.0"],\
           ["app-root-path", "npm:3.1.0"],\
           ["babel-jest", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:29.7.0"],\
@@ -16338,15 +16338,15 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:4.1.6", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@yarnpkg-core-npm-4.1.6-9a4fedf5cf-10c0.zip/node_modules/@yarnpkg/core/",\
+      ["npm:4.2.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@yarnpkg-core-npm-4.2.0-3bcfc8d19c-10c0.zip/node_modules/@yarnpkg/core/",\
         "packageDependencies": [\
-          ["@yarnpkg/core", "npm:4.1.6"],\
+          ["@yarnpkg/core", "npm:4.2.0"],\
           ["@arcanis/slice-ansi", "npm:1.1.1"],\
           ["@types/semver", "npm:7.3.9"],\
           ["@types/treeify", "npm:1.0.0"],\
           ["@yarnpkg/fslib", "npm:3.1.1"],\
-          ["@yarnpkg/libzip", "virtual:9a4fedf5cfa52d65d4531d1193ebb3740286722fac9cb6b579c5c716520478d5994f256b21e32705033554e0a0fcbeaf703fbcff19bba1d97fe7a3b456f4a066#npm:3.1.0"],\
+          ["@yarnpkg/libzip", "virtual:3bcfc8d19c9e479d63c754e2ddb455731f5c29778628b4da5f8b3abf096d4afe21187173e923329d24eafa719044dca3b7ca2dd64203863487c5cb66dfef8efd#npm:3.1.0"],\
           ["@yarnpkg/parsers", "npm:3.0.2"],\
           ["@yarnpkg/shell", "npm:4.1.1"],\
           ["camelcase", "npm:5.3.1"],\
@@ -16447,10 +16447,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:9a4fedf5cfa52d65d4531d1193ebb3740286722fac9cb6b579c5c716520478d5994f256b21e32705033554e0a0fcbeaf703fbcff19bba1d97fe7a3b456f4a066#npm:3.1.0", {\
-        "packageLocation": "./.yarn/__virtual__/@yarnpkg-libzip-virtual-bd8a773c0b/5/cache/others/berry/cache/@yarnpkg-libzip-npm-3.1.0-73edb40bfc-10c0.zip/node_modules/@yarnpkg/libzip/",\
+      ["virtual:3bcfc8d19c9e479d63c754e2ddb455731f5c29778628b4da5f8b3abf096d4afe21187173e923329d24eafa719044dca3b7ca2dd64203863487c5cb66dfef8efd#npm:3.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/@yarnpkg-libzip-virtual-cfab83ee79/5/cache/others/berry/cache/@yarnpkg-libzip-npm-3.1.0-73edb40bfc-10c0.zip/node_modules/@yarnpkg/libzip/",\
         "packageDependencies": [\
-          ["@yarnpkg/libzip", "virtual:9a4fedf5cfa52d65d4531d1193ebb3740286722fac9cb6b579c5c716520478d5994f256b21e32705033554e0a0fcbeaf703fbcff19bba1d97fe7a3b456f4a066#npm:3.1.0"],\
+          ["@yarnpkg/libzip", "virtual:3bcfc8d19c9e479d63c754e2ddb455731f5c29778628b4da5f8b3abf096d4afe21187173e923329d24eafa719044dca3b7ca2dd64203863487c5cb66dfef8efd#npm:3.1.0"],\
           ["@types/emscripten", "npm:1.39.6"],\
           ["@types/yarnpkg__fslib", null],\
           ["@yarnpkg/fslib", "npm:3.1.1"],\
@@ -40507,18 +40507,20 @@ Require stack:
     }
     return false;
   };
-  const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
-  require$$0.Module._extensions[`.js`] = function(module, filename) {
-    if (filename.endsWith(`.js`)) {
-      const pkg = readPackageScope(filename);
-      if (pkg && pkg.data?.type === `module`) {
-        const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
-        Error.captureStackTrace(err);
-        throw err;
+  if (!process.features.require_module) {
+    const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
+    require$$0.Module._extensions[`.js`] = function(module, filename) {
+      if (filename.endsWith(`.js`)) {
+        const pkg = readPackageScope(filename);
+        if (pkg && pkg.data?.type === `module`) {
+          const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
+          Error.captureStackTrace(err);
+          throw err;
+        }
       }
-    }
-    originalExtensionJSFunction.call(this, module, filename);
-  };
+      originalExtensionJSFunction.call(this, module, filename);
+    };
+  }
   const originalDlopen = process.dlopen;
   process.dlopen = function(...args) {
     const [module, filename, ...rest] = args;
