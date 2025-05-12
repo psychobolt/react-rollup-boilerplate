@@ -120,7 +120,7 @@ const RAW_RUNTIME_STATE =
           ["execa", "npm:9.5.3"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.0.0"],\
-          ["glob", "npm:11.0.0"],\
+          ["glob", "npm:11.0.2"],\
           ["globals", "npm:15.14.0"],\
           ["http-server", "npm:14.1.1"],\
           ["is-class", "npm:0.0.9"],\
@@ -11143,7 +11143,7 @@ const RAW_RUNTIME_STATE =
           ["execa", "npm:9.5.3"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.0.0"],\
-          ["glob", "npm:11.0.0"],\
+          ["glob", "npm:11.0.2"],\
           ["globals", "npm:15.14.0"],\
           ["http-server", "npm:14.1.1"],\
           ["is-class", "npm:0.0.9"],\
@@ -23375,6 +23375,19 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/glob-npm-11.0.0-3be4126bf5-10c0.zip/node_modules/glob/",\
         "packageDependencies": [\
           ["glob", "npm:11.0.0"],\
+          ["foreground-child", "npm:3.1.1"],\
+          ["jackspeak", "npm:4.0.1"],\
+          ["minimatch", "npm:10.0.1"],\
+          ["minipass", "npm:7.1.2"],\
+          ["package-json-from-dist", "npm:1.0.0"],\
+          ["path-scurry", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:11.0.2", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/glob-npm-11.0.2-cd5db3a299-10c0.zip/node_modules/glob/",\
+        "packageDependencies": [\
+          ["glob", "npm:11.0.2"],\
           ["foreground-child", "npm:3.1.1"],\
           ["jackspeak", "npm:4.0.1"],\
           ["minimatch", "npm:10.0.1"],\
