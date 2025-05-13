@@ -6757,7 +6757,7 @@ __metadata:
     stylelint-config-standard-scss: "npm:5.0.0"
     stylelint-config-styled-components: "npm:0.1.1"
     stylelint-processor-styled-components: "https://github.com/psychobolt/stylelint-processor-styled-components"
-    symlink-dir: "npm:6.0.4"
+    symlink-dir: "npm:6.0.5"
     webpack: "npm:5.97.1"
     webpack-merge: "npm:6.0.1"
     yargs: "npm:17.7.2"
@@ -15871,17 +15871,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:10.1.0, fs-extra@npm:^10.0.0":
-  version: 10.1.0
-  resolution: "fs-extra@npm:10.1.0"
-  dependencies:
-    graceful-fs: "npm:^4.2.0"
-    jsonfile: "npm:^6.0.1"
-    universalify: "npm:^2.0.0"
-  checksum: 10c0/5f579466e7109719d162a9249abbeffe7f426eb133ea486e020b89bc6d67a741134076bf439983f2eb79276ceaf6bd7b7c1e43c3fd67fe889863e69072fb0a5e
-  languageName: node
-  linkType: hard
-
 "fs-extra@npm:11.1.1":
   version: 11.1.1
   resolution: "fs-extra@npm:11.1.1"
@@ -15890,6 +15879,28 @@ __metadata:
     jsonfile: "npm:^6.0.1"
     universalify: "npm:^2.0.0"
   checksum: 10c0/a2480243d7dcfa7d723c5f5b24cf4eba02a6ccece208f1524a2fbde1c629492cfb9a59e4b6d04faff6fbdf71db9fdc8ef7f396417a02884195a625f5d8dc9427
+  languageName: node
+  linkType: hard
+
+"fs-extra@npm:11.3.0":
+  version: 11.3.0
+  resolution: "fs-extra@npm:11.3.0"
+  dependencies:
+    graceful-fs: "npm:^4.2.0"
+    jsonfile: "npm:^6.0.1"
+    universalify: "npm:^2.0.0"
+  checksum: 10c0/5f95e996186ff45463059feb115a22fb048bdaf7e487ecee8a8646c78ed8fdca63630e3077d4c16ce677051f5e60d3355a06f3cd61f3ca43f48cc58822a44d0a
+  languageName: node
+  linkType: hard
+
+"fs-extra@npm:^10.0.0":
+  version: 10.1.0
+  resolution: "fs-extra@npm:10.1.0"
+  dependencies:
+    graceful-fs: "npm:^4.2.0"
+    jsonfile: "npm:^6.0.1"
+    universalify: "npm:^2.0.0"
+  checksum: 10c0/5f579466e7109719d162a9249abbeffe7f426eb133ea486e020b89bc6d67a741134076bf439983f2eb79276ceaf6bd7b7c1e43c3fd67fe889863e69072fb0a5e
   languageName: node
   linkType: hard
 
@@ -22618,13 +22629,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rename-overwrite@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "rename-overwrite@npm:6.0.0"
+"rename-overwrite@npm:^6.0.2":
+  version: 6.0.2
+  resolution: "rename-overwrite@npm:6.0.2"
   dependencies:
     "@zkochan/rimraf": "npm:^3.0.2"
-    fs-extra: "npm:10.1.0"
-  checksum: 10c0/61784215b9b7b2a652b2927b029e64c9a7f2fece6a6b9e31c08b1aa8ae86ecc9bd692ea90766efbf894676d7be10ca1699d357c36b1d33f71701d6d161cdc755
+    fs-extra: "npm:11.3.0"
+  checksum: 10c0/c72ec80cb6ca011571717e731b4954934716d7a2f5d532f11ed47c8918a8305f4491532b9fada5c012198a2a9462e6877abda5844a1dde29732fae3383fab9c5
   languageName: node
   linkType: hard
 
@@ -24534,15 +24545,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"symlink-dir@npm:6.0.4":
-  version: 6.0.4
-  resolution: "symlink-dir@npm:6.0.4"
+"symlink-dir@npm:6.0.5":
+  version: 6.0.5
+  resolution: "symlink-dir@npm:6.0.5"
   dependencies:
     better-path-resolve: "npm:^1.0.0"
-    rename-overwrite: "npm:^6.0.0"
+    rename-overwrite: "npm:^6.0.2"
   bin:
     symlink-dir: dist/cli.js
-  checksum: 10c0/d75afcccceff5a689fe5f3ec9369603d452aa7be2a2d7086363cf434f4ee25303ddf50f9b983c05d71c6ecf7b283982d57653f83650e34095d638cb7197ba7aa
+  checksum: 10c0/65c06f4958e81553adaeb688a8da9f4b4f295227a71012d8ddfc7bd3cfb4ace923c9e39ae7f3c68591d9714cf7b5654aef32fd5cf04d7ec2cfd0ae7cd935b523
   languageName: node
   linkType: hard
 
