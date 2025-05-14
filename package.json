@@ -123,7 +123,7 @@
     "eslint-plugin-storybook": "0.12.0",
     "execa": "9.5.3",
     "flow-bin": "0.206.0",
-    "flow-typed": "4.0.0",
+    "flow-typed": "4.1.1",
     "glob": "11.0.2",
     "globals": "15.14.0",
     "http-server": "14.1.1",
