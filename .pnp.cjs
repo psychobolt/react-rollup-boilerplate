@@ -119,7 +119,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-storybook", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.12.0"],\
           ["execa", "npm:9.5.3"],\
           ["flow-bin", "npm:0.206.0"],\
-          ["flow-typed", "npm:4.0.0"],\
+          ["flow-typed", "npm:4.1.1"],\
           ["glob", "npm:11.0.2"],\
           ["globals", "npm:15.14.0"],\
           ["http-server", "npm:14.1.1"],\
@@ -11022,7 +11022,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-storybook", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.12.0"],\
           ["execa", "npm:9.5.3"],\
           ["flow-bin", "npm:0.206.0"],\
-          ["flow-typed", "npm:4.0.0"],\
+          ["flow-typed", "npm:4.1.1"],\
           ["glob", "npm:11.0.2"],\
           ["globals", "npm:15.14.0"],\
           ["http-server", "npm:14.1.1"],\
@@ -22652,10 +22652,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["flow-typed", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/flow-typed-npm-4.0.0-a153be5b06-10c0.zip/node_modules/flow-typed/",\
+      ["npm:4.1.1", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/flow-typed-npm-4.1.1-5018e4bfb1-10c0.zip/node_modules/flow-typed/",\
         "packageDependencies": [\
-          ["flow-typed", "npm:4.0.0"],\
+          ["flow-typed", "npm:4.1.1"],\
           ["@octokit/rest", "npm:18.12.0"],\
           ["chalk", "npm:4.1.2"],\
           ["colors", "npm:1.4.0"],\
@@ -22669,7 +22669,7 @@ const RAW_RUNTIME_STATE =
           ["node-stream-zip", "npm:1.15.0"],\
           ["prettier", "npm:1.19.1"],\
           ["rimraf", "npm:3.0.2"],\
-          ["semver", "npm:7.5.4"],\
+          ["semver", "npm:7.7.2"],\
           ["simple-git", "npm:3.24.0"],\
           ["table", "npm:6.8.0"],\
           ["which", "npm:2.0.2"],\
@@ -31101,6 +31101,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/semver-npm-7.6.2-0fec6944bb-10c0.zip/node_modules/semver/",\
         "packageDependencies": [\
           ["semver", "npm:7.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.7.2", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/semver-npm-7.7.2-dfc3bc5ec9-10c0.zip/node_modules/semver/",\
+        "packageDependencies": [\
+          ["semver", "npm:7.7.2"]\
         ],\
         "linkType": "HARD"\
       }]\

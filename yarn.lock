@@ -6611,7 +6611,7 @@ __metadata:
     eslint-plugin-storybook: "npm:0.12.0"
     execa: "npm:9.5.3"
     flow-bin: "npm:0.206.0"
-    flow-typed: "npm:4.0.0"
+    flow-typed: "npm:4.1.1"
     glob: "npm:11.0.2"
     globals: "npm:15.14.0"
     http-server: "npm:14.1.1"
@@ -15629,9 +15629,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flow-typed@npm:4.0.0":
-  version: 4.0.0
-  resolution: "flow-typed@npm:4.0.0"
+"flow-typed@npm:4.1.1":
+  version: 4.1.1
+  resolution: "flow-typed@npm:4.1.1"
   dependencies:
     "@octokit/rest": "npm:^18.12.0"
     colors: "npm:1.4.0"
@@ -15645,14 +15645,14 @@ __metadata:
     node-stream-zip: "npm:^1.15.0"
     prettier: "npm:^1.19.1"
     rimraf: "npm:^3.0.2"
-    semver: "npm:^7.5.4"
+    semver: "npm:^7.6.3"
     simple-git: "npm:^3.10.0"
     table: "npm:^6.7.3"
     which: "npm:^2.0.2"
     yargs: "npm:^15.1.0"
   bin:
     flow-typed: dist/cli.js
-  checksum: 10c0/ecae26c3e5bd35e612349a5034324fb031c4a205e734bf09d9df826c7a201599860bebacb4e2f52bca47088660ee557d14d197b71faab5e5399048f0072a9696
+  checksum: 10c0/9065a52e639e552892eb335a18167791ccca7803a41ac004e32dcbc26be451e59f439e377232b6b3b2645e41ab5f2d725999d03a38aad17ee0608f7a0a17fbf3
   languageName: node
   linkType: hard
 
@@ -23308,6 +23308,15 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 10c0/97d3441e97ace8be4b1976433d1c32658f6afaff09f143e52c593bae7eef33de19e3e369c88bd985ce1042c6f441c80c6803078d1de2a9988080b66684cbb30c
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.6.3":
+  version: 7.7.2
+  resolution: "semver@npm:7.7.2"
+  bin:
+    semver: bin/semver.js
+  checksum: 10c0/aca305edfbf2383c22571cb7714f48cadc7ac95371b4b52362fb8eeffdfbc0de0669368b82b2b15978f8848f01d7114da65697e56cd8c37b0dab8c58e543f9ea
   languageName: node
   linkType: hard
 
