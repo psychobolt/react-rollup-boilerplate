@@ -94,7 +94,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/sdks", "npm:3.2.0"],\
           ["app-root-path", "npm:3.1.0"],\
           ["babel-jest", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:29.7.0"],\
-          ["babel-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:9.2.1"],\
+          ["babel-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:10.0.0"],\
           ["babel-plugin-add-module-exports", "npm:1.0.4"],\
           ["babel-plugin-dynamic-import-node", "npm:2.3.3"],\
           ["babel-plugin-lodash", "npm:3.3.4"],\
@@ -10997,7 +10997,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/sdks", "npm:3.2.0"],\
           ["app-root-path", "npm:3.1.0"],\
           ["babel-jest", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:29.7.0"],\
-          ["babel-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:9.2.1"],\
+          ["babel-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:10.0.0"],\
           ["babel-plugin-add-module-exports", "npm:1.0.4"],\
           ["babel-plugin-dynamic-import-node", "npm:2.3.3"],\
           ["babel-plugin-lodash", "npm:3.3.4"],\
@@ -17452,6 +17452,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["babel-loader", [\
+      ["npm:10.0.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/babel-loader-npm-10.0.0-0ac52159c5-10c0.zip/node_modules/babel-loader/",\
+        "packageDependencies": [\
+          ["babel-loader", "npm:10.0.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
       ["npm:9.1.3", {\
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/babel-loader-npm-9.1.3-cbf4da21df-10c0.zip/node_modules/babel-loader/",\
         "packageDependencies": [\
@@ -17459,22 +17466,14 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["npm:9.2.1", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/babel-loader-npm-9.2.1-6cf3231de6-10c0.zip/node_modules/babel-loader/",\
+      ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:10.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-1b5b255756/7/runner/cache/others/berry/cache/babel-loader-npm-10.0.0-0ac52159c5-10c0.zip/node_modules/babel-loader/",\
         "packageDependencies": [\
-          ["babel-loader", "npm:9.2.1"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:9.2.1", {\
-        "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-ab8479317e/7/runner/cache/others/berry/cache/babel-loader-npm-9.2.1-6cf3231de6-10c0.zip/node_modules/babel-loader/",\
-        "packageDependencies": [\
-          ["babel-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:9.2.1"],\
+          ["babel-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:10.0.0"],\
           ["@babel/core", "npm:7.27.1"],\
           ["@types/babel__core", null],\
           ["@types/webpack", null],\
-          ["find-cache-dir", "npm:4.0.0"],\
-          ["schema-utils", "npm:4.0.1"],\
+          ["find-up", "npm:5.0.0"],\
           ["webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.99.8"]\
         ],\
         "packagePeers": [\
