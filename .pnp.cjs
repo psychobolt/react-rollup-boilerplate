@@ -67,7 +67,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.27.1"],\
           ["@babel/template", "npm:7.27.2"],\
           ["@eslint/eslintrc", "npm:3.3.1"],\
-          ["@mdx-js/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:3.1.0"],\
+          ["@mdx-js/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:3.1.1"],\
           ["@psychobolt/default-export", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#workspace:packages/default-export"],\
           ["@rollup/plugin-alias", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.1.1"],\
           ["@rollup/plugin-babel", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:6.0.4"],\
@@ -10414,10 +10414,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["npm:3.1.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@mdx-js-react-npm-3.1.0-a91217d996-10c0.zip/node_modules/@mdx-js/react/",\
+      ["npm:3.1.1", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@mdx-js-react-npm-3.1.1-764997f3bb-10c0.zip/node_modules/@mdx-js/react/",\
         "packageDependencies": [\
-          ["@mdx-js/react", "npm:3.1.0"]\
+          ["@mdx-js/react", "npm:3.1.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
@@ -10434,10 +10434,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:3.1.0", {\
-        "packageLocation": "./.yarn/__virtual__/@mdx-js-react-virtual-359d547525/7/runner/cache/others/berry/cache/@mdx-js-react-npm-3.1.0-a91217d996-10c0.zip/node_modules/@mdx-js/react/",\
+      ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:3.1.1", {\
+        "packageLocation": "./.yarn/__virtual__/@mdx-js-react-virtual-7d36b8abdc/7/runner/cache/others/berry/cache/@mdx-js-react-npm-3.1.1-764997f3bb-10c0.zip/node_modules/@mdx-js/react/",\
         "packageDependencies": [\
-          ["@mdx-js/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:3.1.0"],\
+          ["@mdx-js/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:3.1.1"],\
           ["@types/mdx", "npm:2.0.11"],\
           ["@types/react", null],\
           ["react", "npm:18.3.1"]\
@@ -10970,7 +10970,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.27.1"],\
           ["@babel/template", "npm:7.27.2"],\
           ["@eslint/eslintrc", "npm:3.3.1"],\
-          ["@mdx-js/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:3.1.0"],\
+          ["@mdx-js/react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:3.1.1"],\
           ["@psychobolt/default-export", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#workspace:packages/default-export"],\
           ["@rollup/plugin-alias", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.1.1"],\
           ["@rollup/plugin-babel", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:6.0.4"],\
