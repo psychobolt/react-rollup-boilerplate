@@ -124,7 +124,7 @@
     "execa": "9.5.3",
     "flow-bin": "0.206.0",
     "flow-typed": "4.1.1",
-    "glob": "11.0.2",
+    "glob": "11.0.3",
     "globals": "16.1.0",
     "http-server": "14.1.1",
     "is-class": "0.0.9",
