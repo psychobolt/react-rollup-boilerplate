@@ -105,7 +105,7 @@
     "babel-plugin-module-resolver": "5.0.2",
     "babel-plugin-styled-components": "2.1.4",
     "cash-true": "0.0.2",
-    "concurrently": "9.1.2",
+    "concurrently": "9.2.1",
     "cross-env": "7.0.3",
     "css-loader": "6.11.0",
     "eslint": "8.57.1",
