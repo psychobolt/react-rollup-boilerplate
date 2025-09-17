@@ -117,7 +117,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.37.5"],\
           ["eslint-plugin-react-hooks", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.2.0"],\
           ["eslint-plugin-storybook", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.12.0"],\
-          ["execa", "npm:9.5.3"],\
+          ["execa", "npm:9.6.0"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.1.1"],\
           ["glob", "npm:11.0.3"],\
@@ -11194,7 +11194,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.37.5"],\
           ["eslint-plugin-react-hooks", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.2.0"],\
           ["eslint-plugin-storybook", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:0.12.0"],\
-          ["execa", "npm:9.5.3"],\
+          ["execa", "npm:9.6.0"],\
           ["flow-bin", "npm:0.206.0"],\
           ["flow-typed", "npm:4.1.1"],\
           ["glob", "npm:11.0.3"],\
@@ -22471,22 +22471,22 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:9.5.3", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/execa-npm-9.5.3-4435fe89ab-10c0.zip/node_modules/execa/",\
+      ["npm:9.6.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/execa-npm-9.6.0-c1ae1efe39-10c0.zip/node_modules/execa/",\
         "packageDependencies": [\
-          ["execa", "npm:9.5.3"],\
+          ["execa", "npm:9.6.0"],\
           ["@sindresorhus/merge-streams", "npm:4.0.0"],\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["figures", "npm:6.1.0"],\
           ["get-stream", "npm:9.0.1"],\
-          ["human-signals", "npm:8.0.0"],\
+          ["human-signals", "npm:8.0.1"],\
           ["is-plain-obj", "npm:4.1.0"],\
           ["is-stream", "npm:4.0.1"],\
           ["npm-run-path", "npm:6.0.0"],\
-          ["pretty-ms", "npm:9.0.0"],\
+          ["pretty-ms", "npm:9.3.0"],\
           ["signal-exit", "npm:4.1.0"],\
           ["strip-final-newline", "npm:4.0.0"],\
-          ["yoctocolors", "npm:2.0.0"]\
+          ["yoctocolors", "npm:2.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -24377,10 +24377,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:8.0.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/human-signals-npm-8.0.0-7d9d2b020e-10c0.zip/node_modules/human-signals/",\
+      ["npm:8.0.1", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/human-signals-npm-8.0.1-7ef2814855-10c0.zip/node_modules/human-signals/",\
         "packageDependencies": [\
-          ["human-signals", "npm:8.0.0"]\
+          ["human-signals", "npm:8.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -29712,10 +29712,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["pretty-ms", [\
-      ["npm:9.0.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/pretty-ms-npm-9.0.0-222d3adc0f-10c0.zip/node_modules/pretty-ms/",\
+      ["npm:9.3.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/pretty-ms-npm-9.3.0-20e12028f9-10c0.zip/node_modules/pretty-ms/",\
         "packageDependencies": [\
-          ["pretty-ms", "npm:9.0.0"],\
+          ["pretty-ms", "npm:9.3.0"],\
           ["parse-ms", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -35371,10 +35371,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["yoctocolors", [\
-      ["npm:2.0.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/yoctocolors-npm-2.0.0-f1f9532a48-10c0.zip/node_modules/yoctocolors/",\
+      ["npm:2.1.2", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/yoctocolors-npm-2.1.2-ba5f016605-10c0.zip/node_modules/yoctocolors/",\
         "packageDependencies": [\
-          ["yoctocolors", "npm:2.0.0"]\
+          ["yoctocolors", "npm:2.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
