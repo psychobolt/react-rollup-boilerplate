@@ -161,7 +161,7 @@
     "stylelint-config-styled-components": "0.1.1",
     "stylelint-processor-styled-components": "https://github.com/psychobolt/stylelint-processor-styled-components",
     "symlink-dir": "6.0.5",
-    "webpack": "5.99.8",
+    "webpack": "5.101.3",
     "webpack-merge": "6.0.1",
     "yargs": "17.7.2"
   },
