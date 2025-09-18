@@ -6728,7 +6728,7 @@ __metadata:
     "@storybook/addon-interactions": "npm:7.6.20"
     "@storybook/addon-links": "npm:7.6.20"
     "@storybook/addon-onboarding": "npm:1.0.11"
-    "@storybook/addon-styling-webpack": "npm:1.0.1"
+    "@storybook/addon-styling-webpack": "npm:2.0.0"
     "@storybook/blocks": "npm:7.6.20"
     "@storybook/core-webpack": "npm:7.6.20"
     "@storybook/jest": "npm:0.2.3"
@@ -7895,14 +7895,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-styling-webpack@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@storybook/addon-styling-webpack@npm:1.0.1"
-  dependencies:
-    "@storybook/node-logger": "npm:^8.0.0-alpha.10"
+"@storybook/addon-styling-webpack@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@storybook/addon-styling-webpack@npm:2.0.0"
   peerDependencies:
+    storybook: ^9.0.0
     webpack: ^5.0.0
-  checksum: 10c0/6b36162fa9c1d2f7a14ca12402dfc7115ae6ca17916291d0298fe60be7e3d04cc1eb7c6a010f7d0cc50fcc7f1af5b3faf85fecfc66456251417f4c7a5e769621
+  checksum: 10c0/1be590b99d74bdb422f8fb88eb510d0e961915c3e93371c146435fa072158280b0701188170592b62a858993363cc989e0cfb060aaa1c0ec8c95d119cf16b099
   languageName: node
   linkType: hard
 
@@ -8494,13 +8493,6 @@ __metadata:
   version: 7.6.20
   resolution: "@storybook/node-logger@npm:7.6.20"
   checksum: 10c0/0f3107669d233131dd25649289abe4a2eb10fc01d108e9833f38a0a26bd8195f17a65cdef7948001968ecd28bd1775a6e0f0a5d9e6def47ca33715fe7b83da0e
-  languageName: node
-  linkType: hard
-
-"@storybook/node-logger@npm:^8.0.0-alpha.10":
-  version: 8.0.0
-  resolution: "@storybook/node-logger@npm:8.0.0"
-  checksum: 10c0/783285bcdf8a13a8e524e57494a64e168269bdc4ad8b364df7f22a13bf7742ccf72d2639f17b98c5ec7dade32e3f37390162474b5058d99220e93f266fdbcb84
   languageName: node
   linkType: hard
 

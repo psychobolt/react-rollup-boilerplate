@@ -81,7 +81,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/addon-interactions", "npm:7.6.20"],\
           ["@storybook/addon-links", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.6.20"],\
           ["@storybook/addon-onboarding", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.0.11"],\
-          ["@storybook/addon-styling-webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.0.1"],\
+          ["@storybook/addon-styling-webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:2.0.0"],\
           ["@storybook/blocks", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.6.20"],\
           ["@storybook/core-webpack", "npm:7.6.20"],\
           ["@storybook/jest", "npm:0.2.3"],\
@@ -11158,7 +11158,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/addon-interactions", "npm:7.6.20"],\
           ["@storybook/addon-links", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.6.20"],\
           ["@storybook/addon-onboarding", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.0.11"],\
-          ["@storybook/addon-styling-webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.0.1"],\
+          ["@storybook/addon-styling-webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:2.0.0"],\
           ["@storybook/blocks", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.6.20"],\
           ["@storybook/core-webpack", "npm:7.6.20"],\
           ["@storybook/jest", "npm:0.2.3"],\
@@ -13243,23 +13243,26 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@storybook/addon-styling-webpack", [\
-      ["npm:1.0.1", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@storybook-addon-styling-webpack-npm-1.0.1-050f57bb5b-10c0.zip/node_modules/@storybook/addon-styling-webpack/",\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@storybook-addon-styling-webpack-npm-2.0.0-5ebe9ea190-10c0.zip/node_modules/@storybook/addon-styling-webpack/",\
         "packageDependencies": [\
-          ["@storybook/addon-styling-webpack", "npm:1.0.1"]\
+          ["@storybook/addon-styling-webpack", "npm:2.0.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.0.1", {\
-        "packageLocation": "./.yarn/__virtual__/@storybook-addon-styling-webpack-virtual-f49ee7d335/7/runner/cache/others/berry/cache/@storybook-addon-styling-webpack-npm-1.0.1-050f57bb5b-10c0.zip/node_modules/@storybook/addon-styling-webpack/",\
+      ["virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:2.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/@storybook-addon-styling-webpack-virtual-97ef567993/7/runner/cache/others/berry/cache/@storybook-addon-styling-webpack-npm-2.0.0-5ebe9ea190-10c0.zip/node_modules/@storybook/addon-styling-webpack/",\
         "packageDependencies": [\
-          ["@storybook/addon-styling-webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:1.0.1"],\
-          ["@storybook/node-logger", "npm:8.0.0"],\
+          ["@storybook/addon-styling-webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:2.0.0"],\
+          ["@types/storybook", null],\
           ["@types/webpack", null],\
+          ["storybook", "npm:7.6.20"],\
           ["webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.101.3"]\
         ],\
         "packagePeers": [\
+          "@types/storybook",\
           "@types/webpack",\
+          "storybook",\
           "webpack"\
         ],\
         "linkType": "HARD"\
@@ -13984,13 +13987,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/@storybook-node-logger-npm-7.6.20-ca15d3ecd3-10c0.zip/node_modules/@storybook/node-logger/",\
         "packageDependencies": [\
           ["@storybook/node-logger", "npm:7.6.20"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:8.0.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@storybook-node-logger-npm-8.0.0-bf400e648f-10c0.zip/node_modules/@storybook/node-logger/",\
-        "packageDependencies": [\
-          ["@storybook/node-logger", "npm:8.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
