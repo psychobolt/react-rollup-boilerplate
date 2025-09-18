@@ -80,7 +80,7 @@ jobs:
       - uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
         with:
           name: bundles_${{ github.sha }}
-      - uses: chromaui/action@1cfa065cbdab28f6ca3afaeb3d761383076a35aa # v11
+      - uses: chromaui/action@8c981a1b5ed6804b29058a5a68ea818a4c954d16 # v13
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           storybookBuildDir: storybook-static
