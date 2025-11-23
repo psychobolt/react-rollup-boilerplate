@@ -6874,7 +6874,7 @@ __metadata:
     react-is: "npm:18.3.1"
     react-lazily: "npm:0.9.2"
     require-from-string: "npm:2.0.2"
-    rimraf: "npm:6.0.1"
+    rimraf: "npm:6.1.2"
     rollup: "npm:4.50.2"
     rollup-plugin-flow-entry: "npm:0.3.6"
     rollup-plugin-mjs-entry: "npm:0.1.1"
@@ -16686,19 +16686,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^11.0.0":
-  version: 11.0.0
-  resolution: "glob@npm:11.0.0"
+"glob@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "glob@npm:13.0.0"
   dependencies:
-    foreground-child: "npm:^3.1.0"
-    jackspeak: "npm:^4.0.1"
-    minimatch: "npm:^10.0.0"
+    minimatch: "npm:^10.1.1"
     minipass: "npm:^7.1.2"
-    package-json-from-dist: "npm:^1.0.0"
     path-scurry: "npm:^2.0.0"
-  bin:
-    glob: dist/esm/bin.mjs
-  checksum: 10c0/419866015d8795258a8ac51de5b9d1a99c72634fc3ead93338e4da388e89773ab21681e494eac0fbc4250b003451ca3110bb4f1c9393d15d14466270094fdb4e
+  checksum: 10c0/8e2f5821f3f7c312dd102e23a15b80c79e0837a9872784293ba2e15ec73b3f3749a49a42a31bfcb4e52c84820a474e92331c2eebf18819d20308f5c33876630a
   languageName: node
   linkType: hard
 
@@ -18437,19 +18432,6 @@ __metadata:
     "@pkgjs/parseargs":
       optional: true
   checksum: 10c0/f01d8f972d894cd7638bc338e9ef5ddb86f7b208ce177a36d718eac96ec86638a6efa17d0221b10073e64b45edc2ce15340db9380b1f5d5c5d000cbc517dc111
-  languageName: node
-  linkType: hard
-
-"jackspeak@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "jackspeak@npm:4.0.1"
-  dependencies:
-    "@isaacs/cliui": "npm:^8.0.2"
-    "@pkgjs/parseargs": "npm:^0.11.0"
-  dependenciesMeta:
-    "@pkgjs/parseargs":
-      optional: true
-  checksum: 10c0/c87997d9c9c5b7366259b1f2a444ef148692f8eedad5307caca939babbb60af2b47d306e5c63bf9d5fefbab2ab48d4da275188c3de525d0e716cc21b784bbccb
   languageName: node
   linkType: hard
 
@@ -20446,15 +20428,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^10.0.0":
-  version: 10.0.1
-  resolution: "minimatch@npm:10.0.1"
-  dependencies:
-    brace-expansion: "npm:^2.0.1"
-  checksum: 10c0/e6c29a81fe83e1877ad51348306be2e8aeca18c88fdee7a99df44322314279e15799e41d7cb274e4e8bb0b451a3bc622d6182e157dfa1717d6cda75e9cd8cd5d
-  languageName: node
-  linkType: hard
-
 "minimatch@npm:^10.1.1":
   version: 10.1.1
   resolution: "minimatch@npm:10.1.1"
@@ -21502,6 +21475,13 @@ __metadata:
   version: 1.0.0
   resolution: "package-json-from-dist@npm:1.0.0"
   checksum: 10c0/e3ffaf6ac1040ab6082a658230c041ad14e72fabe99076a2081bb1d5d41210f11872403fc09082daf4387fc0baa6577f96c9c0e94c90c394fd57794b66aa4033
+  languageName: node
+  linkType: hard
+
+"package-json-from-dist@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "package-json-from-dist@npm:1.0.1"
+  checksum: 10c0/62ba2785eb655fec084a257af34dbe24292ab74516d6aecef97ef72d4897310bc6898f6c85b5cd22770eaa1ce60d55a0230e150fb6a966e3ecd6c511e23d164b
   languageName: node
   linkType: hard
 
@@ -23389,15 +23369,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:6.0.1":
-  version: 6.0.1
-  resolution: "rimraf@npm:6.0.1"
+"rimraf@npm:6.1.2":
+  version: 6.1.2
+  resolution: "rimraf@npm:6.1.2"
   dependencies:
-    glob: "npm:^11.0.0"
-    package-json-from-dist: "npm:^1.0.0"
+    glob: "npm:^13.0.0"
+    package-json-from-dist: "npm:^1.0.1"
   bin:
     rimraf: dist/esm/bin.mjs
-  checksum: 10c0/b30b6b072771f0d1e73b4ca5f37bb2944ee09375be9db5f558fcd3310000d29dfcfa93cf7734d75295ad5a7486dc8e40f63089ced1722a664539ffc0c3ece8c6
+  checksum: 10c0/c11a6a6fad937ada03c12fe688860690df8296d7cd08dbe59e3cc087f44e43573ae26ecbe48e54cb7a6db745b8c81fe5a15b9359233cc21d52d9b5b3330fcc74
   languageName: node
   linkType: hard
 
