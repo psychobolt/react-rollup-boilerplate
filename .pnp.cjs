@@ -145,7 +145,7 @@ const RAW_RUNTIME_STATE =
           ["rollup-plugin-flow-entry", "npm:0.3.6"],\
           ["rollup-plugin-mjs-entry", "npm:0.1.1"],\
           ["rollup-plugin-terser", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.0.2"],\
-          ["sass", "npm:1.94.2"],\
+          ["sass", "npm:1.97.2"],\
           ["sass-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:16.0.6"],\
           ["slash", "npm:5.1.0"],\
           ["source-map-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.0.0"],\
@@ -11323,7 +11323,7 @@ const RAW_RUNTIME_STATE =
           ["rollup-plugin-flow-entry", "npm:0.3.6"],\
           ["rollup-plugin-mjs-entry", "npm:0.1.1"],\
           ["rollup-plugin-terser", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:7.0.2"],\
-          ["sass", "npm:1.94.2"],\
+          ["sass", "npm:1.97.2"],\
           ["sass-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:16.0.6"],\
           ["slash", "npm:5.1.0"],\
           ["source-map-loader", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.0.0"],\
@@ -31583,10 +31583,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["sass", [\
-      ["npm:1.94.2", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/sass-npm-1.94.2-25ad66b92d-10c0.zip/node_modules/sass/",\
+      ["npm:1.97.2", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/sass-npm-1.97.2-e0b3310409-10c0.zip/node_modules/sass/",\
         "packageDependencies": [\
-          ["sass", "npm:1.94.2"],\
+          ["sass", "npm:1.97.2"],\
           ["@parcel/watcher", "npm:2.4.1"],\
           ["chokidar", "npm:4.0.0"],\
           ["immutable", "npm:5.0.3"],\
@@ -31615,7 +31615,7 @@ const RAW_RUNTIME_STATE =
           ["@types/webpack", null],\
           ["neo-async", "npm:2.6.2"],\
           ["node-sass", null],\
-          ["sass", "npm:1.94.2"],\
+          ["sass", "npm:1.97.2"],\
           ["sass-embedded", null],\
           ["webpack", "virtual:a8a1d15306c5b22d13fd53c9bfa71986250b0024a5faa5f5f09c0c92f0de8941d2bf3403e449fdf6b9df13d3a931d8ae3950d04eca325a0d5881add962206733#npm:5.103.0"]\
         ],\
