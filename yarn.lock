@@ -6966,6 +6966,7 @@ __metadata:
     "@rollup/plugin-commonjs": "npm:28.0.9"
     "@rollup/plugin-node-resolve": "npm:16.0.3"
     "@rollup/plugin-replace": "npm:6.0.3"
+    "@rollup/plugin-terser": "npm:0.1.0"
     "@storybook/addon-actions": "npm:7.6.21"
     "@storybook/addon-console": "npm:3.0.0"
     "@storybook/addon-docs": "npm:7.6.21"
@@ -7036,7 +7037,6 @@ __metadata:
     rollup: "npm:4.55.1"
     rollup-plugin-flow-entry: "npm:0.3.6"
     rollup-plugin-mjs-entry: "npm:0.1.1"
-    rollup-plugin-terser: "npm:7.0.2"
     sass: "npm:1.97.2"
     sass-loader: "npm:16.0.6"
     slash: "npm:5.1.0"
@@ -7708,6 +7708,20 @@ __metadata:
     rollup:
       optional: true
   checksum: 10c0/93217c52fe86b03363bc534b5f07963ac4fd6b91f19f6070a66809b0c65a036b3b234624a65a8bfcc01a8dc0e42838feae03c021b0d1e5e91753c503c4d70cd6
+  languageName: node
+  linkType: hard
+
+"@rollup/plugin-terser@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@rollup/plugin-terser@npm:0.1.0"
+  dependencies:
+    terser: "npm:^5.15.1"
+  peerDependencies:
+    rollup: ^2.x || ^3.x
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+  checksum: 10c0/4849fef63e8328f103d582e0ea8da3c982f19d8417223665730c9b852ea4735a4b07358535ef6a555a09aaccdaee1742b92fd6b7b52aa2bebe7421eb8c0787a5
   languageName: node
   linkType: hard
 
@@ -19714,17 +19728,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-worker@npm:^26.2.1":
-  version: 26.6.2
-  resolution: "jest-worker@npm:26.6.2"
-  dependencies:
-    "@types/node": "npm:*"
-    merge-stream: "npm:^2.0.0"
-    supports-color: "npm:^7.0.0"
-  checksum: 10c0/07e4dba650381604cda253ab6d5837fe0279c8d68c25884995b45bfe149a7a1e1b5a97f304b4518f257dac2a9ddc1808d57d650649c3ab855e9e60cf824d2970
-  languageName: node
-  linkType: hard
-
 "jest-worker@npm:^27.4.5, jest-worker@npm:^27.5.1":
   version: 27.5.1
   resolution: "jest-worker@npm:27.5.1"
@@ -23720,20 +23723,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-terser@npm:7.0.2":
-  version: 7.0.2
-  resolution: "rollup-plugin-terser@npm:7.0.2"
-  dependencies:
-    "@babel/code-frame": "npm:^7.10.4"
-    jest-worker: "npm:^26.2.1"
-    serialize-javascript: "npm:^4.0.0"
-    terser: "npm:^5.0.0"
-  peerDependencies:
-    rollup: ^2.0.0
-  checksum: 10c0/f79b851c6f7b06555d3a8ce7a4e32abd2b7cb8318e89fb8db73e662fa6e3af1a59920e881d111efc65a7437fd9582b61b1f4859b6fd839ba948616829d92432d
-  languageName: node
-  linkType: hard
-
 "rollup@npm:4.55.1":
   version: 4.55.1
   resolution: "rollup@npm:4.55.1"
@@ -24208,15 +24197,6 @@ __metadata:
     range-parser: "npm:~1.2.1"
     statuses: "npm:2.0.1"
   checksum: 10c0/0eb134d6a51fc13bbcb976a1f4214ea1e33f242fae046efc311e80aff66c7a43603e26a79d9d06670283a13000e51be6e0a2cb80ff0942eaf9f1cd30b7ae736a
-  languageName: node
-  linkType: hard
-
-"serialize-javascript@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "serialize-javascript@npm:4.0.0"
-  dependencies:
-    randombytes: "npm:^2.1.0"
-  checksum: 10c0/510dfe7f0311c0b2f7ab06311afa1668ba2969ab2f1faaac0a4924ede76b7f22ba85cfdeaa0052ec5a047bca42c8cd8ac8df8f0efe52f9bd290b3a39ae69fe9d
   languageName: node
   linkType: hard
 
@@ -25592,7 +25572,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser@npm:^5.0.0, terser@npm:^5.10.0, terser@npm:^5.7.2":
+"terser@npm:^5.10.0, terser@npm:^5.7.2":
   version: 5.12.1
   resolution: "terser@npm:5.12.1"
   dependencies:
@@ -25603,6 +25583,20 @@ __metadata:
   bin:
     terser: bin/terser
   checksum: 10c0/f83cf0c65101b89541ae92a876d00641657f4dd954cf9d7bca2a78e5fc543dee4cf7da7067769fecddb6cf8d2c15b0aa8227f2f235ea335d271452e7be2ff5e7
+  languageName: node
+  linkType: hard
+
+"terser@npm:^5.15.1":
+  version: 5.46.0
+  resolution: "terser@npm:5.46.0"
+  dependencies:
+    "@jridgewell/source-map": "npm:^0.3.3"
+    acorn: "npm:^8.15.0"
+    commander: "npm:^2.20.0"
+    source-map-support: "npm:~0.5.20"
+  bin:
+    terser: bin/terser
+  checksum: 10c0/93ad468f13187c4f66b609bbfc00a6aee752007779ca3157f2c1ee063697815748d6010fd449a16c30be33213748431d5f54cc0224ba6a3fbbf5acd3582a4356
   languageName: node
   linkType: hard
 
